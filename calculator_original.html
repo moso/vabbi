@@ -1,0 +1,318 @@
+<html>
+
+<head>
+    <script language="javascript" src="include/js/calculatorJS.min.js"></script>
+</head>
+
+<body>
+    <!-- FORM 1 -->
+    <h1>PIPS-OwO-MATIC</h1>
+    <h2>PIPS CALCULATOR COMPLETE</h2>
+    <div>
+        <form id="calculatorHoursPips">
+        <div class="range">
+            <fieldset>
+                <legend>War Score Placement</legend>
+                <input type="range" id="sliderWarScorePlacement" value="0" min="0" max="2" onchange="updateTextInput();">
+                <input type="text" id="textInput1" value=""><br>
+            </fieldset>
+            <fieldset>
+                <legend>WvW Rank</legend>
+                <input type="range" id="sliderWvWRank" value="0" min="0" max="6" onchange="updateTextInput();">
+                <input type="text" id="textInput2" value=""><br>
+            </fieldset>
+            <fieldset>
+                <legend>Commander</legend>
+                <input type="range" id="sliderCommander" value="0" min="0" max="1" onchange="updateTextInput();">
+                <input type="text" id="textInput3" value=""><br>
+            </fieldset>
+            <fieldset>
+                <legend>Commitment</legend>
+                <input type="range" id="sliderCommitment" value="0" min="0" max="1" onchange="updateTextInput();">
+                <input type="text" id="textInput4" value=""><br>
+            </fieldset>
+            <fieldset>
+                <legend>Outnumbered</legend>
+                <input type="range" id="sliderOutnumbered" value="0" min="0" max="1" onchange="updateTextInput();">
+                <input type="text" id="textInput5" value=""><br>
+            </fieldset>
+        </div>
+            <input type="button" value="Calculate" onClick="calculateTimeForPips()"><br>
+            Minutes to finish your pips at the entered rate per tick (rounded to full ticks): <input type="text" name="Result"
+                value="" READONLY><br>
+            In hours: <input type="text" name="Result2" value="" READONLY><br>
+            If you place in War Score always THIRD, gaining the minimum amount of pips (3), the time requirement will be:<br>
+            Minutes: <input type="text" name="MinimumResult" value="" READONLY> ~Hours: <input type="text" name="MinimumResult2"
+                value="" READONLY><br>
+            If you place in War Score always SECOND, gaining the average amount of pips (4), the time requirement will be:<br>
+            Minutes: <input type="text" name="AverageResult" value="" READONLY> ~Hours: <input type="text" name="AverageResult2"
+                value="" READONLY><br>
+            If you place in War Score always FIRST, gaining the maximum amount of pips (5), the time requirement will be:<br>
+            Minutes: <input type="text" name="MaximumResult" value="" READONLY> ~Hours: <input type="text" name="MaximumResult2"
+                value="" READONLY><br>
+            <input type="reset" name="ResetValues" value="Reset Values"><br>
+        </form>
+    </div>
+    <!-- FORM 2 -->
+
+    <form id="participationCalculator">
+        <h2>PARTICIPATION CALCULATOR COMPLETE</h2>
+        <fieldset>
+            <legend>Participation</legend>
+            Core WvW maps<br>
+            <input type="range" id="sliderWvWCore"  value="0" min="0" max="6" onchange="updateTextInput();">
+            <input type="text" id="textInput6" value=""><br>
+            EOTM<br>
+            <input type="range" id="sliderEOTM"  value="0" min="0" max="6" onchange="updateTextInput();">
+            <input type="text" id="textInput7" value="">
+        </fieldset>
+        <fieldset>
+            <legend>Guild WvW Reward Track Boost</legend>
+            <input type="range" id="sliderGuild"  value="0" min="0" max="8" onchange="updateTextInput();">
+            <input type="text" id="textInput8" value="">
+        </fieldset>
+        <fieldset>
+            <legend>5% WvW Reward Track Enrichment</legend>
+            <input type="radio" name="Enrichment" id="userInput" value="5">Yes<br>
+            <input type="radio" name="Enrichment" id="userInput" value="0">No<br>
+        </fieldset>
+        <fieldset>
+            <legend>10% Celebration/Birthday Booster</legend>
+            <input type="radio" name="CelebrationBirthdayBooster" id="userInput" value="10">Yes<br>
+            <input type="radio" name="CelebrationBirthdayBooster" id="userInput" value="0">No<br>
+        </fieldset>
+        <fieldset>
+            <legend>50% Experience Booster</legend>
+            <input type="radio" name="ExperienceBooster" id="userInput" value="50">Yes<br>
+            <input type="radio" name="ExperienceBooster" id="userInput" value="0">No<br>
+        </fieldset>
+        <fieldset>
+            <legend>25% Black Lion Booster</legend>
+            <input type="radio" name="BlackLionBooster" id="userInput" value="25">Yes<br>
+            <input type="radio" name="BlackLionBooster" id="userInput" value="0">No<br>
+        </fieldset>
+        <input type="button" value="Calculate" onClick="calculateParticipation()"><br>
+        Total Boosters Value: <input type="text" name="TotalBoosterValue" value="" READONLY><br>
+        Participation Value With Boosters: <input type="text" name="ParticipationValueWithBoosters" value="" READONLY><br>
+        Time Minutes: <input type="text" name="TimeMinutes" value="" READONLY><br>
+        Time Hours: <input type="text" name="TimeHours" value="" READONLY><br>
+        <input type="reset" name="ResetValues" value="Reset Values">
+    </form>
+
+    <!-- FORM 3 -->
+
+    <form id="calculatorTicketsBackpiece">
+        <h2>BACKPIECE CALCULATOR COMPLETE</h2>
+        Current Amount of Tickets<br>
+        <input type="number" id="userInput" name="Tickets" min="0" step="1" placeholder="0"><br>
+        Do you have backpieces bought?
+        <fieldset>
+            <input type="button" value="Yes" onClick="displaySelection1()"><br>
+            <input type="button" value="No"><br>
+        </fieldset>
+        <div id="selection1" style="display:none">
+            <input type="checkbox" name="Recruit" id="RecruitID" value="350">Recruit<br>
+            <input type="checkbox" name="Soldier" id="SoldierID" value="525">Soldier<br>
+            <input type="checkbox" name="General" id="GeneralID" value="700">General<br>
+            <input type="checkbox" name="Commander" id="CommanderID" value="875">Commander<br>
+        </div>
+        <input type="button" value="Calculate" onClick="calculateTotalTicketsBackpiece()"><br>
+
+        You will need <input type="text" name="MissingTickets" value="" READONLY> more tickets, which means you need at
+        least <input type="text" name="MissingWeeks" value="" READONLY> more weeks<br>
+        <input type="reset" name="ResetValues" value="Reset Values">
+    </form>
+
+    <!-- FORM 4 -->
+
+    <form id="calculatorTicketsArmor">
+        <h2>ARMOR CALCULATOR almost COMPLETE</h2>
+        Current Amount of Tickets<br>
+        <input type="number" id="userInput" name="Tickets" min="0" step="1"><br>
+        Are you making Mistforged Triumphant Hero Armor (T3) or Triumphant Hero Armor (T2)?<br>
+        <fieldset>
+            <legend>Armor Tier</legend>
+            <input type="radio" id="userInput" name="ArmorTier" value="3">Mistforged Triumphant Hero Armor (T3)<br>
+            <input type="radio" id="userInput" name="ArmorTier" value="2">Triumphant Hero Armor (T2)<br>
+        </fieldset>
+        What weight are you making the armor of?<br>
+        <fieldset>
+            <legend>Armor Weight</legend>
+            <input type="radio" id="userInput" name="ArmorWeight" value="4">Light<br>
+            <input type="radio" id="userInput" name="ArmorWeight" value="5">Medium<br>
+            <input type="radio" id="userInput" name="ArmorWeight" value="6">Heavy<br>
+        </fieldset>
+        Do you have pieces of armor already bought?<br>
+        <fieldset>
+            <input type="button" value="Yes" onClick="displaySelection2()"><br>
+            <input type="button" value="No"><br>
+        </fieldset>
+            Select which armor pieces you have:<br>
+            <!-- LIGHT HERO -->
+            <div id="lightHero" style="display:none">
+                <input type="checkbox" name="checkT2_1" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81476"></div>Triumphant Hero's Masque<br>
+                <input type="checkbox" name="checkT2_2" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81285"></div>Triumphant Hero's Epaulets<br>
+                <input type="checkbox" name="checkT2_3" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81338"></div>Triumphant Hero's Raiment<br>
+                <input type="checkbox" name="checkT2_4" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81428"></div>Triumphant Hero's Armguards<br>
+                <input type="checkbox" name="checkT2_5" id="userInputArmors" value="260">
+                <div data-armory-embed="items" data-armory-ids="81279"></div>Triumphant Hero's Leggings<br>
+                <input type="checkbox" name="checkT2_6" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81500"></div>Triumphant Hero's Footgear<br>
+            </div>
+            <!-- MEDIUM HERO -->
+            <div id="mediumHero" style="display:none">
+                <input type="checkbox" name="checkT2_7" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81315"></div>Triumphant Hero's Faceguard<br>
+                <input type="checkbox" name="checkT2_8" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81446"></div>Triumphant Hero's Shoulderguards<br>
+                <input type="checkbox" name="checkT2_9" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81434"></div>Triumphant Hero's Brigandine<br>
+                <input type="checkbox" name="checkT2_10" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81489"></div>Triumphant Hero's Wristplates<br>
+                <input type="checkbox" name="checkT2_11" id="userInputArmors" value="260">
+                <div data-armory-embed="items" data-armory-ids="81386"></div>Triumphant Hero's Legguards<br>
+                <input type="checkbox" name="checkT2_12" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81420"></div>Triumphant Hero's Shinplates<br>
+            </div>
+            <!-- HEAVY HERO -->
+            <div id="heavyHero" style="display:none">
+                <input type="checkbox" name="checkT2_13" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81330"></div>Triumphant Hero's Warhelm<br>
+                <input type="checkbox" name="checkT2_14" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81333"></div>Triumphant Hero's Pauldrons<br>
+                <input type="checkbox" name="checkT2_15" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81304"></div>Triumphant Hero's Breastplate<br>
+                <input type="checkbox" name="checkT2_16" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81349"></div>Triumphant Hero's Gauntlets<br>
+                <input type="checkbox" name="checkT2_17" id="userInputArmors" value="260">
+                <div data-armory-embed="items" data-armory-ids="81418"></div>Triumphant Hero's Legplates<br>
+                <input type="checkbox" name="checkT2_18" id="userInputArmors" value="175">
+                <div data-armory-embed="items" data-armory-ids="81336"></div>Triumphant Hero's Wargreaves<br>
+            </div>
+            <!-- MISTFORGED LIGHT HERO -->
+            <div id="lightMistforged" style="display:none">
+                <input type="checkbox" name="checkT3_1" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81487"></div>Mistforged Triumphant Hero's Masque<br>
+                <input type="checkbox" name="checkT3_2" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81482"></div>Mistforged Triumphant Hero's Epaulets<br>
+                <input type="checkbox" name="checkT3_3" id="userInputArmors" value="700">
+                <div data-armory-embed="items" data-armory-ids="81365"></div>Sublime Mistforged Triumphant Hero's Raiment<br>
+                <input type="checkbox" name="checkT3_4" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81510"></div>Mistforged Triumphant Hero's Armguards<br>
+                <input type="checkbox" name="checkT3_5" id="userInputArmors" value="520">
+                <div data-armory-embed="items" data-armory-ids="81397"></div>Mistforged Triumphant Hero's Leggings<br>
+                <input type="checkbox" name="checkT3_6" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81419"></div>Mistforged Triumphant Hero's Footgear<br>
+            </div>
+            <!-- MISTFORGED MEDIUM HERO -->
+            <div id="mediumMistforged" style="display:none">
+                <input type="checkbox" name="checkT3_7" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81325"></div>Mistforged Triumphant Hero's Faceguard<br>
+                <input type="checkbox" name="checkT3_8" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81471"></div>Mistforged Triumphant Hero's Shoulderguards<br>
+                <input type="checkbox" name="checkT3_9" id="userInputArmors" value="700">
+                <div data-armory-embed="items" data-armory-ids="81483"></div>Sublime Mistforged Triumphant Hero's Brigandine<br>
+                <input type="checkbox" name="checkT3_10" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81286"></div>Mistforged Triumphant Hero's Wristplates<br>
+                <input type="checkbox" name="checkT3_11" id="userInputArmors" value="520">
+                <div data-armory-embed="items" data-armory-ids="81527"></div>Mistforged Triumphant Hero's Legguards<br>
+                <input type="checkbox" name="checkT3_12" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81422"></div>Mistforged Triumphant Hero's Shinplates<br>
+            </div>
+            <!-- MISTFORGED HEAVY HERO -->
+            <div id="heavyMistforged" style="display:none">
+                <input type="checkbox" name="checkT3_14" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81498"></div>Mistforged Triumphant Hero's Warhelm<br>
+                <input type="checkbox" name="checkT3_14" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81375"></div>Mistforged Triumphant Hero's Pauldrons<br>
+                <input type="checkbox" name="checkT3_15" id="userInputArmors" value="700">
+                <div data-armory-embed="items" data-armory-ids="81509"></div>Sublime Mistforged Triumphant Hero's Breastplate<br>
+                <input type="checkbox" name="checkT3_16" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81458"></div>Mistforged Triumphant Hero's Gauntlets<br>
+                <input type="checkbox" name="checkT3_17" id="userInputArmors" value="520">
+                <div data-armory-embed="items" data-armory-ids="81340"></div>Mistforged Triumphant Hero's Legplates<br>
+                <input type="checkbox" name="checkT3_18" id="userInputArmors" value="350">
+                <div data-armory-embed="items" data-armory-ids="81437"></div>Mistforged Triumphant Hero's Wargreaves<br>
+            </div>
+        <input type="button" value="Calculate" onClick="calculateTotalTicketsArmor()"><br>
+        You will need <input type="text" name="MissingTickets" value="" READONLY> more tickets, which means you need at
+        least <input type="text" name="MissingWeeks" value="" READONLY> more weeks<br>
+        <input type="reset" name="ResetValues" value="Reset Values">
+    </form>
+
+    <h2>NOTES</h2>
+
+    Max pips/week: 1450<br>
+    Skirmish tickets/week: 365<br>
+    Triumphant Hero's armor: 7880 (21 weeks)<br>
+    Mistforged Triumphant Hero's armor: 9190 (25 weeks)<br>
+    Participation without buffs maxed: 195<br>
+    Participation with 10% guild buff: 214<br>
+    Participation is rounded to the lowest digit [(195*10)/100]+195 = 214,5<br>
+    Participation with 10% guild buff + 5% enrichment: 224<br>
+    [(195*15)/100]+195 = 224,25<br>
+    Participation with everything except black lion booster: 341<br>
+    [(195*75)/100]+195 = 341,250<br>
+    Participation with everything: 390<br>
+    [(195*100)/100] = 390<br>
+</body>
+
+</html>
+<!--
+            mistforged hero helms
+            <div data-armory-embed="items" data-armory-ids="81487,81325,81498"></div>
+            mistforged hero shoulders
+            <div data-armory-embed="items" data-armory-ids="81482,81471,81375"></div>
+            mistforged hero chest
+            <div data-armory-embed="items" data-armory-ids="81365,81483,81509"></div>
+            mistforged hero arms
+            <div data-armory-embed="items" data-armory-ids="81510,81286,81458"></div>
+            mistforged hero legs
+            <div data-armory-embed="items" data-armory-ids="81397,81527,81340"></div>
+            mistforged hero boots
+            <div data-armory-embed="items" data-armory-ids="81419,81422,81437"></div>
+            hero helms
+            <div data-armory-embed="items" data-armory-ids="81476,81315,81330"></div>
+            hero shoulders
+            <div data-armory-embed="items" data-armory-ids="81285,81446,81333"></div>
+            hero chest
+            <div data-armory-embed="items" data-armory-ids="81338,81434,81304"></div>
+            hero arms
+            <div data-armory-embed="items" data-armory-ids="81428,81489,81349"></div>
+            hero legs
+            <div data-armory-embed="items" data-armory-ids="81279,81386,81418"></div>
+            hero boots
+            <div data-armory-embed="items" data-armory-ids="81500,81420,81336"></div>
+
+                    /*document.getElementById("demo0").innerHTML = ticketsOwned
+            document.getElementById("demo1").innerHTML = recruit
+            document.getElementById("demo2").innerHTML = soldier
+            document.getElementById("demo3").innerHTML = general
+            document.getElementById("demo4").innerHTML = commander*/
+
+        Tests <br>
+        <p id="demo0">participation</p>
+        <p id="demo1">guild</p>
+        <p id="demo2">fucking enrichment value</p>
+        <p id="demo3">fucking birthday value</p>
+        <p id="demo4">fucking exp whatever value</p>
+        <p id="demo5">black lion fuck</p>
+        <p id="demo6">TOTAL fuck</p>
+
+/*let elements = document.forms['calculatorHoursPips'].elements
+            let warScore
+            let totalPips = 0
+            for (let element of elements) {
+                if (element.id === "userInput" && element.value !== undefined)
+                    totalPips += parseInt(element.value)
+                if (element.id === "userInput" && element.value !== undefined && element.name === "WarScorePlacement")
+                    warScore = element.value
+                else
+                    console.log("Found empty value field in form: 'calculatorHoursPips'")
+            }*/
+
+-->

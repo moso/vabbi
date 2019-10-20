@@ -1,0 +1,821 @@
+<html>
+
+<head>
+    <!-- Page specific scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="include/js/my_jq.min.js"></script>
+    <script src="include/js/calculatorJS.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129667973-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-129667973-1');
+	</script>
+
+    <!-- Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Pips-OwO-Matic</title>
+
+    <meta name="description" content="Vabbi Builds" />
+
+    <!-- Mobile Specifics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+
+    <!-- Mobile Internet Explorer ClearType Technology -->
+    <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" integrity="sha256-GGxA0G/BODBJenufQrwUU4wbf6C5hWDHkR5uGpNfdp0=" crossorigin="anonymous" />
+
+    <!-- Main Style -->
+    <link href="include/css/main.min.css" rel="stylesheet">
+
+    <!-- Font Icons -->
+    <link href="include/css/fonts.min.css" rel="stylesheet">
+
+    <!-- Shortcodes -->
+    <link href="include/css/shortcodes.min.css" rel="stylesheet">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" integrity="sha256-lIFJvX0EbEpgbhha1orNrXaV1TKngfVWrIbwgcHl80E=" crossorigin="anonymous" />
+    <link href="include/css/responsive.min.css" rel="stylesheet">
+
+    <!-- Supersized -->
+    <link href="include/css/supersized.min.css" rel="stylesheet">
+    <link href="include/css/supersized.shutter.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Custom Style (self-made code) -->
+    <link href="include/css/customstyling.min.css" rel="stylesheet">
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="burnvabbi.ico">
+
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+
+    <!-- Modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" integrity="sha256-TiTzjWx2UHC1Ubi2osGVIfyc2LjyYqgFzre7HdvPGAM=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- This section is for Splash Screen -->
+    <!-- End of Splash Screen -->
+    <!-- Header -->
+    <header>
+        <div class="sticky-nav">
+            <div class="container header-padding">
+                <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+                <div id="logo">
+                    <a id="goUp" href="index.html"></a>
+                </div>
+                <nav id="menu">
+                    <ul id="menu-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="builds.html">Builds</a></li>
+                        <li><a href="guide.html">Guide to WvW</a></li>
+                        <li class="current"><a href="calculator.html">Pips-OwO-Matic</a></li>
+
+                        <li><a href="messages.html">Messages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="build" class="page">
+        <div class="container">
+            <div id="pips_owo_matic" class="imgcenter"></div>
+            <div class="row">
+                <div class="span12">
+                    <ul class="nav nav-tabs" id="myTab">
+                        <li class="active" style="display:inline-block; float:none;"><a href="#tab1" data-toggle="tab">Pips
+                                calculator</a></li>
+                        <li style="display:inline-block; float:none;"><a href="#tab2" data-toggle="tab">Reward Track
+                                calculator</a></li>
+                        <li style="display:inline-block; float:none;"><a href="#tab3" data-toggle="tab">Legendary
+                                Backpiece calculator</a></li>
+                        <li style="display:inline-block; float:none;"><a href="#tab4" data-toggle="tab">Legendary Armor
+                                calculator</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <!-- TAB 1 -->
+                        <div class="tab-pane fade in active" id="tab1">
+                            <div id="pips_calculator"></div>
+                            <h4>Calculate how many hours you need to finish your pips</h4>
+                            <div>
+                                <form id="calculatorHoursPips">
+                                    <div class="wrap" style="--min: 0; --max: 100; --val: 50;">
+                                        <fieldset class="stylefieldset">
+                                            <legend>War Score Placement</legend>
+                                            <input type="range" id="sliderWarScorePlacement" value="0" min="0" max="2">
+                                            <label id="rangeText1"></label>
+                                        </fieldset>
+                                    </div>
+                                    <div class="range">
+                                        <fieldset class="stylefieldset">
+                                            <legend>WvW Rank</legend>
+                                            <input type="range" id="sliderWvWRank" value="0" min="0" max="6">
+                                            <label id="rangeText2"></label>
+                                        </fieldset>
+                                    </div>
+                                    <div class="range">
+                                        <fieldset class="stylefieldset">
+                                            <legend>Commander</legend>
+                                            <input type="range" id="sliderCommander" value="0" min="0" max="1">
+                                            <label id="rangeText3"></label>
+                                        </fieldset>
+                                    </div>
+                                    <div class="range">
+                                        <fieldset class="stylefieldset">
+                                            <legend>Commitment</legend>
+                                            <input type="range" id="sliderCommitment" value="0" min="0" max="1">
+                                            <label id="rangeText4"></label>
+                                        </fieldset>
+                                    </div>
+                                    <div class="range">
+                                        <fieldset class="stylefieldset">
+                                            <legend>Outnumbered</legend>
+                                            <input type="range" id="sliderOutnumbered" value="0" min="0" max="1">
+                                            <label id="rangeText5"></label>
+                                        </fieldset>
+                                    </div>
+                                    <h4></h4>
+                                    <div class="button button-tiny center" onClick="calculateTimeForPips()">
+                                        <span>Calculate</span>
+                                    </div>
+                                    <h4></h4>
+                                    <div>
+                                        <h4>To finish your pips at the entered rate per tick (rounded to full ticks):</h4>
+                                        <h4>Minutes: <output type="text" name="Result" value=""></output> ~ Hours:
+                                            <output type="text" name="Result2" value=""></output></h4>
+                                        <h4>If you place in War Score always THIRD, gaining the minimum amount of pips
+                                            (3), the time requirement will be:</h4>
+                                        <h4>Minutes: <output type="text" name="MinimumResult" value=""></output> ~
+                                            Hours: <output type="text" name="MinimumResult2" value=""></output></h4>
+                                        <h4>If you place in War Score always SECOND, gaining the average amount of pips
+                                            (4), the time requirement will be:</h4>
+                                        <h4>Minutes: <output type="text" name="AverageResult" value=""></output> ~
+                                            Hours: <output type="text" name="AverageResult2" value=""></output></h4>
+                                        <h4>If you place in War Score always FIRST, gaining the maximum amount of pips
+                                            (5), the time requirement will be:</h4>
+                                        <h4>Minutes: <output type="text" name="MaximumResult" value=""></output> ~
+                                            Hours: <output type="text" name="MaximumResult2" value=""></output></h4>
+                                        <h4></h4>
+                                        <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- TAB 2 -->
+                        <div class="tab-pane fade in" id="tab2">
+                            <form id="rewardTrackCalculator">
+                                <div id="reward_track_calculator" style="margin-left: -2px;"></div>
+                                <h4>Calculate how many hours you need to finish your reward track</h4>
+                                <fieldset class="stylefieldset">
+                                    <legend>Participation</legend>
+                                    <h4> &nbsp;&nbsp;&nbsp;&nbsp;Core WvW maps</h4>
+                                    <input type="range" id="sliderWvWCore" value="0" min="0" max="6"><label id="rangeText6"></label>
+                                    <h4> &nbsp;&nbsp;&nbsp;&nbsp;EOTM</h4>
+                                    <input type="range" id="sliderEOTM" value="0" min="0" max="6"><label id="rangeText7"></label>
+                                </fieldset>
+                                <fieldset class="stylefieldset">
+                                    <legend>Guild WvW Reward Track Boost</legend>
+                                    <input type="range" id="sliderGuild" value="0" min="0" max="8"><label id="rangeText8"></label>
+                                </fieldset>
+                                <fieldset class="stylefieldset">
+                                    <legend>5% WvW Reward Track Enrichment</legend>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="Enrichment" id="userInput" value="5" />
+                                        <span>YES</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="Enrichment" id="userInput" value="0" />
+                                        <span>NO</span>
+                                    </label>
+                                </fieldset>
+                                <fieldset class="stylefieldset">
+                                    <legend>10% Celebration/Birthday Booster</legend>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="CelebrationBirthdayBooster" id="userInput"
+                                            value="10">
+                                        <span>YES</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="CelebrationBirthdayBooster" id="userInput"
+                                            value="0">
+                                        <span>NO</span>
+                                    </label>
+                                </fieldset>
+                                <fieldset class="stylefieldset">
+                                    <legend>50% Experience Booster</legend>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="ExperienceBooster" id="userInput"
+                                            value="50">
+                                        <span>YES</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="ExperienceBooster" id="userInput"
+                                            value="0">
+                                        <span>NO</span>
+                                    </label>
+                                </fieldset>
+                                <fieldset class="stylefieldset">
+                                    <legend>25% Black Lion Booster</legend>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="BlackLionBooster" id="userInput"
+                                            value="25">
+                                        <span>YES</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="BlackLionBooster" id="userInput"
+                                            value="0">
+                                        <span>NO</span>
+                                    </label>
+                                </fieldset>
+                                <fieldset class="stylefieldset">
+                                    <legend>25% Call of War</legend>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="CallOfWar" id="userInput"
+                                            value="25">
+                                        <span>YES</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="CallOfWar" id="userInput"
+                                            value="0">
+                                        <span>NO</span>
+                                    </label>
+                                </fieldset>
+                                <div class="button button-tiny" onClick="calculateRewardTrack()">
+                                    <span>Calculate</span>
+                                    <div class="popup" style="display: none">Calculated</div>
+                                </div>
+                                <h4></h4>
+                                <h4>Your total boosters value ammounts to: <output type="text" name="TotalBoosterValue" value=""></output></h4>
+                                <h4>Participation/tick with the above boosters value: <output type="text" name="ParticipationValueWithBoosters"
+                                        value=""></output></h4>
+                                <h4>Minutes required to finish the reward track: <output type="text" name="TimeMinutes" value=""></output></h4>
+                                <h4>Hours required to finish the reward track: <output type="text" name="TimeHours" value=""></output></h4>
+                                <h4></h4>
+                                <div>
+                                    <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
+                                    <div class="popup" style="display: none">Calculated</div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- TAB 3 -->
+                        <div class="tab-pane fade in" id="tab3">
+                            <form id="calculatorTicketsBackpiece">
+                                <div id="backpiece_calculator"></div>
+                                <h4>Calculate how many weeks you have left to complete your Legendary Backpiece:
+                                    Warbringer</h4>
+                                <h4>Current Amount of Tickets: <input type="number" id="userInput" name="Tickets" min="0"
+                                        step="1" placeholder="0"></h4>
+                                <div id="wrapper">
+                                    <div id="first2">Do you have backpieces bought?</div>
+                                    <label class="containerTest">
+                                        <div id="second2">
+                                            <input type="checkbox" name="backpieceCheckbox" id="backpieceCheckbox" onClick="updateBackpieceDisplay()">
+                                            <span class="checkmark"></span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <fieldset class="stylefieldset">
+                                    <div id="backpiecesSelection" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81455"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="Recruit" id="RecruitID" value="350">
+                                                    Recruit's Wings of War
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81356"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="Soldier" id="SoldierID" value="525">
+                                                    Soldier's Wings of War
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81288"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="General" id="GeneralID" value="700">
+                                                    General's Wings of War
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81294"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="Commander" id="CommanderID" value="875">
+                                                    Commander's Wings of War
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <h4></h4>
+                                <div class="button button-tiny" onClick="calculateTotalTicketsBackpiece()">
+                                    <span>Calculate</span>
+                                </div>
+                                <h4></h4>
+                                <h4>You will need <output type="text" name="MissingTickets" value=""></output> more
+                                    tickets, which means you need at
+                                    least <output type="text" name="MissingWeeks" value=""></output> more weeks of tickets to complete the backpiece.</h4>
+                                <h4></h4>
+                                <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
+                            </form>
+                        </div>
+                        <!-- TAB 4 -->
+                        <div class="tab-pane fade in" id="tab4">
+                            <form id="calculatorTicketsArmor">
+                                <div id="armor_calculator"></div>
+                                <h4>Calculate how many weeks you have left to complete your Legendary Armor</h4>
+                                <h4>Current Amount of Tickets
+                                <input type="number" id="userInput" name="Tickets" min="0" step="1" placeholder="0"></h4>
+                                <h4>Are you making Triumphant Hero Armor (T2) or Mistforged Triumphant Hero Armor (T3)?</h4>
+                                <fieldset class="stylefieldset" id="Calculate_Ticket_Armor_Tier_Switch">
+                                    <legend>Armor Tier</legend>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="ArmorTier" id="userInput" value="2"
+                                            onClick="updateArmorDisplay()">
+                                        <span>Triumphant Hero Armor (T2)</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="ArmorTier" id="userInput" value="3"
+                                            onClick="updateArmorDisplay()">
+                                        <span>Mistforged Triumphant Hero Armor (T3)</span>
+                                    </label>
+                                </fieldset>
+                                <h4>What weight are you making the armor of?</h4>
+                                <fieldset class="stylefieldset" id="Calculate_Ticket_Armor_Weight_Switch">
+                                    <legend>Armor Weight</legend>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="ArmorWeight" id="userInput" value="4"
+                                            onClick="updateArmorDisplay()">
+                                        <span>Light</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="ArmorWeight" id="userInput" value="5"
+                                            onClick="updateArmorDisplay()">
+                                        <span>Medium</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" class="with-gap" name="ArmorWeight" id="userInput" value="6"
+                                            onClick="updateArmorDisplay()">
+                                        <span>Heavy</span>
+                                    </label>
+                                </fieldset>
+                                <div id="wrapper">
+                                    <div id="first2">Do you have pieces of armor already bought?</div>
+                                    <label class="containerTest">
+                                        <div id="second2">
+                                            <input type="checkbox" name="armorCheckbox" id="armorCheckbox" onClick="updateArmorDisplay()">
+                                            <span class="checkmark"></span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <fieldset class="stylefieldset">
+                                    <!-- LIGHT HERO -->
+                                    <div id="lightHero" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81476"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_1" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Masque
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81285"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_2" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Epaulets
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81338"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_3" id="userInputArmors" value="350">
+                                                    Triumphant Hero's Raiment
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81428"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_4" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Armguards
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81279"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_5" id="userInputArmors" value="260">
+                                                    Triumphant Hero's Leggings
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81500"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_6" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Footgear
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- MEDIUM HERO -->
+                                    <div id="mediumHero" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81315"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_7" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Faceguard
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81446"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_8" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Shoulderguards
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81434"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_9" id="userInputArmors" value="350">
+                                                    Triumphant Hero's Brigandine
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81489"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_10" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Wristplates
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81386"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_11" id="userInputArmors" value="260">
+                                                    Triumphant Hero's Legguards
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81420"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_12" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Shinplates
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- HEAVY HERO -->
+                                    <div id="heavyHero" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81330"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_13" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Warhelm
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81333"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_14" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Pauldrons
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81304"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_15" id="userInputArmors" value="350">
+                                                    Triumphant Hero's Breastplate
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81349"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_16" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Gauntlets
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81418"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_17" id="userInputArmors" value="260">
+                                                    Triumphant Hero's Legplates
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81336"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT2_18" id="userInputArmors" value="175">
+                                                    Triumphant Hero's Wargreaves
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- MISTFORGED LIGHT HERO -->
+                                    <div id="lightMistforged" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81487"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_1" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Masque
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81482"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_2" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Epaulets
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81365"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_3" id="userInputArmors" value="700">
+                                                    Sublime Mistforged Triumphant Hero's Raiment
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81510"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_4" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Armguards
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81397"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_5" id="userInputArmors" value="520">
+                                                    Mistforged Triumphant Hero's Leggings
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81419"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_6" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Footgear
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- MISTFORGED MEDIUM HERO -->
+                                    <div id="mediumMistforged" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81325"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_7" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Faceguard
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81471"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_8" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Shoulderguards
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81483"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_9" id="userInputArmors" value="700">
+                                                    Sublime Mistforged Triumphant Hero's Brigandine
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81286"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_10" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Wristplates
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81527"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_11" id="userInputArmors" value="520">
+                                                    Mistforged Triumphant Hero's Legguards
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81422"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_12" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Shinplates
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- MISTFORGED HEAVY HERO -->
+                                    <div id="heavyMistforged" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81498"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_13" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Warhelm
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81375"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_14" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Pauldrons
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81509"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_15" id="userInputArmors" value="700">
+                                                    Sublime Mistforged Triumphant Hero's Breastplate
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81458"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_16" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Gauntlets
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81340"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_17" id="userInputArmors" value="520">
+                                                    Mistforged Triumphant Hero's Legplates
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81437"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="checkT3_18" id="userInputArmors" value="350">
+                                                    Mistforged Triumphant Hero's Wargreaves
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <h4></h4>
+                                <div class="button button-tiny" onClick="calculateTotalTicketsArmor()">
+                                    <span>Calculate</span>
+                                </div>
+                                <h4></h4>
+                                <h4>You will need <output type="text" name="MissingTickets" value=""></output> more
+                                    tickets, which means you need at
+                                    least <output type="text" name="MissingWeeks" value=""></output> more weeks of tickets to complete the armor.</h4>
+                                <h4></h4>
+                                <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Work Section -->
+    <!-- Footer -->
+    <footer id="relative" class="footer"></footer>
+    <!-- End Footer -->
+    <!-- Back To Top -->
+    <a id="back-to-top" href="#">
+        <i class="font-icon-arrow-simple-up"></i>
+    </a>
+    <!-- End Back to Top -->
+    <!-- Js -->
+    <script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script> <!-- jQuery Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js" integrity="sha256-smDQVu22w57u7QD/x7zN7ZFgu5wfA8Ytd6mRga6IoIs=" crossorigin="anonymous"></script> <!-- Bootstrap -->
+    <script src="include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js" integrity="sha256-wxojI7bjq5OKrXt3Ecy5aDblRS9YzmWl0dv63MoeVow=" crossorigin="anonymous"></script> <!-- WayPoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/shortcuts/sticky-elements/waypoints-sticky.min.js" integrity="sha256-7l3ku7+APE/wX5T8NLED5Kqjh2/Q3/0W8EeeWHVSiOs=" crossorigin="anonymous"></script> <!-- Waypoints for Header -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js" integrity="sha256-GT1lD95ovCaDwxNxQQAMt7YgijG5vJkfqL7/j8b2M2A=" crossorigin="anonymous"></script> <!-- Isotope Filter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.min.js" integrity="sha256-LXnUzp9y4LnbFq7pSUEOzTC/z7UgWvOQU/Baw5CD4VE=" crossorigin="anonymous"></script> <!-- Fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-media.min.js" integrity="sha256-N61PtMjDlvq70fi50zXRI91n3UpV5xffuonjx8NC/+Y=" crossorigin="anonymous"></script> <!-- Fancybox for Media -->
+    <script src="include/js/jquery.tweet.min.js"></script> <!-- Tweet -->
+    <script src="include/js/plugins.min.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+    <script src="include/js/main.min.js"></script> <!-- Default JS -->
+    <!-- End of Js -->
+</body>
+
+</html>
