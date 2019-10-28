@@ -3,9 +3,9 @@
 <head>
     <!-- Page specific scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="include/js/my_jq.min.js"></script>
-    <script src="include/js/calculatorJS.min.js"></script>
-
+    <script src="include/js/my_jq.js"></script>
+    <script src="include/js/calculatorJS.js"></script>
+    <script data-ad-client="ca-pub-7320167474496901" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129667973-1"></script>
     <script>
@@ -132,9 +132,16 @@
                                     </div>
                                     <div class="range">
                                         <fieldset class="stylefieldset">
-                                            <legend>Commander</legend>
+                                            <legend>Private Commander</legend>
                                             <input type="range" id="sliderCommander" value="0" min="0" max="1">
                                             <label id="rangeText3"></label>
+                                        </fieldset>
+                                    </div>
+                                    <div class="range">
+                                        <fieldset class="stylefieldset">
+                                            <legend>Public Commander</legend>
+                                            <input type="range" id="sliderCommanderPublic" value="0" min="0" max="1">
+                                            <label id="rangeText9"></label>
                                         </fieldset>
                                     </div>
                                     <div class="range">
@@ -266,7 +273,7 @@
                                 <h4>Participation/tick with the above boosters value: <output type="text" name="ParticipationValueWithBoosters"
                                         value=""></output></h4>
                                 <h4>Minutes required to finish the reward track: <output type="text" name="TimeMinutes" value=""></output></h4>
-                                <h4>Hours required to finish the reward track: <output type="text" name="TimeHours" value=""></output></h4>
+                                <h4>Hours required to finish the reward track: <output type="text" name="TimeHours" id="TimeHoursMinutes" value=""></output></h4>
                                 <h4></h4>
                                 <div>
                                     <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
@@ -280,7 +287,7 @@
                                 <div id="backpiece_calculator"></div>
                                 <h4>Calculate how many weeks you have left to complete your Legendary Backpiece:
                                     Warbringer</h4>
-                                <h4>Current Amount of Tickets: <input type="number" id="userInput" name="Tickets" min="0"
+                                <h4>Current Amount of Tickets: <input type="number" id="userInput000" name="Tickets" min="0"
                                         step="1" placeholder="0"></h4>
                                 <div id="wrapper">
                                     <div id="first2">Do you have backpieces bought?</div>
@@ -353,7 +360,7 @@
                                 <div id="armor_calculator"></div>
                                 <h4>Calculate how many weeks you have left to complete your Legendary Armor</h4>
                                 <h4>Current Amount of Tickets
-                                <input type="number" id="userInput" name="Tickets" min="0" step="1" placeholder="0"></h4>
+                                <input type="number" id="userInput001" name="Tickets" min="0" step="1" placeholder="0"></h4>
                                 <h4>Are you making Triumphant Hero Armor (T2) or Mistforged Triumphant Hero Armor (T3)?</h4>
                                 <fieldset class="stylefieldset" id="Calculate_Ticket_Armor_Tier_Switch">
                                     <legend>Armor Tier</legend>

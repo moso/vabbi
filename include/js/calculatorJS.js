@@ -10,13 +10,16 @@ function calculateTimeForPips() {
     const commanderValues = [0, 1]
     const commander = parseInt(commanderValues[sliderCommander.value])
 
+    const commanderPublicValues = [0, 3]
+    const commanderPublic = parseInt(commanderPublicValues[sliderCommanderPublic.value])
+
     const commitmentValues = [0, 1]
     const commitment = parseInt(commitmentValues[sliderCommitment.value])
 
     const outnumberedValues = [0, 5]
     const outnumbered = parseInt(outnumberedValues[sliderOutnumbered.value])
 
-    const totalPips = warScorePlacement + wvwRank + commander + commitment + outnumbered
+    const totalPips = warScorePlacement + wvwRank + commander + commanderPublic + commitment + outnumbered
 
     let result = Math.ceil((1450 / totalPips) * 5)
     if (result % 5 !== 0)
@@ -82,14 +85,22 @@ function calculateRewardTrack() {
     if (totalTimeNeeded % 5 !== 0)
         totalTimeNeeded += 5 - (totalTimeNeeded % 5)
     document.forms['rewardTrackCalculator'].TimeMinutes.value = totalTimeNeeded
-    document.forms['rewardTrackCalculator'].TimeHours.value = (totalTimeNeeded / 60).toFixed(2)
+    var hours = Math.floor(totalTimeNeeded / 60)
+    var minutes = Math.floor(totalTimeNeeded % 60)
+    document.getElementById('TimeHoursMinutes').value = (hours + '.' + minutes);
+    document.forms['rewardTrackCalculator'].TimeHours.elements
 }
 
 // FUNCTION 3
 
 function calculateTotalTicketsBackpiece() {
     const warbringer = 2800
-    const ticketsOwned = parseInt(document.forms['calculatorTicketsBackpiece'].Tickets.value)
+    var ticketsPlaceholder = document.getElementById("userInput000").placeholder
+    var ticketsOwned = parseInt(document.forms['calculatorTicketsBackpiece'].Tickets.value)
+    if (ticketsPlaceholder !== "" && ticketsOwned > 0)
+        ticketsPlaceholder = ticketsOwned
+    else
+        ticketsOwned = 0
     let recruit = document.getElementById("RecruitID")
     let soldier = document.getElementById("SoldierID")
     let general = document.getElementById("GeneralID")
@@ -131,22 +142,30 @@ function calculateTotalTicketsBackpiece() {
 // FUNCTION 4
 function calculateTotalTicketsArmor() {
     let elements = document.forms['calculatorTicketsArmor'].elements
-    let hasTickets = 0
-    let wantsT3 = false
-    let hasPieces = document.getElementById("armorCheckbox").checked
+    let hasTickets = parseInt(document.getElementById("userInput001").placeholder)
+    let wantsT3 = false 
+    let hasPieces = document.getElementById("armorCheckbox").checked 
     for (let element of elements) {
         if (element.id === "userInput" && element.value === "3" && element.type === "radio" && element.checked)
-            wantsT3 = true
-        if (element.id === "userInput" && element.value !== undefined && element.name === "Tickets")
-            hasTickets += parseInt(element.value)
+            wantsT3 = true 
+        if (element.id === "userInput001" && element.value !== undefined && element.name === "Tickets")
+            hasTickets += parseInt(element.value) 
         if (hasPieces && element.id === "userInputArmors" && element.checked && element.offsetParent !== null) {
             console.log("element.name " + element.name)
             console.log("element.offsetParent " + element.offsetParent)
             console.log("element.id " + element.id)
-            hasTickets += parseInt(element.value)
-        }
-
+            hasTickets += parseInt(element.value) 
+        }     
     }
+    /* if i leave this here the placeholder works and counts as 0, if i put it within the other for or above it stops working
+    for (let element of elements) {
+        if (element.id === "userInput001" && element.placeholder !== "" && hasTickets > 0)
+            hasTickets = hasTickets
+        else
+            hasTickets = 0
+    }
+    */
+    
 
     let fullArmorCost
     if (wantsT3)
