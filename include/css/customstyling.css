@@ -1,3 +1,29 @@
+/* GUIDE */
+
+.api_image_resize {
+	display: inline-block;
+	transform: scale(0.5);
+	background-color: powderblue;
+}
+
+.api_img_line {
+	display: inline-block;
+}
+
+.guide_section {
+	white-space: pre-line;
+}
+
+.guide_section>li {
+	line-height: 20px;
+}
+
+.img_resize {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
 /* BACKGROUNDS */
 
 .sizebackgrounds {
@@ -85,55 +111,129 @@
 	width: 50px;
 }
 
+/* ele */
+
+#elementalisticon {
+	content: url(../img/specializations_icons/elementalist.png);
+}
+#tempesticon{
+	content: url(../img/specializations_icons/tempest.png);
+}
 #weavericon {
 	content: url(../img/specializations_icons/weaver.png);
 }
 
+/* engi */
+
+#engineericon {
+	content: url(../img/specializations_icons/engineer.png);
+}
 #scrappericon {
 	content: url(../img/specializations_icons/scrapper.png);
 }
+#holosmithicon {
+	content: url(../img/specializations_icons/holosmith.png);
+}
 
+/* war */
+
+#warrioricon {
+	content: url(../img/specializations_icons/warrior.png);
+}
+#berserkericon {
+	content: url(../img/specializations_icons/berserker.png);
+}
 #spellbreakericon {
 	content: url(../img/specializations_icons/spellbreaker.png);
 }
 
+/* guard */
+
+#guardianicon {
+	content: url(../img/specializations_icons/guardian.png);
+}
+#dragonhuntericon {
+	content: url(../img/specializations_icons/dragonhunter.png);
+}
 #firebrandicon {
 	content: url(../img/specializations_icons/firebrand.png);
 }
 
+/* necro */
+
+#necromancericon {
+	content: url(../img/specializations_icons/necromancer.png);
+}
+#reapericon{
+	content: url(../img/specializations_icons/reaper.png);
+}
 #scourgeicon {
 	content: url(../img/specializations_icons/scourge.png);
 }
 
+/* mesmer */
+
+#mesmericon {
+	content: url(../img/specializations_icons/mesmer.png);
+}
 #chronomancericon {
 	content: url(../img/specializations_icons/chronomancer.png);
 }
+#mirageicon{
+	content: url(../img/specializations_icons/mirage.png);
+}
 
+/* revenant */
+
+#revenantincon {
+	content: url(../img/specializations_icons/revenant.png);
+}
 #heraldicon {
 	content: url(../img/specializations_icons/herald.png);
 }
+#renegadeicon {
+	content: url(../img/specializations_icons/renegade.png);
+}
+
+/* ranger */
 
 #rangericon {
 	content: url(../img/specializations_icons/ranger.png);
 }
+#druidicon {
+	content: url(../img/specializations_icons/druid.png);
+}
+#soulbeasticon {
+	content: url(../img/specializations_icons/soulbeast.png);
+}
+
+/* thief */
 
 #thieficon {
 	content: url(../img/specializations_icons/thief.png);
 }
-#tempesticon{
-	content: url(../img/specializations_icons/tempest.png);
+#daredevilicon {
+	content: url(../img/specializations_icons/daredevil.png);
+}
+#deadeyeicon {
+	content: url(../img/specializations_icons/deadeye.png);
 }
 
 /* END OF ICONS */
 
 /* IMAGES */
 
-#symphexmessage {
-	content: url(../img/symphex_message.png)
-}
-
 #scourge_log_1 {
 	content: url(../img/log_scourge_1.png);
+}
+#guild_claim {
+	content: url(../img/guild_claim.png);
+}
+#presence_keep {
+	content: url(../img/presence_of_the_keep.png);
+}
+#squad_comp {
+	content: url(../img/squad_comp.png);
 }
 
 /* END OF IMAGES */
@@ -159,6 +259,11 @@ h4.footerElement {
 }
 
 /* RANDOM STYLING */
+
+.anchor-div {
+	height: 90px;
+	margin-top: -90px;
+}
 
 .gw2a-specializations-embed {
     text-align: left;
