@@ -56,6 +56,11 @@
 	width: 100%;
 }
 
+#miragebackground {
+	background-image: url(../img/builds_backgrounds/mirage.jpg);
+	background-repeat: no-repeat;
+}
+
 #scourgebackground {
 	background-image: url(../img/builds_backgrounds/scourge.jpg);
 	background-repeat: no-repeat;
