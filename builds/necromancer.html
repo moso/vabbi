@@ -1,355 +1,512 @@
 ﻿<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!-->
 <html lang="en-US">
-<!--<![endif]-->
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129667973-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
 
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129667973-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-129667973-1');
-	</script>
-	<script data-ad-client="ca-pub-7320167474496901" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- Meta Tags -->
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-129667973-1');
+        </script>
+        <script data-ad-client="ca-pub-7320167474496901" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Meta Tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<title>Necromancer</title>
+        <title>Necromancer</title>
 
-	<meta name="description" content="Necromancer builds for blob fights" />
-	<meta property="og:image" content="https://www.vabbi.eu/burnvabbilogo.png" />
+        <meta name="description" content="Necromancer builds for blob fights" />
+        <meta property="og:image" content="https://www.vabbi.eu/burnvabbilogo.png" />
 
-	<!-- Mobile Specifics -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="HandheldFriendly" content="true" />
-	<meta name="MobileOptimized" content="320" />
+        <!-- Mobile Specifics -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="MobileOptimized" content="320" />
 
-	<!-- Mobile Internet Explorer ClearType Technology -->
-	<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+        <!-- Mobile Internet Explorer ClearType Technology -->
+        <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" integrity="sha256-GGxA0G/BODBJenufQrwUU4wbf6C5hWDHkR5uGpNfdp0=" crossorigin="anonymous" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" integrity="sha256-GGxA0G/BODBJenufQrwUU4wbf6C5hWDHkR5uGpNfdp0=" crossorigin="anonymous" />
 
-	<!-- Main Style -->
-	<link href="../include/css/main.min.css" rel="stylesheet">
+        <!-- Main Style -->
+        <link href="../include/css/main.min.css" rel="stylesheet">
 
-	<!-- FancyBox -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+        <!-- FancyBox -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
 
-	<!-- Font Icons -->
-	<link href="../include/css/fonts.min.css" rel="stylesheet">
+        <!-- Font Icons -->
+        <link href="../include/css/fonts.min.css" rel="stylesheet">
 
-	<!-- Shortcodes -->
-	<link href="../include/css/shortcodes.min.css" rel="stylesheet">
+        <!-- Shortcodes -->
+        <link href="../include/css/shortcodes.min.css" rel="stylesheet">
 
-	<!-- Responsive -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" integrity="sha256-lIFJvX0EbEpgbhha1orNrXaV1TKngfVWrIbwgcHl80E=" crossorigin="anonymous" />
-	<link href="../include/css/responsive.min.css" rel="stylesheet">
+        <!-- Responsive -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" integrity="sha256-lIFJvX0EbEpgbhha1orNrXaV1TKngfVWrIbwgcHl80E=" crossorigin="anonymous" />
+        <link href="../include/css/responsive.min.css" rel="stylesheet">
 
-	<!-- Supersized -->
-	<link href="../include/css/supersized.min.css" rel="stylesheet">
-	<link href="../include/css/supersized.shutter.min.css" rel="stylesheet">
+        <!-- Supersized -->
+        <link href="../include/css/supersized.min.css" rel="stylesheet">
+        <link href="../include/css/supersized.shutter.min.css" rel="stylesheet">
 
-	<!-- Google Font -->
-	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+        <!-- Google Font -->
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
-	<!-- Custom Style (self-made code) -->
-	<link href="../include/css/customstyling.min.css" rel="stylesheet">
+        <!-- Custom Style (self-made code) -->
+        <link href="../include/css/customstyling.min.css" rel="stylesheet">
+        <link href="../include/css/buildpage.min.css" rel="stylesheet">
 
-	<!-- Fav Icon -->
-	<link rel="shortcut icon" href="../burnvabbi.ico">
+        <!-- Fav Icon -->
+        <link rel="shortcut icon" href="../burnvabbi.ico">
 
-	<link rel="apple-touch-icon" href="#">
-	<link rel="apple-touch-icon" sizes="114x114" href="#">
-	<link rel="apple-touch-icon" sizes="72x72" href="#">
-	<link rel="apple-touch-icon" sizes="144x144" href="#">
+        <link rel="apple-touch-icon" href="#">
+        <link rel="apple-touch-icon" sizes="114x114" href="#">
+        <link rel="apple-touch-icon" sizes="72x72" href="#">
+        <link rel="apple-touch-icon" sizes="144x144" href="#">
 
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" integrity="sha256-TiTzjWx2UHC1Ubi2osGVIfyc2LjyYqgFzre7HdvPGAM=" crossorigin="anonymous"></script>
+        <!-- Modernizr -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" integrity="sha256-TiTzjWx2UHC1Ubi2osGVIfyc2LjyYqgFzre7HdvPGAM=" crossorigin="anonymous"></script>
 
-</head>
+    </head>
 
-<body>
-	<!-- This section is for Splash Screen -->
-	<div class="ole">
-		<section id="jSplash">
-			<div id="circle"></div>
-		</section>
-	</div>
-	<!-- End of Splash Screen -->
-	<!-- Header -->
-	<header>
-		<div class="sticky-nav">
-			<div class="container header-padding">
-				<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-				<div id="logo">
-					<a id="goUp" href="../index.html"></a> </div>
-				<nav id="menu">
-					<ul id="menu-nav">
-						<li><a href="../index.html">Home</a></li>
-						<li class="current"><a href="../builds.html">Builds</a></li>
-						<li><a href="../guide.html">Guide to WvW Fights</a></li>
-						<li><a href="../calculator.html">Pips-OwO-Matic</a></li>
+    <body>
+        <!-- This section is for Splash Screen -->
+        <div class="ole">
+            <section id="jSplash">
+                <div id="circle"></div>
+            </section>
+        </div>
+        <!-- End of Splash Screen -->
+        <!-- Header -->
+        <header>
+            <div class="sticky-nav">
+                <div class="container header-padding">
+                    <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+                    <div id="logo">
+                        <a id="goUp" href="../index.html"></a>
+                    </div>
+                    <nav id="menu">
+                        <ul id="menu-nav">
+                            <li><a href="../index.html">Home</a></li>
+                            <li class="current"><a href="../builds.html">Builds</a></li>
+                            <li><a href="../fights.html">Guide to WvW Fights</a></li>
+                            <li><a href="../guides/guides_hub.html">General WvW Guides</a></li>
+                            <li><a href="../calculator.html">Pips-OwO-Matic</a></li>
+                            <li><a href="../messages.html">Messages</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Our Work Section -->
+        <div id="scourgebackground" class="page sizebackgrounds">
+            <div class="container" style="margin:-25px auto 25px auto;">
+                <a class="button button-large" href="../builds.html">Back to the Builds</a>
+            </div>
+            <div class="container">
+                <!-- Title Page -->
+                <div class="row">
+                    <div class="span12">
+                        <div class="title-page">
+                                <img class="imgcenter" src="../include/img/build_headers/necromancer.png">
+                            <h3 class="description">Last update: 13/12/2019</h3>
+                            <div id="scourgeicon" class="imgcenter sizeicons">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Title Page -->
+                <!-- Portfolio Projects -->
+                <div class="row">
+                    <div class="span12">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <li class="active" style="display:inline-block; float:none;"><a href="#tab1" data-toggle="tab" style="background:#3f5847;">SCOURGE</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <!-- ADD ACTIVE TO SHOW ON MAIN TAB, REMOVE TO HIDE FOR SECOND TABS -->
+                            <div class="tab-pane fade in active" id="tab1">
+                                <!-- Start Toggle -->
+                                <div class="accordion" id="toggleArea">
+                                    <div class="accordion-group">
+                                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                        <!-- Top -->
+                                        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-7320167474496901" data-ad-slot="6627700910"></ins>
+                                        <script>
+                                            (adsbygoogle = window.adsbygoogle || []).push({});
+                                        </script>
+                                        <div class="accordion-heading color-necro togglize">
+                                            <a class="accordion-toggle color-necro" data-toggle="collapse" data-parent="#" href="#collapseFirst1">
+                                                BUILD
+                                                <span class="font-icon-plus"></span>
+                                                <span class="font-icon-minus"></span>
+                                            </a>
+                                        </div>
+                                        <div id="collapseFirst1" class="accordion-body collapse">
+                                            <div class="accordion-inner text-center">
+                                                <div class="">
+                                                    <div class="card card-color-necro">
+                                                        <div class="card-header card-header-color-necro">TEMPLATE CODES</div>
+                                                        <div class="card-body">
+                                                            <h3>Build Template Code with Staff</h3><input class="buildinfoTemplate_Code" value="[&DQgnOjImPBl+Fn4WcwFzAYEAgQByFr0BYBdgFwAAAAAAAAAAAAAAAAAAAAA=]" id="template-code">
+                                                            <div class="button-tooltip">
+                                                                <button class="button-style-necro" onclick="copyFunction()" onmouseout="outFunction()">
+                                                                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                                                                    COPY TEMPLATE CODE
+                                                                </button>
+                                                            </div>
+                                                            <h3>Build Template Code without Staff</h3><input class="buildinfoTemplate_Code" value="[&DQgnOjIlPBl+Fn4WcwFzAYEAgQByFr0BYBdgFwAAAAAAAAAAAAAAAAAAAAA=]" id="template-code2">
+                                                            <div class="button-tooltip">
+                                                                <button class="button-style-necro" onclick="copyFunction2()" onmouseout="outFunction2()">
+                                                                    <span class="tooltiptext" id="myTooltip2">Copy to clipboard</span>
+                                                                    COPY TEMPLATE CODE
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grid">
+                                                    <div class="col">
+                                                        <div class="card card-color-necro">
+                                                            <div class="card-header card-header-color-necro">TRAITS & TRAITLINES</div>
+                                                            <div class="card-body">
+                                                                <div style="text-align: left;" data-armory-embed="specializations" data-armory-ids="50,39,60" data-armory-50-traits="898,894,893" data-armory-39-traits="2013,1693,801" data-armory-60-traits="2167,2067,2112"></div>
+                                                            </div>
+                                                            <div class="card-header card-header-color-necro">SITUATIONAL TRAITS</div>
+                                                            <div class="trait-text">
+                                                                <span>Pick</span>
+                                                                <span data-armory-embed="traits" data-armory-ids="875" data-armory-inline-text="wiki"></span>
+                                                                <span>instead of</span>
+                                                                <span data-armory-embed="traits" data-armory-ids="898" data-armory-inline-text="wiki"></span>
+                                                                <span>in case of not using Staff for additional damage on shade spike or</span>
+                                                                <span data-armory-embed="traits" data-armory-ids="888" data-armory-inline-text="wiki"></span>
+                                                                <span>to clenase soft CC on F5 proc.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <div class="card card-color-necro">
+                                                            <div class="card-header card-header-color-necro">SKILLS</div>
+                                                            <div class="card-body">
+                                                                <div data-armory-embed="skills" data-armory-ids="43148,10671,10674,40274,42355"></div>
+                                                            </div>
+                                                            <p class="card-header card-header-color-necro">SITUATIONAL SKILLS</p>
+                                                            <div class="card-body">
+                                                                <div data-armory-embed="skills" data-armory-ids="42917">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grid">
+                                                    <div class="armor-flex-33">
+                                                        <div class="card card-color-necro">
+                                                            <div class="card-header card-header-color-necro">ARMOR & RUNES</div>
+                                                            <div class="card-body flex-grid-col" style="margin-bottom: 17px;">
+                                                                <div class="flex-grid-row">
+                                                                    <div data-armory-embed="items" data-armory-ids="75940,24836"></div>
+                                                                    <div class="text-align-left">
+                                                                        <div class="item-name-main txt-color-necro-main">Marauder Headgear
+                                                                        </div>
+                                                                        <div class="item-name-sub txt-color-sub">Superior Rune of the Scholar
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex-grid-row">
+                                                                    <div data-armory-embed="items" data-armory-ids="76671,24836"></div>
+                                                                    <div class="text-align-left">
+                                                                        <div class="item-name-main txt-color-necro-main">Marauder Shoulders
+                                                                        </div>
+                                                                        <div class="item-name-sub txt-color-sub">Superior Rune of the Scholar
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex-grid-row">
+                                                                    <div data-armory-embed="items" data-armory-ids="71968,24836"></div>
+                                                                    <div class="text-align-left">
+                                                                        <div class="item-name-main txt-color-necro-main">Marauder Chest
+                                                                        </div>
+                                                                        <div class="item-name-sub txt-color-sub">Superior Rune of the Scholar
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex-grid-row">
+                                                                    <div data-armory-embed="items" data-armory-ids="74518,24836"></div>
+                                                                    <div class="text-align-left">
+                                                                        <div class="item-name-main txt-color-necro-main">Marauder Gloves
+                                                                        </div>
+                                                                        <div class="item-name-sub txt-color-sub">Superior Rune of the Scholar
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex-grid-row">
+                                                                    <div data-armory-embed="items" data-armory-ids="75183,24836"></div>
+                                                                    <div class="text-align-left">
+                                                                        <div class="item-name-main txt-color-necro-main">Marauder Leggings
+                                                                        </div>
+                                                                        <div class="item-name-sub txt-color-sub">Superior Rune of the Scholar
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex-grid-row">
+                                                                    <div data-armory-embed="items" data-armory-ids="72251,24836"></div>
+                                                                    <div class="text-align-left">
+                                                                        <div class="item-name-main txt-color-necro-main">Marauder Boots
+                                                                        </div>
+                                                                        <div class="item-name-sub txt-color-sub">Superior Rune of the Scholar
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-color-necro">
+                                                            <div class="card-header card-header-color-necro">INFUSIONS</div>
+                                                            <div class="card-body infusion">
+                                                                <div data-armory-embed="items" data-armory-ids="43254">
+                                                                </div>
+                                                                <span class="item-name-sub no-margin txt-color-sub">+5 Power</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col flex-grid-col">
+                                                        <div class="card card-color-necro">
+                                                            <div class="card-header card-header-color-necro">WEAPONS & SIGILS</div>
+                                                            <div class="row_weapons">
+                                                                <div class="">
+                                                                    <div class="card-body">
+                                                                        <div class="flex-grid-row">
+                                                                            <div data-armory-embed="items" data-armory-ids="46769,24607"></div>
+                                                                            <div class="text-align-left">
+                                                                                <div class="item-name-main txt-color-necro-main">Berserker Scepter
+                                                                                </div>
+                                                                                <div class="item-name-sub txt-color-sub">Superior Sigil of Energy
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="flex-grid-row">
+                                                                            <div data-armory-embed="items" data-armory-ids="46761,24615"></div>
+                                                                            <div class="text-align-left">
+                                                                                <div class="item-name-main txt-color-necro-main">Berserker Focus
+                                                                                </div>
+                                                                                <div class="item-name-sub txt-color-sub">Superior Sigil of Force
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="">
+                                                                    <div class="card-body">
+                                                                        <div class="flex-grid-row">
+                                                                            <div data-armory-embed="items" data-armory-ids="46773,24607"></div>
+                                                                            <div class="text-align-left">
+                                                                                <div class="item-name-main txt-color-necro-main">Berserker Staff
+                                                                                </div>
+                                                                                <div class="item-name-sub txt-color-sub">Superior Sigil of Energy
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="flex-grid-row">
+                                                                            <div data-armory-embed="items" data-armory-ids="-1,24615"></div>
+                                                                            <div class="text-align-left">
+                                                                                <div class="item-name-main txt-color-necro-main">&nbsp;
+                                                                                </div>
+                                                                                <div class="item-name-sub txt-color-sub">Superior Sigil of Force
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="card card-color-necro">
+                                                                <div class="card-header card-header-color-necro">TRINKETS</div>
+                                                                <div class="card-body">
+                                                                    <div class="row_trinkets">
+                                                                        <div class="col text-center">
+                                                                            <div data-armory-embed="items" data-armory-ids="79830" data-armory-79830-stat="1119"></div>
+                                                                            <span class="item-name-sub no-margin txt-color-sub">Valkyrie Backpiece</span>
+                                                                        </div>
+                                                                        <div class="col text-center">
+                                                                            <div data-armory-embed="items" data-armory-ids="79745" data-armory-79745-stat="583"></div>
+                                                                            <span class="item-name-sub no-margin txt-color-sub">Cavalier Accessory</span>
+                                                                        </div>
+                                                                        <div class="col text-center">
+                                                                            <div data-armory-embed="items" data-armory-ids="79444" data-armory-79444-stat="583"></div>
+                                                                            <span class="item-name-sub no-margin txt-color-sub">Cavalier Accessory</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row_trinkets">
+                                                                        <div class="col text-center">
+                                                                            <div data-armory-embed="items" data-armory-ids="79269" data-armory-79269-stat="584"></div>
+                                                                            <span class="item-name-sub no-margin txt-color-sub">Berserker Amulet</span>
+                                                                        </div>
+                                                                        <div class="col text-center">
+                                                                            <div data-armory-embed="items" data-armory-ids="79124" data-armory-79124-stat="584"></div>
+                                                                            <span class="item-name-sub no-margin txt-color-sub">Berserker Ring</span>
+                                                                        </div>
+                                                                        <div class="col text-center">
+                                                                            <div data-armory-embed="items" data-armory-ids="79712" data-armory-79712-stat="584"></div>
+                                                                            <span class="item-name-sub no-margin txt-color-sub">Berserker Ring</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex-grid-row">
+                                                            <div class="card  card-color-necro col">
+                                                                <div class="card-header card-header-color-necro">FOOD & UTILITY</div>
+                                                                <div class="card-body row_weapons">
+                                                                    <div>
+                                                                        Self use
+                                                                        <div class="flex-grid-row">
+                                                                            <div data-armory-embed="items" data-armory-ids="43360,43451"></div>
+                                                                            <div class="text-align-left">
+                                                                                <div class="item-name-sub txt-color-sub">Dragon's Breath Bun</div>
+                                                                                <div class="item-name-sub txt-color-sub">Superior Sharpening Stones</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Ascended
+                                                                        <div class="flex-grid-row">
+                                                                            <div data-armory-embed="items" data-armory-ids="91734"></div>
+                                                                            <div class="text-align-left">
+                                                                                <div class="item-name-sub txt-color-sub">-10% Incoming Damage, +100 Power, +70 Ferocity</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading togglize color-necro">
+                                        <a class="accordion-toggle color-necro" data-toggle="collapse" data-parent="#" href="#collapseSecond1">
+                                            LATEST PATCH NOTES
+                                            <span class="font-icon-plus"></span>
+                                            <span class="font-icon-minus"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapseSecond1" class="accordion-body collapse">
+                                        <div class="accordion-inner-notes">
+                                            Due to a change on the shade mechanic, once you have ANY F1 Manifest Sand Shade charges in use anywhere on the map, your F2 to F5 skills will only apply on the shade AoE and no longer on yourself. WIth this update you will be a lot more reliable to your
+                                            supports in party to survive however when necessary you can replace the shade on yourself in case of melee combat. With the current iteration of Sand Savant, you are able to hit 10 targets on 900 range, making it
+                                            even more mandatory than before. The Death Magic traitline update is irrelevant, still not usable just like since launch pretty much.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading togglize color-necro">
+                                        <a class="accordion-toggle color-necro" data-toggle="collapse" data-parent="#" href="#collapseThird1">
+                                            NOTES
+                                            <span class="font-icon-plus"></span>
+                                            <span class="font-icon-minus"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapseThird1" class="accordion-body collapse">
+                                        <div class="accordion-inner-notes">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading togglize color-necro">
+                                        <a class="accordion-toggle color-necro" data-toggle="collapse" data-parent="#" href="#collapseFourth1">
+                                            HOW TO PLAY
+                                            <span class="font-icon-plus"></span>
+                                            <span class="font-icon-minus"></span>
+                                        </a>
+                                    </div>
+                                    <div id="collapseFourth1" class="accordion-body collapse">
+                                        <div class="accordion-inner-notes">
+                                            The above can be combined in several ways, I will list some of the more common ways: - Small bomb/pressure/spike: Manifest Shade -> Devouring Darkness and Nefarious Favor (you can F2-F5 during casting other skills, such as Devouring Darkness) + Sand Cascade
+                                            (F3, extra damage and barrier). - Big bomb/pressure/spike: Well of Corruption and Well of Suffering, replace Manifest Sand Shade and go for a full bomb with the other shades (Nefarious Favor, Sand Cascade and Desert
+                                            Shroud) and try to keep Garish Pillar for last, in case of people getting ressed, this way you can fear and torment the reviver. - If you are melee engaging and the situation allows in place Ghastly Breach. In case
+                                            you have Sand Swell instead of Well of Suffering you can portal inside/behind them and cast it as they backpedal/push and then port back. - Use Devouring Darkness in combination with any of these bombs, try to prioritize
+                                            this skill since it corrupts the most boons, using it on the enemy melee train is the most effective. - Use Unholy Feast in combination with any of these bombs as soon as you switch weapons and utilise Ghastly Claws
+                                            on a pressured target or off group (example: a downstate or an elementarist on the side). - Try to combine corrupts as much as possible, more corrupts at the same time makes them weaker but it can also prevent them
+                                            from pushing you, making the fight become stall and pirateship-ish.
 
-						<li><a href="../messages.html">Messages</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
-	<!-- End Header -->
-	<!-- Our Work Section -->
-	<div id="scourgebackground" class="page sizebackgrounds">
-		<div class="container" style="margin:-25px auto 25px auto;">
-			<a class="button button-large" href="../builds.html">Back to the Builds</a>
-		</div>
-		<div class="container">
-			<!-- Title Page -->
-			<div class="row">
-				<div class="span12">
-					<div class="title-page">
-						<h2 class="title">NECROMANCER</h2>
-						<h3 class="description">Last update: 01/10/2019</h3>
-						<div id="scourgeicon" class="imgcenter sizeicons">
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Title Page -->
-			<!-- Portfolio Projects -->
-			<div class="row">
-				<div class="span12">
-					<ul class="nav nav-tabs" id="myTab">
-						<li class="active" style="display:inline-block; float:none;"><a href="#tab1" data-toggle="tab">Scourge</a></li>
-					</ul>
-					<div class="tab-content">
-						<!-- ADD ACTIVE TO SHOW ON MAIN TAB, REMOVE TO HIDE FOR SECOND TABS -->
-						<div class="tab-pane fade in active" id="tab1">
-							<!-- Start Toggle -->
-							<div class="accordion" id="toggleArea">
-								<div class="accordion-group">
-									<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-									<!-- Top -->
-									<ins class="adsbygoogle"
-										style="display:inline-block;width:728px;height:90px"
-										data-ad-client="ca-pub-7320167474496901"
-										data-ad-slot="6627700910"></ins>
-									<script>
-										(adsbygoogle = window.adsbygoogle || []).push({});
-									</script>
-									<div class="accordion-heading togglize">
-										<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFirst1">
-											Build
-											<span class="font-icon-plus"></span>
-											<span class="font-icon-minus"></span>
-										</a>
-									</div>
-									<div id="collapseFirst1" class="accordion-body collapse">
-										<div class="accordion-inner" style="text-align:center; text-align:-webkit-center;">
-											<div class="">
-												<h3>Build Template Code with Staff</h3><input class="buildinfoTemplate_Code" onclick="if (!window.__cfRLUnblockHandlers) return false; this.setSelectionRange(0, this.value.length)" value="[&DQgnOjImPBl+Fn4WcwFzAYEAgQByFr0BYBdgFwAAAAAAAAAAAAAAAAAAAAA=]">
-												<h3>Build Template Code without Staff</h3><input class="buildinfoTemplate_Code" onclick="if (!window.__cfRLUnblockHandlers) return false; this.setSelectionRange(0, this.value.length)" value="[&DQgnOjIlPBl+Fn4WcwFzAYEAgQByFr0BYBdgFwAAAAAAAAAAAAAAAAAAAAA=]">
-												<!-- <a target="_blank" href="http://en.gw2skills.net/editor/?vRAQRArY3fnE9C10gN9Ce9Cs9iFcBDaAEAOA6H2I7kNqCkvGBA-jFCEQBCSJoLPJAA4IAQU9DaR5HmU/Ze7P8gHAQAgDgzbezbew5nf+5nfeN/8zP/8zP/8zPvUAqO0C-w">Celestial Scourge Build</a> -->
-												<h3>Skills</h3><div data-armory-embed="skills" data-armory-ids="43148,10671,10674,40274,42355"></div>Situational<div data-armory-embed="skills" data-armory-ids="42917"></div>
-												<h3>Traits</h3><div data-armory-embed="specializations" data-armory-ids="50,39,60" data-armory-50-traits="898,894,893" data-armory-39-traits="2013,1693,801" data-armory-60-traits="2167,2067,2112"></div>
-												<div>
-													<h3>Optional traits</h3>
-													Pick<span class="api_img_line" data-armory-embed="traits" data-armory-ids="875" data-armory-inline-text="wiki"></span> instead of <span class="api_img_line" data-armory-embed="traits" data-armory-ids="898" data-armory-inline-text="wiki"> </span> in case of not using Staff for more additional damage on shade spike or <span class="api_img_line" data-armory-embed="traits" data-armory-ids="888" data-armory-inline-text="wiki"></span> to clenase soft CC on F5 proc.
-												</div>
-												<div class="flex-container-build">
-													<div class="flex-child-build">
-														<h3>Weapons</h3>Berserker Scepter-Focus and Staff<div data-armory-embed="items" data-armory-ids="46769,46761,24607,24615"></div><div data-armory-embed="items" data-armory-ids="46773,24607,24615"></div>
-														<h3>Optional Weapons</h3>Axe + X instead of Staff<div data-armory-embed="items" data-armory-ids="46759"></div>X being Dagger or Torch<div data-armory-embed="items" data-armory-ids="46760,46775"></div>
-														<h3>Optional Sigils combinations</h3>2x Energy 1x Bloodlust 1x Force <div data-armory-embed="items" data-armory-ids="24607,24575,24607,24615"></div>
-													</div>
-													<div class="flex-child-build">
-														<h3>Armor</h3>Marauder Armor + Superior Runes of the Scholar<div data-armory-embed="items" data-armory-ids="75940,76671,71968,74518,75183,72251"></div><!-- RUNES TO RIGHT --><div data-armory-embed="items" data-armory-ids="24836,24836,24836,24836,24836,24836"></div>
-														<h3>Trinkets</h3>Valkyrie Amulet - Cavalier Rings - Accessories and Backpiece Berserker<div data-armory-embed="items" data-armory-ids="79269,79124,79712,79745,79444,79830" data-armory-79269-stat="1119" data-armory-79124-stat="583" data-armory-79712-stat="583" data-armory-79745-stat="584" data-armory-79444-stat="584" data-armory-79830-stat="584"></div>
-														<div class="flex-container-build">
-															<div class="flex-child-build">
-																<h3>Infusions</h3>+5 Power
-																<div data-armory-embed="items" data-armory-ids="43254"></div>
-															</div>
-															<div class="flex-child-build">
-																<h3>Food</h3>
-																<div data-armory-embed="items" data-armory-ids="43360,43451"></div>
-																<h3>Ascended</h3>
-																<div data-armory-embed="items" data-armory-ids="91734"></div>
-																<!-- Optional
-																<div data-armory-embed="items" data-armory-ids="81799"></div> -->
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-group">
-									<div class="accordion-heading togglize">
-										<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseSecond1">
-											LATEST PATCH NOTES
-											<span class="font-icon-plus"></span>
-											<span class="font-icon-minus"></span>
-										</a>
-									</div>
-									<div id="collapseSecond1" class="accordion-body collapse">
-										<div class="accordion-inner">
-											Due to a change on the shade mechanic, once you have ANY F1 Manifest Sand Shade charges in use anywhere on the map, your F2 to F5 skills will only apply on the shade AoE and no longer on yourself. WIth this update you will be a lot more reliable to your supports in party to survive however when necessary you can replace the shade on yourself in case of melee combat.
+                                            <b>WEAPON SKILLS TIPS:</b> Scepter tips: - Use #1 on anyone in range, gives annoying conditions to be cleansed. - Use #2 as AoE damage, so in combination with any of the shade spikes, it does considerable amount
+                                            of damage and cripples the people trying to exit your bomb. - Use #3 whenever in range and whenever you can combine it with your corrupt spikes on their melee train. <a href="https://www.youtube.com/watch?v=nxbA2gc5gy0"
+                                                target="_blank">Click
+                                                    for referance</a> Dagger tips: - Save #4 for cleanse, keep in mind it can get reflected, blocked and dodged though (and generally has bad line of sight). - Use #5 in combination with Devouring Darkness, you will have to precast it where the
+                                            enemy is about to go because of the cast time and animation to land on the ground. Axe tips: - Use #1 on anyone in range, giving them vulnerability for extra damage. - Use #2 on low targets in range, especially
+                                            with Lesser Spinal Shivers proccing you can 100-0 other low-armor classes in 1.5 sec - Use #3 when in range in combination with small or big bomb. Torch tips: - Use #4 as additional damage when spiking in 600 range,
+                                            good to make downstates get extra damage and die faster. - Use #5 when focussing a single target, if used while on a bomb and the target doesn't have breakstun it is gonna go downstate for sure. Additional: Focus
+                                            tips: - Use #4 as general damage (can be blocked, dodged and reflected and has line of sight). - Use #5 on a target to deal a good damage to it and remove his boons.
 
-											With the current iteration of Sand Savant, you are able to hit 10 targets on 900 range, making it even more mandatory than before. 
+                                            <b>UTILITY SKILLS TIPS:</b> - Use Sand Flare in hard engages to give your party barrier and corrupt 1 boon as additional annoyance for the enemy (not always reccomanded but good party support). <a href="https://youtu.be/hNt1o1-LogA"
+                                                target="_blank">Click
+                                                    for referance.</a> - Use your Wells when the commander asks for a Well Bomb or a Big spike or something similar, don't use them for small pressure. - Use Trail of Anguish when CC'd and in a dangerous situation im which care, if you didn't
+                                            use it, you would go downstate and/or die. <a href="https://youtu.be/EPzFXhU2vFs" target="_blank">Click for
+                                                    referance.</a> - Use Ghastly Breach behind them if they're backpedaling or on your group if they are pushing you. You can combine it with Sand Swell as stated above.
 
-											The Death Magic traitline update is irrelevant, still not usable just like since launch pretty much.
-										</div>
-									</div>
-								</div>
-								<div class="accordion-group">
-										<div class="accordion-heading togglize">
-											<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseThird1">
-												HOW TO PLAY
-												<span class="font-icon-plus"></span>
-												<span class="font-icon-minus"></span>
-											</a>
-										</div>
-										<div id="collapseThird1" class="accordion-body collapse">
-											<div class="accordion-inner">
-													The above can be combined in several ways, I will list some of the more common ways:
-													- Small bomb/pressure/spike: Manifest Shade -> Devouring Darkness and Nefarious Favor (you can F2-F5 during casting other skills, such as Devouring Darkness) + Sand Cascade (F3, extra damage and barrier).
-													- Big bomb/pressure/spike: Well of Corruption and Well of Suffering, replace Manifest Sand Shade and go for a full bomb with the other shades (Nefarious Favor, Sand Cascade and Desert Shroud) and try to keep Garish Pillar for last, in case of people getting ressed, this way you can fear and torment the reviver.
-													- If you are melee engaging and the situation allows in place Ghastly Breach. In case you have Sand Swell instead of Well of Suffering you can portal inside/behind them and cast it as they backpedal/push and then port back.
-													- Use Devouring Darkness in combination with any of these bombs, try to prioritize this skill since it corrupts the most boons, using it on the enemy melee train is the most effective.
-													- Use Unholy Feast in combination with any of these bombs as soon as you switch weapons and utilise Ghastly Claws on a pressured target or off group (example: a downstate or an elementarist on the side).
-													- Try to combine corrupts as much as possible, more corrupts at the same time makes them weaker but it can also prevent them from pushing you, making the fight become stall and pirateship-ish.
+                                            <b>GENERAL TIPS:</b> - Barrier removes conditions from yourself and party members, if you see someone low and with conditions you can use Sand Flare on the person and f3 to cleanse conditions. <a href="https://youtu.be/hNt1o1-LogA"
+                                                target="_blank">Click for referance.</a> - If you are in melee range and ran out of F1 charges it's not too bad to use the shade skills without a F1 casted, less effective but still good.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- Top -->
+                            <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-7320167474496901" data-ad-slot="6627700910"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            <!-- End Toggle -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Portfolio Projects -->
+        </div>
+        </div>
+        <!-- End Our Work Section -->
+        <!-- Footer -->
+        <footer id="relative" class="footer"></footer>
+        <!-- End Footer -->
+        <!-- Back To Top -->
+        <a id="back-to-top" href="#">
+            <i class="font-icon-arrow-simple-up"></i>
+        </a>
+        <!-- End Back to Top -->
+        <!-- Js -->
+        <script async src="https://godsofpvp.net/resources/armory/armory-embeds.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+        <!-- jQuery Core -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js" integrity="sha256-smDQVu22w57u7QD/x7zN7ZFgu5wfA8Ytd6mRga6IoIs=" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
+        <script src="../include/js/supersized.3.2.7.min.js"></script>
+        <!-- Slider -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js" integrity="sha256-wxojI7bjq5OKrXt3Ecy5aDblRS9YzmWl0dv63MoeVow=" crossorigin="anonymous"></script>
+        <!-- WayPoints -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/shortcuts/sticky-elements/waypoints-sticky.min.js" integrity="sha256-7l3ku7+APE/wX5T8NLED5Kqjh2/Q3/0W8EeeWHVSiOs=" crossorigin="anonymous"></script>
+        <!-- Waypoints for Header -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js" integrity="sha256-GT1lD95ovCaDwxNxQQAMt7YgijG5vJkfqL7/j8b2M2A=" crossorigin="anonymous"></script>
+        <!-- Isotope Filter -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.min.js" integrity="sha256-LXnUzp9y4LnbFq7pSUEOzTC/z7UgWvOQU/Baw5CD4VE=" crossorigin="anonymous"></script>
+        <!-- Fancybox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-media.min.js" integrity="sha256-N61PtMjDlvq70fi50zXRI91n3UpV5xffuonjx8NC/+Y=" crossorigin="anonymous"></script>
+        <!-- Fancybox for Media -->
+        <script src="../include/js/jquery.tweet.min.js"></script>
+        <!-- Tweet -->
+        <script src="../include/js/plugins.min.js"></script>
+        <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+        <script src="../include/js/main.min.js"></script>
+        <!-- Default JS -->
+        <script src="../include/js/custom.min.js"></script>
+        <!-- End Js -->
 
-													<b>WEAPON SKILLS TIPS:</b>
-
-													Scepter tips:
-													- Use #1 on anyone in range, gives annoying conditions to be cleansed.
-													- Use #2 as AoE damage, so in combination with any of the shade spikes, it does considerable amount of damage and cripples the people trying to exit your bomb.
-													- Use #3 whenever in range and whenever you can combine it with your corrupt spikes on their melee train. <a href="https://www.youtube.com/watch?v=nxbA2gc5gy0" target="_blank">Click for referance</a>
-
-													Dagger tips:
-													- Save #4 for cleanse, keep in mind it can get reflected, blocked and dodged though (and generally has bad line of sight).
-													- Use #5 in combination with Devouring Darkness, you will have to precast it where the enemy is about to go because of the cast time and animation to land on the ground.
-
-													Axe tips:
-													- Use #1 on anyone in range, giving them vulnerability for extra damage.
-													- Use #2 on low targets in range, especially with Lesser Spinal Shivers proccing you can 100-0 other low-armor classes in 1.5 sec
-													- Use #3 when in range in combination with small or big bomb.
-
-													Torch tips:
-													- Use #4 as additional damage when spiking in 600 range, good to make downstates get extra damage and die faster.
-													- Use #5 when focussing a single target, if used while on a bomb and the target doesn't have breakstun it is gonna go downstate for sure.
-
-													Additional:
-
-													Focus tips:
-													- Use #4 as general damage (can be blocked, dodged and reflected and has line of sight).
-													- Use #5 on a target to deal a good damage to it and remove his boons.
-
-													<b>UTILITY SKILLS TIPS:</b>
-
-													- Use Sand Flare in hard engages to give your party barrier and corrupt 1 boon as additional annoyance for the enemy (not always reccomanded but good party support). <a href="https://youtu.be/hNt1o1-LogA" target="_blank">Click for referance.</a>
-													- Use your Wells when the commander asks for a Well Bomb or a Big spike or something similar, don't use them for small pressure.
-													- Use Trail of Anguish when CC'd and in a dangerous situation im which care, if you didn't use it, you would go downstate and/or die. <a href="https://youtu.be/EPzFXhU2vFs" target="_blank">Click for referance.</a>
-													- Use Ghastly Breach behind them if they're backpedaling or on your group if they are pushing you. You can combine it with Sand Swell as stated above.
-
-													<b>GENERAL TIPS:</b>
-
-													- Barrier removes conditions from yourself and party members, if you see someone low and with conditions you can use Sand Flare on the person and f3 to cleanse conditions. <a href="https://youtu.be/hNt1o1-LogA" target="_blank">Click for referance.</a>
-													- If you are in melee range and ran out of F1 charges it's not too bad to use the shade skills without a F1 casted, less effective but still good.
-												</div>
-										</div>
-								</div>
-								<div class="accordion-group">
-									<div class="accordion-heading togglize">
-										<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFourth1">
-											Video
-											<span class="font-icon-plus"></span>
-											<span class="font-icon-minus"></span>
-										</a>
-									</div>
-									<div id="collapseFourth1" class="accordion-body collapse">
-										<div class="accordion-inner">
-											<b>Scourge videos by Linka</b>
-											<div class="home-youtube-1" style="max-width: 500px;">
-												<iframe width="100%" height="400" src="https://www.youtube.com/embed/nxbA2gc5gy0" frameborder="0"></iframe>
-												<iframe width="100%" height="400" src="https://www.youtube.com/embed/hNt1o1-LogA" frameborder="0"></iframe>
-												<iframe width="100%" height="400" src="https://www.youtube.com/embed/EPzFXhU2vFs" frameborder="0"></iframe>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<!-- OLD FIFTH COLLAPSE
-								<div class="accordion-group">
-									<div class="accordion-heading togglize">
-										<a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFifth1">
-											Video
-											<span class="font-icon-plus"></span>
-											<span class="font-icon-minus"></span>
-										</a>
-									</div>
-									<div id="collapseFifth1" class="accordion-body collapse">
-										<div class="accordion-inner">
-											AAAAAAAA
-										</div>
-									</div>
-								</div>
-								-->
-							</div>
-							<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-									<!-- Top -->
-									<ins class="adsbygoogle"
-										style="display:inline-block;width:728px;height:90px"
-										data-ad-client="ca-pub-7320167474496901"
-										data-ad-slot="6627700910"></ins>
-									<script>
-										(adsbygoogle = window.adsbygoogle || []).push({});
-									</script>
-							<!-- End Toggle -->
-						</div>
-						<!-- Celestial Melee -->
-					</div>
-				</div>
-			</div>
-			<!-- End Portfolio Projects -->
-		</div>
-	</div>
-	<!-- End Our Work Section -->
-	<!-- Footer -->
-	<footer id="relative" class="footer"></footer>
-	<!-- End Footer -->
-	<!-- Back To Top -->
-	<a id="back-to-top" href="#">
-		<i class="font-icon-arrow-simple-up"></i>
-	</a>
-	<!-- End Back to Top -->
-	<!-- Js -->
-	<script async src="https://godsofpvp.net/resources/armory/armory-embeds.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script> <!-- jQuery Core -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js" integrity="sha256-smDQVu22w57u7QD/x7zN7ZFgu5wfA8Ytd6mRga6IoIs=" crossorigin="anonymous"></script> <!-- Bootstrap -->
-	<script src="../include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js" integrity="sha256-wxojI7bjq5OKrXt3Ecy5aDblRS9YzmWl0dv63MoeVow=" crossorigin="anonymous"></script> <!-- WayPoints -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/shortcuts/sticky-elements/waypoints-sticky.min.js" integrity="sha256-7l3ku7+APE/wX5T8NLED5Kqjh2/Q3/0W8EeeWHVSiOs=" crossorigin="anonymous"></script> <!-- Waypoints for Header -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js" integrity="sha256-GT1lD95ovCaDwxNxQQAMt7YgijG5vJkfqL7/j8b2M2A=" crossorigin="anonymous"></script> <!-- Isotope Filter -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.min.js" integrity="sha256-LXnUzp9y4LnbFq7pSUEOzTC/z7UgWvOQU/Baw5CD4VE=" crossorigin="anonymous"></script> <!-- Fancybox -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-media.min.js" integrity="sha256-N61PtMjDlvq70fi50zXRI91n3UpV5xffuonjx8NC/+Y=" crossorigin="anonymous"></script> <!-- Fancybox for Media -->
-	<script src="../include/js/jquery.tweet.min.js"></script> <!-- Tweet -->
-	<script src="../include/js/plugins.min.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-	<script src="../include/js/main.min.js"></script> <!-- Default JS -->
-	<!-- End Js -->
-
-</body>
+    </body>
 
 </html>
-
-<!--
-
--->

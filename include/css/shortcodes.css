@@ -112,8 +112,9 @@
 .accordion-toggle {
   	cursor: pointer;
 }
-
-.accordion-heading:hover .accordion-toggle,
+/* START COLORS */
+/* GENERAL  */
+.accordion-heading:hover .accordion-toggle
 .accordion-heading:hover .accordion-toggle.inactive {
 	background:#8f1e12;
 	color:#FFFFFF;
@@ -123,7 +124,106 @@
 	background:#8f1e12;
 	color:#FFFFFF;
 }
-
+/* necro */
+.color-necro:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #3f5847!important;
+}
+.color-necro .accordion-toggle.active{
+	background: #3f5847!important;
+}
+.color-necro:hover .accordion-toggle{
+	background: #3f5847!important;
+}
+/* guard */
+.color-guard:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #508ea7!important;
+}
+.color-guard .accordion-toggle.active{
+	background: #508ea7!important;
+}
+.color-guard:hover .accordion-toggle{
+	background: #508ea7!important;
+}
+/* mesmer */
+.color-mesmer:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #724192!important;
+}
+.color-mesmer .accordion-toggle.active{
+	background: #724192!important;
+}
+.color-mesmer:hover .accordion-toggle {
+	background: #724192!important;
+}
+/* rev */
+.color-rev:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #572435!important;
+}
+.color-rev .accordion-toggle.active{
+	background: #572435!important;
+}
+.color-rev:hover .accordion-toggle{
+	background: #572435!important;
+}
+/* engi */
+.color-engi:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #98692c!important;
+}
+.color-engi .accordion-toggle.active{
+	background: #98692c!important;
+}
+.color-engi:hover .accordion-toggle{
+	background: #98692c!important;
+}
+/* war */
+.color-war:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #bc8d16!important;
+}
+.color-war .accordion-toggle.active{
+	background: #bc8d16!important;
+}
+.color-war:hover .accordion-toggle{
+	background: #bc8d16!important;
+}
+/* ele */
+.color-ele:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #8f1e12!important;
+}
+.color-ele .accordion-toggle.active{
+	background: #8f1e12!important;
+}
+.color-ele:hover .accordion-toggle{
+	background: #8f1e12!important;
+}
+/* thief */
+.color-thief:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #495578!important;
+}
+.color-thief .accordion-toggle.active{
+	background: #495578!important;
+}
+.color-thief:hover .accordion-toggle{
+	background: #495578!important;
+}
+/* ranger */
+.color-ranger:hover .accordion-toggle
+.accordion-heading:hover .accordion-toggle.inactive{
+	background: #8ea53a!important;
+}
+.color-ranger .accordion-toggle.active{
+	background: #8ea53a!important;
+}
+.color-ranger:hover .accordion-toggle{
+	background: #8ea53a!important;
+}
+/* END COLORS */
 .accordion-heading .accordion-toggle.inactive {
 	background:#3C3F45;
 }
@@ -181,7 +281,6 @@
 	background: #26292E;
   	padding: 16px 20px;
 	border: none;
-	white-space: pre-line;
 }
 
 /* ==================================================

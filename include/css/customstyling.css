@@ -24,6 +24,43 @@
 	height: 20px;
 }
 
+/* END GUIDE */
+
+/* GUIDE UPGRADES TABLE */
+
+.table_upgrades{
+    width: 100%; 
+    text-align: left;
+}
+.table_upgrades th{
+    text-align: center;
+    width: 33%;
+}
+.table_upgrades2{
+    width: 100%; 
+    text-align: center;
+}
+.table_upgrades2 th{
+    text-align: center;
+    width: 25%;
+}
+.img_resize2 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.table_upgrades3{
+    text-align: left;
+}
+.table_upgrades3 th{
+    text-align: center;
+}
+.table_upgrades3 td{
+	text-align: left;
+}
+
+/* END GUIDE UPGRADES TABLE */
+
 /* BACKGROUNDS */
 
 .sizebackgrounds {
@@ -253,8 +290,8 @@ h4.footerElement {
 
 /* BUILD TEMPLATES CODES */
 .buildinfoTemplate_Code {
-    width: 70%;
-    height: 30px;
+    width: 100%;
+	height: auto;
     font-size: 16px;
     text-align: center;
     background: #1d1f23;
@@ -270,18 +307,15 @@ h4.footerElement {
 	margin-top: -90px;
 }
 
-.gw2a-specializations-embed {
-    text-align: left;
-    text-align: left;
-	margin-left: 20%; 
-}
-
 .accordion {
 	margin-bottom: 0;
 }
 
 div.accordion-inner div.container {
 	width: 860px;
+}
+div.accordion-inner-notes {
+	padding: 16px 20px;
 	white-space: pre-line;
 }
 .buildnotupdated{
@@ -291,7 +325,6 @@ div.accordion-inner div.container {
 }
 .buildupdated{
 	color: #00692f;
-	
 	font-size: 1.17em;
 	height: 19.72px;
 }
