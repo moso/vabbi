@@ -1,0 +1,1514 @@
+
+ 
+@media screen and (max-width: 979px) {
+ 	.custom_tooltip {
+      	color: #a2a8ae;
+    	z-index: 99999;
+    	padding: 5px;
+      	position: fixed !important;
+    	width: calc(100% - 20px);
+    	background-color: #151718;
+    	background-size: 630px 647px;
+    	background-clip: padding-box;
+    	background-image: url(https://unpkg.com/armory-embeds@%5E0.x.x/images/gw2a--2xxYoMhS.png);
+  		border: 1px solid #d5ac58;
+    	border-radius: 1px;
+        left: 10px !important;
+      	top: 10px !important; 
+  	}
+}
+
+.custom_tooltip_title {
+  	font-size: 16px;
+    color: #ffb650;
+    font-family: 'Open Sans', sans-serif;
+    height: 35px;
+    vertical-align: middle;
+  	padding-top: 10px;
+  	display: inline-block;
+  	text-shadow: none;
+}
+
+.custom_tooltip_description {
+  	font-size: 14px;
+  	color: #a2a8ae;
+    text-align: left;
+  	font-family: 'Open Sans', sans-serif;
+  	max-width: 325px;
+  	margin-top: 5px;
+  	display: block;
+}
+
+.custom_tooltip_effect {
+  	font-size: 14px;
+  	color: #ffb650;
+    text-align: left;
+  	font-family: 'Open Sans', sans-serif;
+  	max-width: 325px;
+  	display: block;
+}
+
+.custom_tooltip_description_rune {
+  	font-size: 14px;
+  	color: #5487d1;
+    text-align: left;
+  	font-family: 'Open Sans', sans-serif;
+  	max-width: 325px;
+  	margin-top: 5px;
+  	display: block;
+   	min-width: 325px;
+}
+
+.custom_tooltip_weapon {
+  	font-size: 16px;
+    color: #ffb650;
+    font-family: 'Open Sans', sans-serif;
+    height: 20px;
+    vertical-align: middle;
+  	padding-top: 8px;
+  	display: inline-block;
+  	padding-right: 10px;
+  	text-shadow: none;
+}
+
+.custom_tooltip_cd {
+  	color: #5487d1 !important;
+  	font-size: 14px;
+    text-align: left;
+  	font-family: 'Open Sans', sans-serif;
+  	max-width: 325px;
+  	margin-top: 5px;
+  	display: block;
+  	min-width: 325px;
+}
+  
+.custom_tooltip_image {
+  	display: inline-block;
+    border-radius: 4px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+  	width: 32px;
+    height: 32px;
+  	border: 1px solid #151718;
+	background-size: cover;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.custom_tooltip_lock {
+  position: fixed;
+}
+
+
+
+.sigil {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.c_sigil {
+	border: 1px solid #151718;
+	border-radius: 4px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+	background-image: radial-gradient(circle, #606468, #333);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.spec {
+	border: 1px solid #2a2c2d;
+	border-radius: 4px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+	background-image: radial-gradient(circle, #606468, #333);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	/* EDIT THESE SIZES AS YOU WISH */
+	width: 30px;
+	/* EDIT THESE SIZES AS YOU WISH */
+}
+
+
+/* Weapons and Misc */
+
+.sword {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Bolt.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.focus {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/The_Binding_of_Ipos.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.longbow {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Kudzu.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.scepter {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Xiuquatl.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.shortbow {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Chuka_and_Champawat.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.staff {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Nevermore.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.torch {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Rodgort.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.warhorn {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Howler.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dagger {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Incinerator.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.greatsword {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Eternity.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mace {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Eureka.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pistol {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/HOPE.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rifle {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/The_Predator.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.shield {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/The_Flameseeker_Prophecies.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.axe {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Frostfang.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hammer {
+	background-image: url('https://www.godsofpvp.net/resources/legendaries/Sharur.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Lynx {
+	background-image: url('https://wiki.guildwars2.com/images/2/22/Rune_of_the_Lynx_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Title {
+	background-image: url('https://wiki.guildwars2.com/images/a/a9/Primordial_Legend.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Gold {
+	background-image: url('https://wiki.guildwars2.com/images/e/e5/Essence_of_Gold.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Voucher {
+	background-image: url('https://wiki.guildwars2.com/images/2/20/Tournament_Voucher.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Gems {
+	background-image: url('https://godsofpvp.net/resources/misc/gems.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.QP {
+	background-image: url('https://godsofpvp.net/resources/misc/qp.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.goldLlama {
+	background-image: url('https://wiki.guildwars2.com/images/1/1e/Gold_Llama_Box.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.silverLlama {
+	background-image: url('https://wiki.guildwars2.com/images/1/19/Silver_Llama_Box.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bronzeLlama {
+	background-image: url('https://wiki.guildwars2.com/images/0/0d/Mini_Bronze_Llama.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* PvP Sigils and Runes */
+
+.annulment {
+	background-image: url('https://wiki.guildwars2.com/images/c/c6/Sigil_of_Annulment_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.revocation {
+	background-image: url('https://wiki.guildwars2.com/images/1/15/Sigil_of_Revocation_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.cleansing {
+	background-image: url('https://wiki.guildwars2.com/images/3/30/Sigil_of_Cleansing_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.agony {
+	background-image: url('https://wiki.guildwars2.com/images/3/37/Superior_Sigil_of_Agony.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.agility {
+	background-image: url('https://wiki.guildwars2.com/images/3/3a/Superior_Sigil_of_Agility.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.absorption {
+	background-image: url('https://wiki.guildwars2.com/images/2/2f/Superior_Sigil_of_Absorption.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.compounding {
+	background-image: url('https://wiki.guildwars2.com/images/4/42/Sigil_of_Compounding.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.confusion {
+	background-image: url('https://wiki.guildwars2.com/images/2/22/Sigil_of_Confusion.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.battle {
+	background-image: url('https://wiki.guildwars2.com/images/5/55/Superior_Sigil_of_Battle.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.doom {
+	background-image: url('https://wiki.guildwars2.com/images/6/67/Superior_Sigil_of_Doom.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.energy {
+	background-image: url('https://wiki.guildwars2.com/images/0/0f/Superior_Sigil_of_Energy.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.enhancement {
+	background-image: url('https://wiki.guildwars2.com/images/4/4a/Sigil_of_Enhancement.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.intelligence {
+	background-image: url('https://wiki.guildwars2.com/images/4/4f/Superior_Sigil_of_Vision.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.misery {
+	background-image: url('https://wiki.guildwars2.com/images/8/84/Sigil_of_Misery.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.opportunity {
+	background-image: url('https://wiki.guildwars2.com/images/6/6d/Sigil_of_Opportunity_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.peril {
+	background-image: url('https://wiki.guildwars2.com/images/1/18/Superior_Sigil_of_Peril.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.ruthlessness {
+	background-image: url('https://wiki.guildwars2.com/images/0/00/Superior_Sigil_of_Ruthlessness.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.savagery {
+	background-image: url('https://wiki.guildwars2.com/images/3/3e/Sigil_of_Savagery.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.separation {
+	background-image: url('https://wiki.guildwars2.com/images/b/bd/Sigil_of_Separation.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.smoldering {
+	background-image: url('https://wiki.guildwars2.com/images/5/5c/Superior_Sigil_of_Smoldering.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.stagnation {
+	background-image: url('https://wiki.guildwars2.com/images/3/36/Sigil_of_Stagnation_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.venom {
+	background-image: url('https://wiki.guildwars2.com/images/9/98/Superior_Sigil_of_Venom.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.exploitation {
+	background-image: url('https://wiki.guildwars2.com/images/e/ed/Sigil_of_Exploitation_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.courage {
+	background-image: url('https://wiki.guildwars2.com/images/2/2a/Sigil_of_Courage_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.purging {
+	background-image: url('https://wiki.guildwars2.com/images/c/cb/Sigil_of_Purging.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.escape {
+	background-image: url('https://wiki.guildwars2.com/images/b/b9/Sigil_of_Escape_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.exposure {
+	background-image: url('https://wiki.guildwars2.com/images/5/50/Sigil_of_Exposure_%28PvP%29.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.lynx {
+	background-image: url('../images/LynxRune.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 62px;
+	width: 62px;
+	border: 1px solid #103b50;
+}
+
+
+/* INLINE IMAGES */
+
+.customInline {
+	display: inline;
+	font-size: 16px;
+	border: 0;
+	color: #ffb650;
+	opacity: 1 !important;
+	font-family: Source Sans Pro;
+	text-decoration: none !important;
+}
+
+.customInline:hover {
+	opacity: 1 !important;
+	color: #ffb650;
+}
+
+.Aegis:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Aegis.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Alacrity:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Alacrity.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Fury:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Fury.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Might:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Might.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Protection:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Protection.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Quickness:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Quickness.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Regeneration:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Regeneration.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Resistance:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Resistance.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Retaliation:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Retaliation.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Stability:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Stability.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Swiftness:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Swiftness.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Vigor:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Vigor.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Chaos:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Chaos.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Dark:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Dark.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Fire:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Fire.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Frost:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Frost.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Light:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Light.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Magnetic:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Magnetic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Shocking:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Shocking.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Bleeding:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Bleeding.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Blinded:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Blinded.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Burning:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Burning.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Chilled:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Chilled.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Confusion:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Confusion.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Crippled:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Crippled.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Fear:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Fear.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Immobilise:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Immobile.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Poison:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Poisoned.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Slow:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Slow.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Taunt:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Taunt.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Torment:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Torment.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Vulnerability:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Vulnerability.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Weakness:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Weakness.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Superspeed:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Super_Speed.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Barrier:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Barrier.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Invulnerable:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Determined.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Stealth:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Stealth.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Revealed:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Revealed.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Stunbreak:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Stun_Break.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Daze:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Daze.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Float:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Float.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Knockback:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Knockback.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Knockdown:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Knockdown.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Launch:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Launch.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Sink:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Sink.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Stun:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Stun.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+
+/** Professions **/
+
+.Holosmith:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/holosmith.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Berserker:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/berserker.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Chronomancer:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/chronomancer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Daredevil:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/daredevil.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Deadeye:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/deadeye.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Dragonhunter:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/dragonhunter.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Druid:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/druid.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Elementalist:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/elementalist.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Engineer:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/engineer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Firebrand:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/firebrand.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Guardian:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/guardian.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Herald:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/herald.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Scrapper:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/scrapper.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Mesmer:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/mesmer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Mirage:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/mirage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Necromancer:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/necromancer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Ranger:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/ranger.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Reaper:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/reaper.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Renegade:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/renegade.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Revenant:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/revenant.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Soulbeast:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/soulbeast.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Spellbreaker:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/spellbreaker.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Tempest:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/tempest.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Thief:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/thief.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Warrior:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/warrior.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Weaver:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/Stun.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.Scourge:before {
+	width: 16px;
+	height: 16px;
+	content: '';
+	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/scourge.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
