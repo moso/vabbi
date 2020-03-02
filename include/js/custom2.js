@@ -1,48 +1,8 @@
-// CREATED BY ANGEELS - GODSOFPVP.NET
 
-
-// Let's let our tooltips come to life!
-$("div").html(function(i, html) {
-
-    return html.replace(/\[s=(\w+)\]/g, function(s, keyAPITooltips) {
-        return "<span data-armory-embed='skills' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
-    });
-
-
-});
-
-$("div").html(function(i, html) {
-
-    return html.replace(/\[t=(\w+)\]/g, function(s, keyAPITooltips) {
-        return "<span data-armory-embed='traits' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
-    });
-
-
-});
-
-$("div").html(function(i, html) {
-
-    return html.replace(/\[i=(\w+)\]/g, function(s, keyAPITooltips) {
-        return "<span data-armory-embed='items' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
-    });
-
-
-});
-
-
-$("div").html(function(i, html) {
-
-
-    return html.replace(/\[c=(\w+)\]/g, function(s, keyCustomTooltips) {
-        return "<a data-tooltip='" + repsCustom[keyCustomTooltips] + "' rel='noopener noreferrer' target='_blank' href='http://wiki-en.guildwars2.com/wiki/Special:Search/" + repsCustom[keyCustomTooltips] + "' class='c_replace customInline " + repsCustom[keyCustomTooltips] + "'>" + repsCustom[keyCustomTooltips] + "</a>" || s;
-    });
-});
-
-// Time to create our shiny tooltips
 
 $('.c_rune, .c_sigil, .c_weapon, .c_effect, .c_spec, .c_replace').hover(
     function() {
-        console.log('hovering on', $(this).data('tooltip'));
+        console.log( 'hovering on' , $(this).data('tooltip') ); 
         var tooltipJSON = tooltipData[$(this).data("tooltip")];
         var tooltipValues = [];
 
@@ -111,56 +71,3 @@ $('.c_rune, .c_sigil, .c_weapon, .c_effect, .c_spec, .c_replace').hover(
         $('.custom_tooltip').remove();
     }
 );
-
-
-// Dab on them incorrect values
-
-$("body").on('DOMSubtreeModified', "div#armory_tooltip", function() {
-
-    var query = document.querySelector('.gw2a--3viBN')
-
-    if (query !== null) {
-        var divs = document.querySelectorAll('.gw2a--3viBN > div'),
-            i;
-        for (i = 0; i < divs.length; ++i) {
-
-            if (divs[i].innerHTML.indexOf("CritDamage") !== -1) {
-                divs[i].innerHTML = divs[i].innerHTML.replace(/CritDamage/g, "Ferocity");
-            }
-
-            if (divs[i].innerHTML.indexOf("HealingPower") !== -1) {
-                divs[i].innerHTML = divs[i].innerHTML.replace(/HealingPower/g, "Healing Power");
-            }
-
-            if (divs[i].innerHTML.indexOf("ConditionDamage") !== -1) {
-                divs[i].innerHTML = divs[i].innerHTML.replace(/ConditionDamage/g, "Condition Damage");
-            }
-
-            if (divs[i].innerHTML.indexOf("BoonDuration") !== -1) {
-                divs[i].innerHTML = divs[i].innerHTML.replace(/BoonDuration/g, "Concentration");
-            }
-
-            if (divs[i].innerHTML.indexOf("ConditionDuration") !== -1) {
-                divs[i].innerHTML = divs[i].innerHTML.replace(/ConditionDuration/g, "Expertise");
-            }
-
-        }
-
-    }
-
-    var query2 = document.querySelector('.gw2a--1ufhb')
-
-    if (query2 !== null) {
-        var spans = document.querySelectorAll('.gw2a--1ufhb > span'),
-            i;
-        for (i = 0; i < spans.length; ++i) {
-
-            if (spans[i].innerHTML.indexOf("StunBreak") !== -1) {
-                spans[i].innerHTML = spans[i].innerHTML.replace(/StunBreak/g, "Breaks Stun");
-            }
-
-        }
-
-    }
-
-});

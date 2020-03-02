@@ -501,6 +501,148 @@ var tooltipData = {
         "spec": "Deadeye",
         "elite": "Thief"
     },
+    //SPECIALIZATIONS PLURALS
+    "Berserkers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/berserker.png",
+        "spec": "Berserker",
+        "elite": "Warrior"
+    },
+    "Chronomancers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/chronomancer.png",
+        "spec": "Chronomancer",
+        "elite": "Mesmer"
+    },
+    "Daredevils": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/daredevil.png",
+        "spec": "Daredevil",
+        "elite": "Thief"
+    },
+    "Deadeyes": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/deadeye.png",
+        "spec": "Deadeye",
+        "elite": "Thief"
+    },
+    "Dragonhunters": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/dragonhunter.png",
+        "spec": "Dragonhunter",
+        "elite": "Guardian"
+    },
+    "Druids": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/druid.png",
+        "spec": "Druid",
+        "elite": "Ranger"
+    },
+    "Elementalists": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/elementalist.png",
+        "spec": "Elementalist",
+        "elite": "0"
+    },
+    "Engineers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/engineer.png",
+        "spec": "Engineer",
+        "elite": "0"
+    },
+    "Firebrands": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/firebrand.png",
+        "spec": "Firebrand",
+        "elite": "Guardian"
+    },
+    "Guardians": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/guardian.png",
+        "spec": "Guardian",
+        "elite": "0"
+    },
+    "Heralds": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/herald.png",
+        "spec": "Herald",
+        "elite": "Revenant"
+    },
+    "Scourges": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/scourge.png",
+        "spec": "Scourge",
+        "elite": "Necromancer"
+    },
+    "Scrappers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/scrapper.png",
+        "spec": "Scrapper",
+        "elite": "Engineer"
+    },
+    "Holosmiths": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/holosmith.png",
+        "spec": "Holosmith",
+        "elite": "Engineer"
+    },
+    "Mesmers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/mesmer.png",
+        "spec": "Mesmer",
+        "elite": "0"
+    },
+    "Mirages": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/mirage.png",
+        "spec": "Mirage",
+        "elite": "Mesmer"
+    },
+    "Necromancers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/necromancer.png",
+        "spec": "Necromancer",
+        "elite": "0"
+    },
+    "Rangers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/ranger.png",
+        "spec": "Ranger",
+        "elite": "0"
+    },
+    "Reapers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/reaper.png",
+        "spec": "Reaper",
+        "elite": "Necromancer"
+    },
+    "Renegades": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/renegade.png",
+        "spec": "Renegade",
+        "elite": "Revenant"
+    },
+    "Revenants": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/revenant.png",
+        "spec": "Revenant",
+        "elite": "0"
+    },
+    "Soulbeasts": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/soulbeast.png",
+        "spec": "Soulbeast",
+        "elite": "Ranger"
+    },
+    "Spellbreakers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/spellbreaker.png",
+        "spec": "Spellbreaker",
+        "elite": "Warrior"
+    },
+    "Tempests": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/tempest.png",
+        "spec": "Tempest",
+        "elite": "Elementalist"
+    },
+    "Thieves": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/thief.png",
+        "spec": "Thief",
+        "elite": "0"
+    },
+    "Warriors": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/warrior.png",
+        "spec": "Warrior",
+        "elite": "0"
+    },
+    "Weavers": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/weaver.png",
+        "spec": "Weaver",
+        "elite": "Elementalist"
+    },
+    "Deadeyes": {
+        "url": "https://godsofpvp.net/resources/misc/data/images/specs/deadeye.png",
+        "spec": "Deadeye",
+        "elite": "Thief"
+    },
+    //END SPECIALIZATIONS PLURALS
     "Aegis": {
         "effect": "Blocks the next attack; Stacks in duration."
     },
@@ -588,7 +730,13 @@ var tooltipData = {
     "Immobilise": {
         "effect": "Unable to move; Stacks in duration."
     },
+    "Immobilisz": {
+        "effect": "Unable to move; Stacks in duration."
+    },
     "Poison": {
+        "effect": "Deals damage every second and reduces healing by 33%; Damage stacks in intensity."
+    },
+    "Poisoned": {
         "effect": "Deals damage every second and reduces healing by 33%; Damage stacks in intensity."
     },
     "Slow": {
