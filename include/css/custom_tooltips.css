@@ -1131,6 +1131,19 @@
 	margin-right: 2px;
 }
 
+.Pull:before{
+	width: 1em;
+	height: 1em;
+	content: '';
+	background-image: url(/include/img/effects/control_effects/Pull.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+	margin-right: 2px;
+}
+
 .Sink:before {
 	width: 1em;
 	height: 1em;

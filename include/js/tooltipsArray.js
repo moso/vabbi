@@ -784,6 +784,9 @@ var tooltipData = {
     "Launch": {
         "effect": "Knocked away from your foe. Can affect downstates. Cannot use skills outside of Stunbreaks."
     },
+    "Pull":{
+        "effect": "Caused by some skills which shortens the distance between the user and the foe by drawing one of them to another. If a foe is pulled, this can result in an interrupt."
+    },
     "Sink": {
         "effect": "You are pulled downwards. Cannot use skills outside of Stunbreaks."
     },
@@ -793,5 +796,5 @@ var tooltipData = {
     "Weakness": {
         "effect": "Endurance regeneration reduced by 50%. 50% of hits deal half damage. Stacks in duration."
     },
-
+    
 }

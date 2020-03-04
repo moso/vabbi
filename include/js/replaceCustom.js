@@ -47,6 +47,7 @@ var repsCustom = {
     Knockback: "Knockback",
     Knockdown: "Knockdown",
     Launch: "Launch",
+    Pull: "Pull",
     Sink: "Sink",
     Stun: "Stun",
     Holosmith: "Holosmith",
