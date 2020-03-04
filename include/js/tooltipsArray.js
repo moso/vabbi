@@ -764,7 +764,7 @@ var tooltipData = {
         "effect": "Invulnerable to all damage - existing conditions and damaging effects are negated. Movement impeding effects still apply."
     },
     "Stealth": {
-        "effect": "Immune to enemies. Attacking will reveal you, as will enemy skills and traits that apply the revealed effect. Stacks in duration."
+        "effect": "Invisible to enemies. Attacking will reveal you, as will enemy skills and traits that apply the revealed effect. Stacks in duration."
     },
     "Revealed": {
         "effect": "Revealed from Stealth, and cannot Stealth again for the remaining duration."

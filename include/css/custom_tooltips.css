@@ -19,7 +19,7 @@
 }
 
 .custom_tooltip_title {
-  	font-size: 1em;
+  	font-size: 20px;
     color: #ffb650;
     font-family: 'Open Sans', sans-serif;
     height: 35px;
@@ -30,7 +30,7 @@
 }
 
 .custom_tooltip_description {
-  	font-size: 1em;
+  	font-size: 14px;
   	color: #a2a8ae;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
@@ -40,7 +40,7 @@
 }
 
 .custom_tooltip_effect {
-  	font-size: 1em;
+  	font-size: 14px;
   	color: #ffb650;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
@@ -49,7 +49,7 @@
 }
 
 .custom_tooltip_description_rune {
-  	font-size: 1em;
+  	font-size: 14px;
   	color: #5487d1;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
@@ -60,7 +60,7 @@
 }
 
 .custom_tooltip_weapon {
-  	font-size: 1em;
+  	font-size: 14px;
     color: #ffb650;
     font-family: 'Open Sans', sans-serif;
     height: 20px;
@@ -73,7 +73,7 @@
 
 .custom_tooltip_cd {
   	color: #5487d1 !important;
-  	font-size: 1em;
+  	font-size: 14px;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
   	max-width: 325px;
@@ -100,8 +100,6 @@
 .custom_tooltip_lock {
   position: fixed;
 }
-
-
 
 .sigil {
 	max-width: 30px;
