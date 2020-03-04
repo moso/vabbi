@@ -1,11 +1,5 @@
 /* GUIDE */
 
-.api_image_resize {
-	display: inline-block;
-	transform: scale(0.5);
-	background-color: powderblue;
-}
-
 .api_img_line {
 	display: inline-block;
 }

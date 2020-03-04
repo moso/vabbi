@@ -8,7 +8,7 @@
 $("div").html(function(i, html) {
 
     return html.replace(/\[s=(\w+)\]/g, function(s, keyAPITooltips) {
-        return "<span class='api_img_line' data-armory-embed='skills' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
+        return "<span class='api_img_line' data-armory-size='24px' data-armory-embed='skills' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
     });
 
 });
@@ -20,7 +20,7 @@ $("div").html(function(i, html) {
 $("div").html(function(i, html) {
 
     return html.replace(/\[t=(\w+)\]/g, function(s, keyAPITooltips) {
-        return "<span class='api_img_line' data-armory-embed='traits' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
+        return "<span class='api_img_line' data-armory-size='24px' data-armory-embed='traits' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
     });
 
 });
@@ -31,7 +31,7 @@ $("div").html(function(i, html) {
 $("div").html(function(i, html) {
 
     return html.replace(/\[i=(\w+)\]/g, function(s, keyAPITooltips) {
-        return "<span data-armory-embed='items' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
+        return "<span data-armory-size='24px' data-armory-embed='items' data-armory-ids='" + repsAPI[keyAPITooltips] + "' data-armory-inline-text='wiki' data-armory-size='16'>dab</span>" || s;
     });
 
 });

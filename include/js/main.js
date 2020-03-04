@@ -411,7 +411,7 @@ jQuery(function ($) {
 
 	BRUSHED.slider();
 
-	$(document).ready(function () {
+	/*$(document).ready(function () {
 
 
 		// Preload the page with jPreLoader
@@ -446,7 +446,7 @@ jQuery(function ($) {
 	$(window).resize(function () {
 		BRUSHED.mobileNav();
 	});
-
+	*/
 });
 
 /* vvvvvvvvvvvvvvvv MADE BY DIESMON vvvvvvvvvvvvvvvv */

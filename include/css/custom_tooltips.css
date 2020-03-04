@@ -19,7 +19,7 @@
 }
 
 .custom_tooltip_title {
-  	font-size: 16px;
+  	font-size: 1em;
     color: #ffb650;
     font-family: 'Open Sans', sans-serif;
     height: 35px;
@@ -30,7 +30,7 @@
 }
 
 .custom_tooltip_description {
-  	font-size: 14px;
+  	font-size: 1em;
   	color: #a2a8ae;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
@@ -40,7 +40,7 @@
 }
 
 .custom_tooltip_effect {
-  	font-size: 14px;
+  	font-size: 1em;
   	color: #ffb650;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
@@ -49,7 +49,7 @@
 }
 
 .custom_tooltip_description_rune {
-  	font-size: 14px;
+  	font-size: 1em;
   	color: #5487d1;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
@@ -60,7 +60,7 @@
 }
 
 .custom_tooltip_weapon {
-  	font-size: 16px;
+  	font-size: 1em;
     color: #ffb650;
     font-family: 'Open Sans', sans-serif;
     height: 20px;
@@ -73,7 +73,7 @@
 
 .custom_tooltip_cd {
   	color: #5487d1 !important;
-  	font-size: 14px;
+  	font-size: 1em;
     text-align: left;
   	font-family: 'Open Sans', sans-serif;
   	max-width: 325px;
@@ -548,7 +548,7 @@
 
 .customInline {
 	display: inline;
-	font-size: 16px;
+	font-size: 1em;
 	border: 0;
 	color: #ffb650;
 	opacity: 1 !important;
@@ -562,8 +562,8 @@
 }
 
 .Aegis:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Aegis.png);
 	background-repeat: no-repeat;
@@ -575,8 +575,8 @@
 }
 
 .Alacrity:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Alacrity.png);
 	background-repeat: no-repeat;
@@ -588,8 +588,8 @@
 }
 
 .Fury:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Fury.png);
 	background-repeat: no-repeat;
@@ -601,8 +601,8 @@
 }
 
 .Might:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Might.png);
 	background-repeat: no-repeat;
@@ -614,8 +614,8 @@
 }
 
 .Protection:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Protection.png);
 	background-repeat: no-repeat;
@@ -627,8 +627,8 @@
 }
 
 .Quickness:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Quickness.png);
 	background-repeat: no-repeat;
@@ -640,8 +640,8 @@
 }
 
 .Regeneration:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Regeneration.png);
 	background-repeat: no-repeat;
@@ -653,8 +653,8 @@
 }
 
 .Resistance:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Resistance.png);
 	background-repeat: no-repeat;
@@ -666,8 +666,8 @@
 }
 
 .Retaliation:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Retaliation.png);
 	background-repeat: no-repeat;
@@ -679,8 +679,8 @@
 }
 
 .Stability:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Stability.png);
 	background-repeat: no-repeat;
@@ -692,8 +692,8 @@
 }
 
 .Swiftness:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Swiftness.png);
 	background-repeat: no-repeat;
@@ -705,8 +705,8 @@
 }
 
 .Vigor:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/boons/Vigor.png);
 	background-repeat: no-repeat;
@@ -718,8 +718,8 @@
 }
 
 .Chaos:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Chaos.png);
 	background-repeat: no-repeat;
@@ -731,8 +731,8 @@
 }
 
 .Dark:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Dark.png);
 	background-repeat: no-repeat;
@@ -744,8 +744,8 @@
 }
 
 .Fire:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Fire.png);
 	background-repeat: no-repeat;
@@ -757,8 +757,8 @@
 }
 
 .Frost:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Frost.png);
 	background-repeat: no-repeat;
@@ -770,8 +770,8 @@
 }
 
 .Light:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Light.png);
 	background-repeat: no-repeat;
@@ -783,8 +783,8 @@
 }
 
 .Magnetic:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Magnetic.png);
 	background-repeat: no-repeat;
@@ -796,8 +796,8 @@
 }
 
 .Shocking:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/auras/Shocking.png);
 	background-repeat: no-repeat;
@@ -809,8 +809,8 @@
 }
 
 .Bleeding:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Bleeding.png);
 	background-repeat: no-repeat;
@@ -822,8 +822,8 @@
 }
 
 .Blinded:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Blinded.png);
 	background-repeat: no-repeat;
@@ -835,8 +835,8 @@
 }
 
 .Burning:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Burning.png);
 	background-repeat: no-repeat;
@@ -848,8 +848,8 @@
 }
 
 .Chilled:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Chilled.png);
 	background-repeat: no-repeat;
@@ -861,8 +861,8 @@
 }
 
 .Confusion:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Confusion.png);
 	background-repeat: no-repeat;
@@ -874,8 +874,8 @@
 }
 
 .Crippled:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Crippled.png);
 	background-repeat: no-repeat;
@@ -887,8 +887,8 @@
 }
 
 .Fear:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Fear.png);
 	background-repeat: no-repeat;
@@ -900,8 +900,8 @@
 }
 
 .Immobilise:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Immobile.png);
 	background-repeat: no-repeat;
@@ -913,8 +913,8 @@
 }
 
 .Poison:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Poisoned.png);
 	background-repeat: no-repeat;
@@ -926,8 +926,8 @@
 }
 
 .Slow:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Slow.png);
 	background-repeat: no-repeat;
@@ -939,8 +939,8 @@
 }
 
 .Taunt:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Taunt.png);
 	background-repeat: no-repeat;
@@ -952,8 +952,8 @@
 }
 
 .Torment:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Torment.png);
 	background-repeat: no-repeat;
@@ -965,8 +965,8 @@
 }
 
 .Vulnerability:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Vulnerability.png);
 	background-repeat: no-repeat;
@@ -978,8 +978,8 @@
 }
 
 .Weakness:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/conditions/Weakness.png);
 	background-repeat: no-repeat;
@@ -991,8 +991,8 @@
 }
 
 .Superspeed:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Super_Speed.png);
 	background-repeat: no-repeat;
@@ -1004,8 +1004,8 @@
 }
 
 .Barrier:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Barrier.png);
 	background-repeat: no-repeat;
@@ -1017,8 +1017,8 @@
 }
 
 .Invulnerable:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Determined.png);
 	background-repeat: no-repeat;
@@ -1030,8 +1030,8 @@
 }
 
 .Stealth:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Stealth.png);
 	background-repeat: no-repeat;
@@ -1043,8 +1043,8 @@
 }
 
 .Revealed:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Revealed.png);
 	background-repeat: no-repeat;
@@ -1056,8 +1056,8 @@
 }
 
 .Stunbreak:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/miscellaneous/Stun_Break.png);
 	background-repeat: no-repeat;
@@ -1069,8 +1069,8 @@
 }
 
 .Daze:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Daze.png);
 	background-repeat: no-repeat;
@@ -1082,8 +1082,8 @@
 }
 
 .Float:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Float.png);
 	background-repeat: no-repeat;
@@ -1095,8 +1095,8 @@
 }
 
 .Knockback:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Knockback.png);
 	background-repeat: no-repeat;
@@ -1108,8 +1108,8 @@
 }
 
 .Knockdown:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Knockdown.png);
 	background-repeat: no-repeat;
@@ -1121,8 +1121,8 @@
 }
 
 .Launch:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Launch.png);
 	background-repeat: no-repeat;
@@ -1134,8 +1134,8 @@
 }
 
 .Sink:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Sink.png);
 	background-repeat: no-repeat;
@@ -1147,8 +1147,8 @@
 }
 
 .Stun:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/control_effects/Stun.png);
 	background-repeat: no-repeat;
@@ -1163,8 +1163,8 @@
 /** Professions **/
 
 .Holosmith:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/holosmith.png);
 	background-repeat: no-repeat;
@@ -1176,8 +1176,8 @@
 }
 
 .Berserker:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/berserker.png);
 	background-repeat: no-repeat;
@@ -1189,8 +1189,8 @@
 }
 
 .Chronomancer:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/chronomancer.png);
 	background-repeat: no-repeat;
@@ -1202,8 +1202,8 @@
 }
 
 .Daredevil:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/daredevil.png);
 	background-repeat: no-repeat;
@@ -1215,8 +1215,8 @@
 }
 
 .Deadeye:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/deadeye.png);
 	background-repeat: no-repeat;
@@ -1228,8 +1228,8 @@
 }
 
 .Dragonhunter:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/dragonhunter.png);
 	background-repeat: no-repeat;
@@ -1241,8 +1241,8 @@
 }
 
 .Druid:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/druid.png);
 	background-repeat: no-repeat;
@@ -1254,8 +1254,8 @@
 }
 
 .Elementalist:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/elementalist.png);
 	background-repeat: no-repeat;
@@ -1267,8 +1267,8 @@
 }
 
 .Engineer:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/engineer.png);
 	background-repeat: no-repeat;
@@ -1280,8 +1280,8 @@
 }
 
 .Firebrand:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/firebrand.png);
 	background-repeat: no-repeat;
@@ -1293,8 +1293,8 @@
 }
 
 .Guardian:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/guardian.png);
 	background-repeat: no-repeat;
@@ -1306,8 +1306,8 @@
 }
 
 .Herald:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/herald.png);
 	background-repeat: no-repeat;
@@ -1319,8 +1319,8 @@
 }
 
 .Scrapper:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/scrapper.png);
 	background-repeat: no-repeat;
@@ -1332,8 +1332,8 @@
 }
 
 .Mesmer:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/mesmer.png);
 	background-repeat: no-repeat;
@@ -1345,8 +1345,8 @@
 }
 
 .Mirage:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/mirage.png);
 	background-repeat: no-repeat;
@@ -1358,8 +1358,8 @@
 }
 
 .Necromancer:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/necromancer.png);
 	background-repeat: no-repeat;
@@ -1371,8 +1371,8 @@
 }
 
 .Ranger:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/ranger.png);
 	background-repeat: no-repeat;
@@ -1384,8 +1384,8 @@
 }
 
 .Reaper:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/reaper.png);
 	background-repeat: no-repeat;
@@ -1397,8 +1397,8 @@
 }
 
 .Renegade:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/renegade.png);
 	background-repeat: no-repeat;
@@ -1410,8 +1410,8 @@
 }
 
 .Revenant:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/revenant.png);
 	background-repeat: no-repeat;
@@ -1423,8 +1423,8 @@
 }
 
 .Soulbeast:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/soulbeast.png);
 	background-repeat: no-repeat;
@@ -1436,8 +1436,8 @@
 }
 
 .Spellbreaker:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/spellbreaker.png);
 	background-repeat: no-repeat;
@@ -1449,8 +1449,8 @@
 }
 
 .Tempest:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/tempest.png);
 	background-repeat: no-repeat;
@@ -1462,8 +1462,8 @@
 }
 
 .Thief:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/thief.png);
 	background-repeat: no-repeat;
@@ -1475,8 +1475,8 @@
 }
 
 .Warrior:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/warrior.png);
 	background-repeat: no-repeat;
@@ -1488,8 +1488,8 @@
 }
 
 .Weaver:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/weaver.png);
 	background-repeat: no-repeat;
@@ -1501,8 +1501,8 @@
 }
 
 .Scourge:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/scourge.png);
 	background-repeat: no-repeat;
@@ -1516,8 +1516,8 @@
 /*SPECIALIZATION PLURALS*/
 
 .Holosmiths:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/holosmith.png);
 	background-repeat: no-repeat;
@@ -1529,8 +1529,8 @@
 }
 
 .Berserkers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/berserker.png);
 	background-repeat: no-repeat;
@@ -1542,8 +1542,8 @@
 }
 
 .Chronomancers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/chronomancer.png);
 	background-repeat: no-repeat;
@@ -1555,8 +1555,8 @@
 }
 
 .Daredevils:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/daredevil.png);
 	background-repeat: no-repeat;
@@ -1568,8 +1568,8 @@
 }
 
 .Deadeyes:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/deadeye.png);
 	background-repeat: no-repeat;
@@ -1581,8 +1581,8 @@
 }
 
 .Dragonhunters:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/dragonhunter.png);
 	background-repeat: no-repeat;
@@ -1594,8 +1594,8 @@
 }
 
 .Druids:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/druid.png);
 	background-repeat: no-repeat;
@@ -1607,8 +1607,8 @@
 }
 
 .Elementalists:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/elementalist.png);
 	background-repeat: no-repeat;
@@ -1620,8 +1620,8 @@
 }
 
 .Engineers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/engineer.png);
 	background-repeat: no-repeat;
@@ -1633,8 +1633,8 @@
 }
 
 .Firebrands:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/firebrand.png);
 	background-repeat: no-repeat;
@@ -1646,8 +1646,8 @@
 }
 
 .Guardians:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/guardian.png);
 	background-repeat: no-repeat;
@@ -1659,8 +1659,8 @@
 }
 
 .Heralds:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/herald.png);
 	background-repeat: no-repeat;
@@ -1672,8 +1672,8 @@
 }
 
 .Scrappers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/scrapper.png);
 	background-repeat: no-repeat;
@@ -1685,8 +1685,8 @@
 }
 
 .Mesmers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/mesmer.png);
 	background-repeat: no-repeat;
@@ -1698,8 +1698,8 @@
 }
 
 .Mirages:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/mirage.png);
 	background-repeat: no-repeat;
@@ -1711,8 +1711,8 @@
 }
 
 .Necromancers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/necromancer.png);
 	background-repeat: no-repeat;
@@ -1724,8 +1724,8 @@
 }
 
 .Rangers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/ranger.png);
 	background-repeat: no-repeat;
@@ -1737,8 +1737,8 @@
 }
 
 .Reapers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/reaper.png);
 	background-repeat: no-repeat;
@@ -1750,8 +1750,8 @@
 }
 
 .Renegades:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/renegade.png);
 	background-repeat: no-repeat;
@@ -1763,8 +1763,8 @@
 }
 
 .Revenants:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/revenant.png);
 	background-repeat: no-repeat;
@@ -1776,8 +1776,8 @@
 }
 
 .Soulbeasts:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/soulbeast.png);
 	background-repeat: no-repeat;
@@ -1789,8 +1789,8 @@
 }
 
 .Spellbreakers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/spellbreaker.png);
 	background-repeat: no-repeat;
@@ -1802,8 +1802,8 @@
 }
 
 .Tempests:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/tempest.png);
 	background-repeat: no-repeat;
@@ -1815,8 +1815,8 @@
 }
 
 .Thieves:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/thief.png);
 	background-repeat: no-repeat;
@@ -1828,8 +1828,8 @@
 }
 
 .Warriors:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/warrior.png);
 	background-repeat: no-repeat;
@@ -1841,8 +1841,8 @@
 }
 
 .Weavers:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/weaver.png);
 	background-repeat: no-repeat;
@@ -1854,8 +1854,8 @@
 }
 
 .Scourges:before {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	content: '';
 	background-image: url(https://godsofpvp.net/resources/misc/data/images/specs/scourge.png);
 	background-repeat: no-repeat;
@@ -1865,3 +1865,5 @@
 	top: 2px;
 	margin-right: 2px;
 }
+
+/*END SPECIALIZATION PLURALS*/
