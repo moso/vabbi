@@ -78,6 +78,9 @@
 .card-color-ranger{
     background-color: #304d68;
 }
+.card-color-footer{
+    background-color: #33363a;
+}
 .card-header-color-necro {
     background: #3f5847;
 }
@@ -104,6 +107,9 @@
 }
 .card-header-color-ranger {
     background: #8ea53a;
+}
+.card-header-color-footer {
+    background: #8f1e12;
 }
 
 .card-body {

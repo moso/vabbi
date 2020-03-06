@@ -106,12 +106,12 @@ div.button.button-tiny{
 	text-transform: none;
 }
 div.button.button-tiny:hover{
-    color:white
+    color:white;
 }
 div.button.button-tiny>div.popup{
     position:absolute;
     width: auto;
-    padding: 10px 20px;
+    padding: 0px 8px;
     background-color: #3C3F45;
 	border-left: 4px solid rgb(25, 27, 29);
 	border-top: 4px solid rgb(25, 27, 29);
