@@ -1,0 +1,77 @@
+There is a difference between a Firebrand and a Good Firebrand.
+											Your playstyle can be very different in some certain situations. It depends on what is the amount of enemies you are fighting, what is the enemy (guild, blob, mix of both etc...) squad composition that you are fighting, how many you are and what your composition is.
+											For example if you are running melee-heavy group, which is incredibely fun, but can be easily shut down by a range-heavy, you should focus on staying strictly on your tag and making your party be able to do the same. That can be very difficult, depending on your allies "skill“ level and your Commander's moves. So the ideal way to do this would be: close to tag, your party healthy, able to do what you are able to as a Minstrel Firebrand.
+											If your squad composition is range oriented (a lot of Heralds, Weavers), if your Commander is decent, he is not going to yolopush, rather he will let your range create pressure and only secure downstates and push when its obvious your group won't have hard time sustaining. In that case, you should stay close to tag, but not too close in order to still support your party, thats obviously trying to create pressure. This makes the fight pretty boring for you, unless the enemy has a very strong melee ball and are able to push you <a href="../guide.html">(See: Melee-Ball and Pirate-Ship)</a>.
+											But your overall playstyle should be focused on supporting your Commander and the people around it. Usually a good Firebrand on tag with one Herald and a mixture of other classes you have in your party (Scourges, Heal Scrappers, Spellbreakers etc) should be able to follow the tag without any major issues, if everything is executed correctly.
+
+											<b>THE GAMEPLAY</b>
+
+											<i>Settings tips</i>
+
+											General Options select:
+
+											- Thick Party Health Bars
+											- Thick Squad Health Bars (optional, use it if you are already able to check on your party)
+											- Always Show Party Health Bars
+											- Always Show Squad Health Bars
+
+											Squad Options de-select:
+
+											- View as grid (deselecting this will show only your party boons and conditions which is what we want)
+
+											<i>Out of combat</i>
+
+											Stack swiftness for you and your party using Staff#3, Symbol of Swiftness.
+											When you know you are not going to be fighting within 40 seconds, use your Courage Tome #1 and spam it on your party for around 45 seconds of Swiftness.
+											Ask your Revenant to use his "stab road“ – Inspiring Reinforcement – and blast it with your staff#2, hammer#2 or focus#5. Same goes for any Lightning field such as Static Field from Elementalists.
+
+											<i>Pre-Engage</i>
+
+											You want to stick to your Commander, make sure everyone else in your party is able to start on the commander as well. Creating a tail of your group since the beggining of the fight is bad (it shows lack of coordination and discipline).
+											Your commander usually asks for one more swiftness symbol and then asks for Empower – Staff#4. Not finishing the cast of Empower doesn't really matter as long as it makes you stay on tag.
+
+											<i>Engage</i>
+
+											In the beginning your Commander is going to call for Stab. <a href="../guide.html">(See: The calls)</a>
+											Hes refering to Stand Your Ground, make sure you use this skill before you or your party is able to get cc'd. Tooltip might say stunbreak, but its only personal stunbreak.
+
+											<u>Line of Warding (line)</u>: Use on commanders call, if you couldnt cast the line, dont be afraid to use it later on a cc call, or just call it yourself.
+
+											Keep your Staff#2 on cooldown, use it as a healing spell, not to deal damage. It also has a blast finisher, using it on water fields will create area-healing and blasting light fields creates area-conditions-cleanse.
+											Staff #3 on cooldown aswell, however this is mostly going to be used offensively for small pressure.
+
+											Now its time for you to <b>watch your party</b>. Make sure you are using Party UI as stated above (not Squad Grid), so you can track the boons and conditions your allies have. Give them whatever they need. Your commander is in most cases going to call for certain Tomes, however that doesn't matter it is always his call, which should be your next tome popped.
+
+											<u>Courage Tome</u>: For protection uptime, which is quite important, so it might be worth considering engaging on that tome and in many cases you will find yourself doing so. Drop your resistence field while moving, so your party is not being slowed by conditions on push, use your #5 – toughness before you start taking damage. Make your party stability uptime 100% by filling with #1 – Unflinching Charge. When going melee, use your #2 – Daring Challenge for small damage and taunt. While pirateshipping use #3 – Reflect to reflect projectiles back to enemies, this can be used on regroups aswell for some extra projectile hate.
+
+											<u>Resolve Tome</u>: For the big heals it provides. To maintain decent ability to move, use your cleanses from #5 and #2. Use your #4 – Waterfield on regroups. If your allies are in danger of going downstate, do not hesitate to spam #1 until theyre safe again.
+
+											<u>Justice Tome</u>: For extra cc and damage on re-engages, longer pushes. Do not stay in this tome for a long time though, because it is not a support tome. Aim your #3 – Pull on allied corrupt bombs, warrior bubbles or when engaging on enemies without stability.
+
+											<u>Healing Mantra</u>: as a small heal, wait for the aegis heal proc before using another stack of the mantra. This should help you keep your party healthy.
+
+											<u>Mantra of Lore</u>: cleansing mantra, it applies regen, and you should use it on allies if they do not have regeneration. Remember that cleansing cripple/chill is well worth, since most of the people playing the game currently are playing Power, so conditions do not do a lot of damage. The mantra should help you keeping your allies close to you as said before.
+
+											<u>Mantra of Liberation</u>: use as a stab filler, mostly as a stunbreak for your party if they get stripped and have no stab and got CCd. So again, pay attention to your party.
+
+											<u>Merciful Intervention (MI)</u>: Use for very fast resses and aim to use it on resses. Selfcast MI if you are locked out of your tomes by an interrupt or youre just running out of cooldowns for a strong burst heal. When you got stripped and CCd to regroup with your party and commander.
+
+											<u>Stand your Ground (stab)</u>: Use on engage as said before, pay attention to not overlap too many stacks of stability at once. A guy with 1 stack of stability is in next second immune to the same amount of CC as the guy with 10 stacks.
+
+											<u>Mace #2</u>: Use on regroups for regeneration uptiome. Mace #3 for protection and aegis uptime. Use these skills on cooldown, because theyre not that mandatory, however are very nice fillers. Same goes for Shield #4. Shield #5 is a bit different, You can use it as a on demand projectile destroyer as well as a quick filler heal – just doubletap 5.
+
+											<u>Axe #3</u>: Use on melee engages for pulling into your corrupts or bubbles, or to catch an enemy without stab. Use Axe #2 and AA chain for some melee cleave.
+
+											<u>Aegis application</u>: Because of Pure of Heart trait, our aegis heals. Theres no icd, only enemy attack cd. Try to make your party have aegis on all the engages and keep reapplying during the fight so your party gets healed by it. You can technically heal only by applying aegis, however practically its usually not enough. That doesnt mean you shouldnt learn correct aegis applying.
+
+											<u>Dodges</u>: Selfless Daring is a trait that makes the end of our dodgeroll heal allies. Do not use dodgerolls only for personal defense, use it as well as a heal filler for your group.
+
+											<u>Invigorated Bulwark</u>: 1 stack per block. This is incredibly easy to stack up. Easiest way to get stacks is correct aegis applying. Also use Mace #3 (it's bugged).
+
+											<u>Monk Runes uptime</u>: So since Monk Runes are the go-to choice and the must have choice for the amount of healing it provides, heres a bit about keeping up the outgoing healing stacks. Granting a boon to allies gives you 1 stack. If you affect 5 people total, you get 5 per boon you apply. So Using most of the tome skills makes you keep the stacks up. However while out of tomes, selfcasting Symbol of Swiftness or Mace #2 helps a lot. You should aim to be at 10 stacks constantly and that, in my opinion, is very easy to achieve.
+
+											I am going to repeat myself, but look at your party, give them what they need, help them stay on the tag and create pressure. Your main goal is to support, that doesnt mean you cannot play offensive. But since you are the support, you should keep supporting even while being offensive. What i mean is, wasting tome skills, because you want to add 1 Symbol for your melee push is just not worth.
+
+											Make sure your party has stability, so they can drop damage. It can be pretty hard to drop a proper spike once you have no stability. Make sure your party is not affected by chill, simply because of cooldowns recovery.
+
+											Even though Firebrand might feel a bit "fat/heavy/slow", it doesn't mean you have to play slow. Being fast saves lives, so does using your skills correctly.

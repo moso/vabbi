@@ -1,0 +1,25 @@
+The above can be combined in several ways, I will list some of the more common ways: - Small bomb/pressure/spike: Manifest Shade -> Devouring Darkness and Nefarious Favor (you can F2-F5 during casting other skills, such as Devouring Darkness) + Sand Cascade
+                                            (F3, extra damage and barrier). - Big bomb/pressure/spike: Well of Corruption and Well of Suffering, replace Manifest Sand Shade and go for a full bomb with the other shades (Nefarious Favor, Sand Cascade and Desert
+                                            Shroud) and try to keep Garish Pillar for last, in case of people getting ressed, this way you can fear and torment the reviver. - If you are melee engaging and the situation allows in place Ghastly Breach. In case
+                                            you have Sand Swell instead of Well of Suffering you can portal inside/behind them and cast it as they backpedal/push and then port back. - Use Devouring Darkness in combination with any of these bombs, try to prioritize
+                                            this skill since it corrupts the most boons, using it on the enemy melee train is the most effective. - Use Unholy Feast in combination with any of these bombs as soon as you switch weapons and utilise Ghastly Claws
+                                            on a pressured target or off group (example: a downstate or an elementarist on the side). - Try to combine corrupts as much as possible, more corrupts at the same time makes them weaker but it can also prevent them
+                                            from pushing you, making the fight become stall and pirateship-ish.
+
+                                            <b>WEAPON SKILLS TIPS:</b> Scepter tips: - Use #1 on anyone in range, gives annoying conditions to be cleansed. - Use #2 as AoE damage, so in combination with any of the shade spikes, it does considerable amount
+                                            of damage and cripples the people trying to exit your bomb. - Use #3 whenever in range and whenever you can combine it with your corrupt spikes on their melee train. <a href="https://www.youtube.com/watch?v=nxbA2gc5gy0"
+                                                target="_blank">Click
+                                                    for referance</a> Dagger tips: - Save #4 for cleanse, keep in mind it can get reflected, blocked and dodged though (and generally has bad line of sight). - Use #5 in combination with Devouring Darkness, you will have to precast it where the
+                                            enemy is about to go because of the cast time and animation to land on the ground. Axe tips: - Use #1 on anyone in range, giving them vulnerability for extra damage. - Use #2 on low targets in range, especially
+                                            with Lesser Spinal Shivers proccing you can 100-0 other low-armor classes in 1.5 sec - Use #3 when in range in combination with small or big bomb. Torch tips: - Use #4 as additional damage when spiking in 600 range,
+                                            good to make downstates get extra damage and die faster. - Use #5 when focussing a single target, if used while on a bomb and the target doesn't have breakstun it is gonna go downstate for sure. Additional: Focus
+                                            tips: - Use #4 as general damage (can be blocked, dodged and reflected and has line of sight). - Use #5 on a target to deal a good damage to it and remove his boons.
+
+                                            <b>UTILITY SKILLS TIPS:</b> - Use Sand Flare in hard engages to give your party barrier and corrupt 1 boon as additional annoyance for the enemy (not always reccomanded but good party support). <a href="https://youtu.be/hNt1o1-LogA"
+                                                target="_blank">Click
+                                                    for referance.</a> - Use your Wells when the commander asks for a Well Bomb or a Big spike or something similar, don't use them for small pressure. - Use Trail of Anguish when CC'd and in a dangerous situation im which care, if you didn't
+                                            use it, you would go downstate and/or die. <a href="https://youtu.be/EPzFXhU2vFs" target="_blank">Click for
+                                                    referance.</a> - Use Ghastly Breach behind them if they're backpedaling or on your group if they are pushing you. You can combine it with Sand Swell as stated above.
+
+                                            <b>GENERAL TIPS:</b> - Barrier removes conditions from yourself and party members, if you see someone low and with conditions you can use Sand Flare on the person and f3 to cleanse conditions. <a href="https://youtu.be/hNt1o1-LogA"
+                                                target="_blank">Click for referance.</a> - If you are in melee range and ran out of F1 charges it's not too bad to use the shade skills without a F1 casted, less effective but still good.

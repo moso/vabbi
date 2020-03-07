@@ -1,0 +1,32 @@
+Your main Job as a Spellbreaker are your coordinated bubbles, removal of enemy boons, CC and surviving. A good Spellbreaker can also deal good damage and tank as well- We recommend that you install ARCDPS to see your damage and to improve yourself.
+
+                                            <b>Skills usage and surviving:</b>
+
+                                            Staying alive is important for every class - Tank skills allow the spellbreaker to survive even the toughest fights without prejudice.
+
+                                            <i>Berserker Stance:</i> Use it if you have to deal with condition damage, also good to charge your adrenaline quickly. (every second, up to 5 seconds)
+                                            <i>Balanced Stance:</i> Gain stability (x2) and become immune to critical damage. (every second, up to 5 seconds). Usefull in heavy fights while pushing or selfbomb – Also useable as a stun breaker.
+                                            <i>Endure Pain:</i> Makes you immune to direct damage. But you still suffer conditions and control effects. If you have activated this skill, do not use "Balanced Stance" because you do not take any direct damage anyway. - Also useable as a stun breaker.
+                                            <i>Featherfoot Grace:</i> Gain superspeed and resistance for 5 Seconds. Perfect if you put your bubbles as fast as possible. - Also useable as a stun breaker.
+                                            <i>Break Enchantments:</i> Remove boons, unblockable, short cooldown and deals more damage to foes that lose a boon. Good if you fight face to face with your enemy.
+                                            <i>Dolyak Signet:</i> Passive: +180 Toughness, Active: 10 stacks of Stability and usable as a stunbreak. Useful in a group without much stability, but keep in mind all your stability can be corrupted.
+                                            <i>Shield 5:</i> Blocks, gain might per block and reflects. Run shield for more survivalbility and projectile-hate. Be sure to run "Shield master" in "Defense" traitline.
+                                            <i>Greatsword 3:</i> Dodge attacks, deals damage and push a bit forward. Good for "last" push before you bubble up or escaping the damage after your (or) enemy bubble.
+                                            <i>Weapon swap:</i> Swap your weapon to get back 50% of endurance and one more dodge for survivalbility.
+
+                                            <b>Healing Skills:</b>
+
+                                            <i>Healing Signet:</i> Gains 344 health every second. Use it if you have a nice party or not heavy fights. We do not recommend to activate the Signet because the passive skill is very valuable
+                                            <i>Defiant Stance:</i> Heal yourself up to 5 second from every incoming damage. Useful in big fights or better to survive in enemy blob. Keep in mind you dont get any heals from "Endure Pain", Shield 5, passive "Defy Pain" in Defense Traitline or anything that blocks/ignoring incoming damage.
+
+                                            <b>Full Counter:</b>
+
+                                            Use Full Counter after a bubble to proc the immobilize on people around u and do some good damage, preferably bubble in Hammer for the interrupt sigil procs and follow up with Hammer skills (if possible) to maximize CC, otherwise whirl out.
+
+                                            <b>Bubble placement:</b>
+
+                                            You just got one bubble every 90 seconds. Be careful where and when you use your elite.
+                                            Watch the movements of you and your opponent, a bubble on the moon is useless if your squad is still on earth or dont pay attention on it.
+                                            Communication is very important as a warrior. People cant smell when or where you bubble up - Especially now that the skill has been nerfed, it is important to announce one. (Voice, chat or commander is asking for it)
+                                            The effect is very visible and not to overlook. If you push, be first – if they push into you, selfbomb.
+                                            If your placement is not good, don't take it bad – learn from your mistakes and do it better next time.

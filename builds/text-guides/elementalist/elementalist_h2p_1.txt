@@ -1,0 +1,11 @@
+I'd like to mention that in the scenarios where you should play this build a lot of people fail the 'dps-check', they do 4 to 5 times less damage than another ele and while obviously this is a l2p-issue (or low fps, high latency) the best way to improve this is to maximize the damage you do with your Meteor Shower. When I play ele 60% of my damage is Meteor Shower, 20% Lave Font and 10-5% Fireball and the rest is below 5%. Try to predict the enemy movement, give yourself a good position, bomb where your commander wants to localize.
+
+                                                Always cast: keep #1,#2(AoE) skills attunements, whenever the enemy comes into 1200 range there should be damage on them.
+
+                                                Look at your enemy: predict your enemy movement when using big cooldown skills like Meteor Shower. Keep in mind that an enemy melee pushing will, unless you get overran, usually dodge to the side after their initial movement. With this in mind figure out a good time to use these skills so that you can output as much pressure as possible.
+
+                                                Look at your allies: predict your allies' movement so that you can cast support skills like water #5 efficiently. ie on our melee push or water #3 on our regroup and call them on TS!
+
+                                                Control your enemy: use your CC skills, air #5 (static) earth #4 (line) water #4 (chill field). Figure out good moments to use these skills, in that you dont use static/line on a melee ball with stab, rather use it on the enemy ranged when their melee pushes so their damage is delayed or when your melee pushes on their ranged.
+
+                                                Stay alive: do everything you should be doing, but, most importantly, stay alive!

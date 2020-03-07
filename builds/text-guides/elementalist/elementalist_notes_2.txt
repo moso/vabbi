@@ -1,0 +1,28 @@
+There is a reason you’re picked in to a squad when not playing a Weaver, one thing you have that is significant over Scrapper. Immobilizes and CCs in form of lines and unblockable stun fields. You have immense field control capabilities as a tempest and this synergizes well with coordinated spikes. 
+
+                                                With antitoxin runes removed, your role to cleanse becomes less significant in terms of numbers vs scrappers as they can still dish out cleanses with their kit, compared to support tempests. But it doesn’t mean that your cleanses are meaningless. You just have to time your cleanses better now to get the most out of them. More about this in “how to play.”
+
+                                                Your main selling points as a support tempest are: 
+
+                                                - The access to AoE immobilize with Arcane Wave thanks to the arcane trait Elemental Surge, which are not hindered by any form of cast time (Arcane Wave is instantly casted upon the area you choose). Only restricted to the fact that you have to be attuned to earth for this to work.
+                                                - Your aoe stunbreak (“Eye of the storm!”), which stunbreaks 10 allies. Not only once but twice when you’re traited with the Gale Song trait in tempest traitline. You also give them superspeed when the skill pops, which allows for quick regroup or catching up to the squad.
+                                                - Your elite skill “Rebound!”
+
+                                                The elite skill, because it is a shout and is affected by the trait Tempestuous Aria and gives this effect to 10 people, also are given a chance to negate the lethal blow and otherwise heal instead. You also give them an aura based on the attunement you END THE SKILL ON, meaning that you can cast the skill in one attunement and switch to another by the time it’s almost done ticking, this allows for a little room to cast a few skills before you switch to the desired attunement.
+                                                
+                                                - Unsteady Ground (Earth attunement staff 4), which is much like a Guardian's staff line. It is a very strong skill because it does not let anyone without stability pass, and you strip the stability stacks down bit by bit for everytime the person runs in to it. If no stability then the person gets stopped completely, hindering a good chunk of the squad’s movement.
+                                                - Static Field (Air attunement staff 5), unblockable aoe stun. While a smaller radius, it is unblockable and goes through aegis, stunning people you catch for a good spike.
+                                            
+                                                Something to take in to consideration (that often might be overlooked) is:
+
+                                                When you switch to water attunement (from any other attunement), the following things happen:
+
+                                                - You heal 5 allies (you included) in a radius of 240 with the Healing Ripple trait in the water trait line.
+                                                - You remove 1 condition from 5 allies (including you) in a radius of 240 with the Cleansing Wave in the water trait line. 
+                                                - You remove an additional 1 condition from 5 allies in a 240 radius when swapping to water because of the Cleansing Water trait coupled with the Elemental Attunement trait that gives regeneration, in the Arcane trait line. 
+                                                - You apply Soothing Mist upon 5 allies within a 600 radius when in water attunement for 10 seconds in an interval of 3 seconds, meaning you heal them periodically with an effect similar to regeneration.
+                                                (Note: Trying to refresh the Soothing Mist by camping in Water Attunement can cause 1/3 of the healing ticks to have reduced efficacy. This is a bug, so you should not stay in water for the sole purpose of keeping Soothing Mist up, it is there merely as a "oh, nice" effect. Your main purpose in Water Attunement is to cast the more important skills when the switch is done.)
+
+                                                What might be forgotten is that while camping water might seem attractive for the regeneration -> cleansing combo and the soothing mist + healing skills, you want to make sure you're not burning out all the cleanses and heals at once. Also, when deciding to overload water, you want to make sure you have exhausted the main skills (wisely, mind you) because you remove all cleansing abilities until the attunement comes off cooldown again after overloading. So make an informed decision on when to truly blow your water overload vs using simple water attunement swap cleanses / "Flash Freeze!" / Healing Rain.
+                                            
+                                                Another thing to note is that Earth Attunement is not only where the immobs and the staff 4 line are at, but you also grant nearby allies protection in a 240 radius thanks to the Elemental Attunement in the Arcane trait line upon switching to Earth. This gives your allies an extra boost when heading in for an engage with your line and wave, but note that this is only triggered when you attune to it from another element, so you want to make sure that attunement switching becomes a habit of yours and that you rotate your switches according to the fight.

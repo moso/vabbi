@@ -1,0 +1,105 @@
+<b>REDDIT POST <a href="https://www.reddit.com/r/Guildwars2/comments/9xpjbc/numbers_and_insights_into_merciful_intervention/" target="_blank">HERE</a></b><i> - Credits to u/Imetheus.</i>
+
+                                                Calculation of how much Merciful Intervention (MI) heals downed players.
+    
+                                                MI heals downstate players in two parts: 20% of their downed health plus the skill's normal healing effect. Outgoing healing modifiers affect both of these components, however, healing power only scales with the latter.
+    
+                                                <b>CALCULATION FORMULA</b>
+    
+                                                <u>Amount MI will heal a downstate player</u> = [(mechanic-specific base heal + healing power * mechanic-specific coefficient) * (1 + sum of healing multipliers)] + [(3 * profession base health * 0.2 * (1+ sum of healing multipliers)]
+    
+                                                <u>Percentage of ally health bar restored</u> = (amount MI will heal a downstate player) / (3 * profession base health) * 100
+    
+                                                <b>DATA</b>
+    
+                                                Mechanic-specific base heal for MI is (40 + Level^2 * 0.36)
+    
+                                                <u>Small Healthpool</u> is 11645 for Guardian, Thief, and Elementalist.
+                                                <u>Medium Healthpool</u> is 15922 for Revenant, Engineer, Ranger, and Mesmer.
+                                                <u>Large Healthpool</u> is 19212 for Warrior and Necromancer.
+    
+                                                <table>
+                                                    <caption><i>Benevolence Sigil Data</i></caption>
+                                                    <tr><td>1537</td><td>Healing Power</td></tr>
+                                                    <tr><td>633</td><td>Concentration</td></tr>
+                                                    <tr><td>0.20</td><td>Monk Runes</td></tr>
+                                                    <tr><td>0.10</td><td>Delicious Rice Ball</td></tr>
+                                                    <tr><td>0.10</td><td>Superior Transference Sigil</td></tr>
+                                                    <tr><td>0.25</td><td>Invigorated Bulwark</td></tr>
+                                                    <tr><td>0.20</td><td>Force of Will</td></tr>
+                                                    <tr><td>0.138</td><td>Bountiful Maintenance Oil</td></tr>
+                                                    <tr><td>0.125</td><td>Benevolence Sigil</td></tr>
+                                                    <tr><td>-0.33</td><td>Allied Poison</td></tr>
+                                                </table>
+                                                <table>
+                                                    <caption><i>Life Sigil Data</i></caption>
+                                                    <tr><td>1787</td><td>Healing Power</td></tr>
+                                                    <tr><td>633</td><td>Concentration</td></tr>
+                                                    <tr><td>0.20</td><td>Monk Runes</td></tr>
+                                                    <tr><td>0.10</td><td>Delicious Rice Ball</td></tr>
+                                                    <tr><td>0.10</td><td>Superior Transference Sigil</td></tr>
+                                                    <tr><td>0.25</td><td>Invigorated Bulwark</td></tr>
+                                                    <tr><td>0.20</td><td>Force of Will</td></tr>
+                                                    <tr><td>0.153</td><td>Bountiful Maintenance Oil</td></tr>
+                                                    <tr><td>-0.33</td><td>Allied Poison</td></tr>
+                                                </table>
+    
+                                                <b>RESULTS</b>
+    
+                                                <table>
+                                                    <caption><i>If downed player is not poisoned</i></caption>
+                                                    <tr><td>Using Benevolence</td><td>Using Life</td></tr>
+                                                    <tr><td>SMALL = 66.7%</td><td>SMALL = 64.8%</td></tr>
+                                                    <tr><td>MEDIUM = 60.1%</td><td>MEDIUM = 58.1%</td></tr>
+                                                    <tr><td>LARGE = 57.1%</td><td>LARGE = 55%</td></tr>
+                                                </table>
+                                                <table>
+                                                    <caption><i>If downed player is poisoned</i></caption>
+                                                    <tr><td>Using Benevolence</td><td>Using Life</td></tr>
+                                                    <tr><td>SMALL = 56.3%</td><td>SMALL = 54.1%</td></tr>
+                                                    <tr><td>MEDIUM = 50.7%</td><td>MEDIUM = 48.6%</td></tr>
+                                                    <tr><td>LARGE = 48.1%</td><td>LARGE = 46%</td></tr>
+                                                </table>
+    
+                                                <b>RESULTS P2: Complete calculations</b>
+    
+                                                <table>
+                                                    <caption><i>Benevolence Sigil</i></caption>
+                                                    <tr><td>[(40 + 80^2 * 0.36) + 1537 * 1.1) * (1 + 1.113)] + [(3 * profession base health * 0.2 * (1+ 1.113)]</td><td> = </td></tr>
+                                                    <tr><td>SMALL: (1.2678)(11645) + 8525.3 = 23288.8</td><td>23288.8/34935 * 100 = 66.7%</td></tr>
+                                                    <tr><td>MEDIUM: (1.2678)(15922) + 8525.3 = 28711.2</td><td>28711.2/47766 * 100 = 60.1%</td></tr>
+                                                    <tr><td>LARGE: (1.2678)(19212) + 8525.3 = 32882.3</td><td>32882.3/57636 * 100 = 57.1%</td></tr>
+                                                    <tr><td>[(40 + 80^2 * 0.36) + 1537 * 1.1) * (1 + 0.783)] + [(3 * profession base health * 0.2 * (1+ 0.783)]</td><td> = </td></tr>
+                                                    <tr><td>SMALL: (1.0698)(11645) + 7193.9 = 19651.7</td><td>19651.7/34935 * 100 = 56.3%</td></tr>
+                                                    <tr><td>MEDIUM: (1.0698)(15922) + 7193.9 = 24227.3</td><td>24227.3/47766 * 100 = 50.7%</td></tr>
+                                                    <tr><td>LARGE: (1.0698)(19212) + 7193.9 = 27746.9</td><td>27746.9/57636 * 100 = 48.1%</td></tr>
+                                                </table>
+                                                <table>
+                                                    <caption><i>Life Sigil</i></caption>
+                                                    <tr><td>[(40 + 80^2 * 0.36) + 1787 * 1.1) * (1 + 1.003)] + [(3 * profession base health * 0.2 * (1+ 1.003)]</td><td> = </td></tr>
+                                                    <tr><td>SMALL: (1.2018)(11645) + 8632.3 = 22627.3</td><td>22627.3/34935 * 100 = 64.8%</td></tr>
+                                                    <tr><td>MEDIUM: (1.2018)(15922) + 8632.3 = 27767.4</td><td>27767.4/47766 * 100 = 58.1%</td></tr>
+                                                    <tr><td>LARGE: (1.2018)(19212) + 8632.3 = 31721.3</td><td>31721.3/57636 * 100 = 55%</td></tr>
+                                                    <tr><td>[(40 + 80^2 * 0.36) + 1787 * 1.1) * (1 + 0.673)] + [(3 * profession base health * 0.2 * (1+ 0.673)]</td><td> = </td></tr>
+                                                    <tr><td>SMALL: (1.0038)(11645) + 7210.1 = 18899.4</td><td>18899.4/34935 * 100 = 54.1%</td></tr>
+                                                    <tr><td>MEDIUM: (1.0038)(15922) + 7210.1 = 23192.6</td><td>23192.6/47766 * 100 = 48.6%</td></tr>
+                                                    <tr><td>LARGE: (1.0038)(19212) + 7210.1 = 26495.1</td><td>26495.1/57636 * 100 = 46%</td></tr>
+                                                </table>
+    
+                                                <b>EXAMPLES FOR DIFFERENT HEALTH POLLS</b>
+    
+                                                My commander is a Firebrand. My commander goes down and is afflicted with poison while in downstate. As long as I use MI before his downstate health reaches 43.7%, I can instantly resurrect him.
+    
+                                                My commander is a Warrior. My commander goes down. My commander is not poisoned. As long as I use MI before his downstate health reaches 42.9%, I can instantly resurrect him.
+    
+                                                My commander is a Mesmer. My commander goes down and is afflicted with poison while in downstate. As long as I use MI before his downstate health reaches 49.3%, I can instantly resurrect him.
+    
+                                                <b>CONCLUSIONS</b>
+    
+                                                <u>How much does MI heal downed players for?</u> It depends. Its effectiveness drops significantly without outgoing healing modifiers and when poison is involved. Based on a realistic situation in WvW (one player is poisoned), MI can restore about half a downed player's health.
+                                                <u>How much Healing Power is needed to guarantee a resurrection?</u> There is not enough outgoing healing or healing power in the game to guarantee a resurrection with MI every time
+    
+                                                Firebrands should, obviously, use MI as soon as possible to secure resurrections.
+                                                Benevolence Sigil is better than Life Sigil for MI.
+                                                MI effectiveness drops significantly with less outgoing healing modifiers and whenever poison is involved.
+                                                There is not enough outgoing healing or healing power in the game to guarantee a resurrection with MI every time.

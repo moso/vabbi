@@ -1,0 +1,30 @@
+Aim generally for 6k-12k heals per second, you can check that with ArcDPS. Link to the addon at the bottom of the "Guide to WvW" page.
+											This should happen in fights that last at least 30 seconds up to 1 minute, where allies will receive damage and not simply roll over the enemies, those fights don't count.
+
+											<b>General tips:</b>
+
+											- Spam #1 and #2 on med kit.
+											- Use the med kit when you see allies on low health, time it correctly and don't waste it.
+											- Don't forget to use med kit 4 and 5.
+											- Optimize your usage of Elixir Gun.
+											- Combo Elixir Gun 5-4-weap swap to area condi cleanse.
+											- Use Elixir Gun 3 whenever it's up.
+											- Block damage with hammer 4.
+											- Use your hammer 5 as ranged cc for allied bubbles/bombs as often as possible.
+											- Use defense field for both stability and reflect.
+											- Learn to not overlap Gyros. It is easy to panic pop them at start but eventually when you feel more confident you should be able to rotate them more smoothly for maximum superspeed upkeep.
+											- Your hammer 2 is a whirl finisher, so applying this in light field (for cleansing bolts in conjunction with your antitoxin runes and Purity of Purpose) will be an additional help in condition converting and also acts as reflect against projectiles. Optimal for regroups if you use elixir gun 5 for the cleanse and light field.
+											- Use your function gyro for superspeed mainly, check with the commander if he or she calls for superspeed upon engage. You then pop it when entering combat.
+											- Recognize moments to use superspeed, ie at the edge of an enemy bubble, during push, on retreat, etc..
+											- Place the superspeed so it'll hit the people who need it, can also be used for pushes to skip most of the damage by walking quickly over it.
+											- Use your superspeed as often as you can because of the short cooldown. With the scrapper trait Speed of Synergy you now apply superspeed to allies upon performing any type of blast finisher on any field, not only lightning field. This way you can medkit 5 and elixir gun 4 (weapon swap to cancel the jump animation) a field and give superspeed in addition to the gyro rotations. The reworked function gyro on f5 now gives superspeed upon casting and leaves a lightning field for blasting.
+
+											DO NOT use superspeed out of combat. Superspeed out of combat caps at 40% movement speed increase instead of the full 100% in combat. You should be fine with swiftness / mount while out of combat.
+											DO NOT waste all your cleanses at once, while Scrapper skills have a fairly low cooldown it is essential that you know how to rotate the cleanses so you have it up and going constantly. Do however recognize the time gates at which you should actually perform the heavy cleanses so that you get the most out of your cleansing.
+
+											<b>Advanced Tips:</b>
+
+											- Abuse Comeback Cure the more ~650 regen ticks you get, the better [this is the secret to 12k healing/sec].
+											- While in med kit you get an extra bonus to all outgoing healing [10%], stay in it as much as possible.
+											- Superspeed/swiftness heals you and thus heals your allies.
+											- Use you function gyro to double ress, ress from ranged and/or stomp from ranged.
