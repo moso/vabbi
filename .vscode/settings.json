@@ -1,0 +1,33 @@
+{
+    "liveSassCompile.settings.formats": [
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../../include/css"
+        },
+        // You can add more
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../../include/css"
+        }
+    ],
+    "jshint.options": {
+        "asi": true,
+        "esversion": 5,
+        "eqeqeq": true,
+        "shadow": "outer",
+        "undef": true,
+        "unused": "strict",
+        "browser": true
+    },
+    "eslint.options": {
+        "parserOptions": {
+            "ecmaVersion": 2015
+        },
+        "rules": {
+            "no-tabs": "error",
+        }
+    },
+}
