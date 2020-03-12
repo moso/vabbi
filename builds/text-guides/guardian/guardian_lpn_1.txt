@@ -1,0 +1,18 @@
+After last balance patch three days ago, it is time to update the Firebrand build. There aren't any big changes to firebrand gameplay right now, however with the recent buffs to tempests and scrappers we can make some changes to improve the support and utility we give to our group.
+                                            
+                                            What has changed:
+
+                                            Since the previous to the lastest balance patch, our Stand Your Ground now affects 10 people, which is a change made for PvE, however we can get a good use of it. Our first stab basically doubled its effect.
+
+                                            Legendary Lore & Stalwart Speed: Legendary Lore was our go-to pick in Major Firebrand traits, because of its boon uptime. As i said before, with more and more Tempests, Scrappers and even Heralds playing Draconic Echo trait, we dont really need Legendary Lore anymore. The protection uptime is very good and the regeneration gets taken over by Tempests usually anyway.
+                                            I’ve decided to give Stalwart Speed a try, found out its pretty good, found out people really like the trait and decided that it should be our go-to now.
+
+                                            Stalwart Speed pros and cons:
+
+                                            Pros:
+                                            Great synergy with the 10 man Stab buff. When you use stability, you grant quickness to 10 people. This can occur every 4th icd of the trait. I am sure you will get at least small bit of alacrity during a fight, so your stability cooldown goes less than 30 seconds, which lines up perfectly with the ICD rotation, if you are on point.
+                                            Great reapplication potential. Every stab or aegis you grant to allies empowers then with quickness. So your elite mantra, heal mantra, shield 4, mace 3, Courage pop, Courage 5, Courage 2 and even the disable from Retaliatory Subconscious from Virtues traitline.
+
+                                            Cons:
+                                            7 second ICD. This used to be lower in the beggining of PoF, however the trait is still so much valuable. You can just set up a clock in your head and every 7 seconds pop aegis or grant stab to allies.
+                                            Kinda forces us to go Mace/Shield. Mace #3 balances the protection loss from not using Legendary Lore and gives us +1 reapplication possibility. Shield #4, basically same as mace 3, however has less protection uptime, but reapplies aegis again.

@@ -1,0 +1,3 @@
+Due to a change on the shade mechanic, once you have ANY F1 Manifest Sand Shade charges in use anywhere on the map, your F2 to F5 skills will only apply on the shade AoE and no longer on yourself. WIth this update you will be a lot more reliable to your
+                                            supports in party to survive however when necessary you can replace the shade on yourself in case of melee combat. With the current iteration of Sand Savant, you are able to hit 10 targets on 900 range, making it
+                                            even more mandatory than before. The Death Magic traitline update is irrelevant, still not usable just like since launch pretty much.
