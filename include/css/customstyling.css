@@ -117,6 +117,18 @@
 	width: 100%;
 }
 
+#thumbs {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#home-slider {
+	background: url(../img/slider-images/slider1.png) 0 0 no-repeat;
+	border-bottom: 15px solid black;
+	background-size: contain;
+	width: 100vw;
+}
+
 #guild {
 	background: url(../img/slider-images/gilda1.jpg) 0 0 no-repeat;
 	border-bottom: 15px solid black;

@@ -1,0 +1,19 @@
+{
+  "name": "vabbi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linkaaaaa/vabbi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linkaaaaa/vabbi/issues"
+  },
+  "homepage": "https://github.com/Linkaaaaa/vabbi#readme"
+}
