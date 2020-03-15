@@ -66,6 +66,9 @@
         <!-- Modernizr -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" integrity="sha256-TiTzjWx2UHC1Ubi2osGVIfyc2LjyYqgFzre7HdvPGAM=" crossorigin="anonymous"></script>
 
+        <!-- Tooltips CSS -->
+        <link href="../include/css/custom_tooltips.css" rel="stylesheet" type="text/css">
+
     </head>
 
     <body>
@@ -116,8 +119,8 @@
                     <div class="span12">
                         <div class="title-page">
                             <img class="imgcenter" src="../include/img/build_headers/guardian.png">
-                            <h3 class="description">Last update: 13/12/2019</h3>
-                            <h3 class="description">BUILDS MAY VARIATE AS TESTINGS CONTINUE</h3>
+                            <h3 class="description">Last update: 18/03/2020</h3>
+                            <!-- <h3 class="description">BUILDS MAY VARIATE AS TESTINGS CONTINUE</h3> -->
                             <div id="firebrandicon" class="imgcenter sizeicons">
                             </div>
                         </div>
@@ -155,20 +158,21 @@
                                                     <div class="card card-color-guard">
                                                         <div class="card-header card-header-color-guard">TEMPLATE CODES</div>
                                                         <div class="card-body">
-                                                            <h3>Build Template Code with Virtues</h3><input class="buildinfoTemplate_Code" value="[&DQEuKjE5PjtLFwAAUxcAALkBAAA2AQAAGBYAAAAAAAAAAAAAAAAAAAAAAAA=]" id="template-code">
+                                                            <h3>Build Template Code</h3><input class="buildinfoTemplate_Code" value="[&DQEuKjE5PjtLF0sXUxdTF0wBTAE2ATYBGBYYFgAAAAAAAAAAAAAAAAAAAAA=]" id="template-code">
                                                             <div class="button-tooltip">
                                                                 <button class="button-style-guard" onclick="copyFunction()" onmouseout="outFunction()">
                                                                     <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
                                                                     COPY TEMPLATE CODE
                                                                 </button>
                                                             </div>
+                                                            <!-- SECOND BUILD CODE
                                                             <h3>Build Template Code with Valor</h3><input class="buildinfoTemplate_Code" value="[&DQENGjE6PjtLFwAAUxcAALkBAAA2AQAAGBYAAAAAAAAAAAAAAAAAAAAAAAA=]" id="template-code2">
                                                             <div class="button-tooltip">
                                                                 <button class="button-style-guard" onclick="copyFunction2()" onmouseout="outFunction2()">
                                                                     <span class="tooltiptext" id="myTooltip2">Copy to clipboard</span>
                                                                     COPY TEMPLATE CODE
                                                                 </button>
-                                                            </div>
+                                                            </div>  -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -181,8 +185,8 @@
                                                             </div>
                                                             <div class="card-header card-header-color-guard">SITUATIONAL TRAITS</div>
                                                             <div class="trait-text">
-                                                                <span>Optional Valor instead of Virtues (read guide)</span>
-                                                                <div data-armory-embed="specializations" data-armory-ids="13" data-armory-13-traits="581,584,585"></div>
+                                                                <span>Pick [t=MasterofConsecrations] instead of [t=RetaliatorySubconscious]</span>
+                                                                <span>when running [s=PurgingFlames] or [s=HallowedGround]</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -190,11 +194,11 @@
                                                         <div class="card card-color-guard">
                                                             <div class="card-header card-header-color-guard">SKILLS</div>
                                                             <div class="card-body">
-                                                                <div data-armory-embed="skills" data-armory-ids="41714,9153,9246,45460,43357"></div>
+                                                                <div data-armory-embed="skills" data-armory-ids="41714,45460,-1,9153,43357"></div>
                                                             </div>
                                                             <p class="card-header card-header-color-guard">SITUATIONAL SKILLS</p>
                                                             <div class="card-body">
-                                                                <div data-armory-embed="skills" data-armory-ids="-1">
+                                                                <div data-armory-embed="skills" data-armory-ids="9253,9187,9163,9175">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -468,7 +472,6 @@
         </a>
         <!-- End Back to Top -->
         <!-- Js -->
-        <script async src="https://godsofpvp.net/resources/armory/armory-embeds.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script> <!-- jQuery Core -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js" integrity="sha256-smDQVu22w57u7QD/x7zN7ZFgu5wfA8Ytd6mRga6IoIs=" crossorigin="anonymous"></script> <!-- Bootstrap -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js" integrity="sha256-wxojI7bjq5OKrXt3Ecy5aDblRS9YzmWl0dv63MoeVow=" crossorigin="anonymous"></script> <!-- WayPoints -->
@@ -480,6 +483,13 @@
         <script src="../include/js/main.js"></script> <!-- Default JS -->
         <script src="../include/js/copybutton.min.js"></script> <!-- Copy button -->
         <script src="../include/js/readfiles.js"></script> <!-- Read guides texts -->
+        <script  src="../include/js/replaceCustom.js?v=1.0.6" type="text/javascript"></script>
+        <script  src="../include/js/replaceAPI.js?v=1.0.6" type="text/javascript"></script>
+        <script  src="../include/js/tooltipsArray.js?v=1.0.6" type="text/javascript"></script>
+        <script  src="../include/js/replace.js?v=1.0.6" type="text/javascript"></script>
+        <script  src="https://godsofpvp.net/resources/armory/armory-embeds.js" type="text/javascript"></script>
+        <script  src="../include/js/custom2.js?v=1.0.6" type="text/javascript"></script>
+        <script  src="../include/js/APIFixer.js?v=1.0.6" type="text/javascript"></script>
         <!-- End Js -->
 
     </body>
