@@ -26,6 +26,20 @@ $(document).ready(function () {
 
 //ELEMENTALIST END BUILD PAGE 2
 
+//ELEMENTALIST BUILD PAGE 3
+
+$(document).ready(function () {
+	$(".elementalist_lpn_3").load("../builds/text-guides/elementalist/elementalist_lpn_3.txt");
+});
+$(document).ready(function () {
+	$(".elementalist_notes_3").load("../builds/text-guides/elementalist/elementalist_notes_3.txt");
+});
+$(document).ready(function () {
+	$(".elementalist_h2p_3").load("../builds/text-guides/elementalist/elementalist_h2p_3.txt");
+});
+
+//ELEMENTALIST END BUILD PAGE 3
+
 //ENGINEER BUILD PAGE 1
 
 $(document).ready(function () {

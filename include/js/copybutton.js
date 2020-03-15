@@ -1,26 +1,13 @@
-function copyFunction() {
-    var copyText = document.getElementById("template-code");
+function copyFunction(templateCode, tooltipId) {
+    var copyText = document.getElementById(templateCode);
     copyText.select();
     copyText.setSelectionRange(0, 99999);
     document.execCommand("copy");
     
-    var tooltip = document.getElementById("myTooltip");
+    var tooltip = document.getElementById(tooltipId);
     tooltip.innerHTML = "Copied: " + copyText.value;
 }
-function outFunction() {
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copy to clipboard";
-}
-function copyFunction2() {
-    var copyText = document.getElementById("template-code2");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    document.execCommand("copy");
-    
-    var tooltip = document.getElementById("myTooltip2");
-    tooltip.innerHTML = "Copied: " + copyText.value;
-}
-function outFunction2() {
-    var tooltip = document.getElementById("myTooltip2");
+function outFunction(tooltipId) {
+    var tooltip = document.getElementById(tooltipId);
     tooltip.innerHTML = "Copy to clipboard";
 }
