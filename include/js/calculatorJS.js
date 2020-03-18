@@ -55,6 +55,15 @@ function calculateTimeForPips() {
 // FUNCTION 2
 function calculateRewardTrack() {
 
+    const fullTrack = 20000
+    var trackPlaceholder = document.getElementById("progression").placeholder
+    var trackProgressed = parseInt(document.forms['rewardTrackCalculator'].ParticipationCompleted.value)
+    if (trackPlaceholder !== "" && trackProgressed > 0)
+        trackPlaceholder = trackProgressed
+    else
+        trackProgressed = 0
+    console.log("progression logged:", trackProgressed)
+    console.log(trackPlaceholder)
     const participationValuesCore = [0, 25, 60, 95, 125, 160, 195]
     let participation = parseInt(participationValuesCore[sliderWvWCore.value])
 
@@ -81,14 +90,36 @@ function calculateRewardTrack() {
     document.forms['rewardTrackCalculator'].TotalBoosterValue.value = totalBoosters + "%"
     var newParticipation = ((participation * totalBoosters) / 100) + participation
     document.forms['rewardTrackCalculator'].ParticipationValueWithBoosters.value = Math.floor(newParticipation)
-    var totalTimeNeeded = Math.ceil((20000 / newParticipation) * 5)
+    
+    var totalTimeNeeded = Math.ceil((fullTrack / newParticipation) * 5)
     if (totalTimeNeeded % 5 !== 0)
         totalTimeNeeded += 5 - (totalTimeNeeded % 5)
     document.forms['rewardTrackCalculator'].TimeMinutes.value = totalTimeNeeded
     var hours = Math.floor(totalTimeNeeded / 60)
     var minutes = Math.floor(totalTimeNeeded % 60)
-    document.getElementById('TimeHoursMinutes').value = (hours + '.' + minutes);
-    document.forms['rewardTrackCalculator'].TimeHours.elements
+    document.forms['rewardTrackCalculator'].TimeHours.value = hours
+    document.forms['rewardTrackCalculator'].TimeMinutes2.value = minutes
+    console.log(hours)
+    console.log(minutes)
+    if(trackProgressed != 0){
+        var progressionLeft = fullTrack - trackProgressed
+        document.forms['rewardTrackCalculator'].ProgressionOutput.value = progressionLeft
+        var totalTimeNeeded2 = Math.ceil((progressionLeft / newParticipation) * 5)
+        if (totalTimeNeeded2 % 5 !== 0)
+            totalTimeNeeded2 += 5 - (totalTimeNeeded2 % 5)
+        document.forms['rewardTrackCalculator'].TimeMinutes3.value = totalTimeNeeded2
+        var hours2 = Math.floor(totalTimeNeeded2 / 60)
+        var minutes2 = Math.floor(totalTimeNeeded2 % 60)
+        document.forms['rewardTrackCalculator'].TimeHours2.value = hours2
+        document.forms['rewardTrackCalculator'].TimeMinutes4.value = minutes2
+    }
+    if(trackProgressed > 20000){
+        document.forms['rewardTrackCalculator'].ProgressionOutput.value = 0
+        document.forms['rewardTrackCalculator'].TimeMinutes3.value = 0
+        document.forms['rewardTrackCalculator'].TimeHours2.value = 0
+        document.forms['rewardTrackCalculator'].TimeMinutes4.value = 0
+    }
+        
 }
 
 // FUNCTION 3
@@ -128,11 +159,14 @@ function calculateTotalTicketsBackpiece() {
 
     const ticketsSpent = recruit + soldier + general + commander
     const ticketsRemaining = warbringer - ticketsSpent - ticketsOwned
+
     if (ticketsRemaining <= 0)
         document.forms['calculatorTicketsBackpiece'].MissingTickets.value = 0
     else
         document.forms['calculatorTicketsBackpiece'].MissingTickets.value = ticketsRemaining
+
     const fullWeeks = Math.ceil(ticketsRemaining / 365)
+
     if (fullWeeks <= 0)
         document.forms['calculatorTicketsBackpiece'].MissingWeeks.value = 0
     else
@@ -256,4 +290,90 @@ function toggleBackpiece(show){
     document.getElementById("backpiecesSelection").style.display = "none"
     if (show !== undefined)
         document.getElementById(show).style.display = "block"
+}
+
+function updateItemsDisplay(){
+    if (document.getElementById("itemsCheckbox").checked) {
+        toggleItems("itemsSelection")
+    }
+}
+
+function toggleItems(show){
+    document.getElementById("itemsSelection").style.display = "none"
+    if (show !== undefined)
+        document.getElementById(show).style.display = "block"
+}
+
+function calculateRing(){
+
+    const conflux = 1850
+    const kills = 100
+    const objectives = 100
+
+    var ticketsPlaceholder = document.getElementById("inputTickets").placeholder
+    var ticketsOwned = parseInt(document.forms['calculatorTicketsRing'].Tickets.value)
+    if (ticketsPlaceholder !== "" && ticketsOwned > 0)
+        ticketsPlaceholder = ticketsOwned
+    else
+        ticketsOwned = 0
+
+    var killsPlaceholder = document.getElementById("inputKills").placeholder
+    var killsOwned = parseInt(document.forms['calculatorTicketsRing'].Kills.value)
+    if (killsPlaceholder !== "" && killsOwned > 0)
+        killsPlaceholder = killsOwned
+    else
+        killsOwned = 0
+    
+    var objectivesPlaceholder = document.getElementById("inputObjectives").placeholder
+    var objectivesOwned = parseInt(document.forms['calculatorTicketsRing'].Objectives.value)
+    if (objectivesPlaceholder !== "" && objectivesOwned > 0)
+        objectivesPlaceholder = objectivesOwned
+    else
+        objectivesOwned = 0
+    
+    let mithril = document.getElementById("MithrilID")
+    let pearl = document.getElementById("PearlID")
+    let annihilation = document.getElementById("AnnihilationID")
+
+    if (mithril.checked == true)
+        mithril = parseInt(document.getElementById("MithrilID").value)
+    else
+        mithril = 0
+
+    if (pearl.checked == true)
+        pearl = parseInt(document.getElementById("PearlID").value)
+    else
+        pearl = 0
+
+    if (annihilation.checked == true)
+        annihilation = parseInt(document.getElementById("AnnihilationID").value)
+    else
+        annihilation = 0
+
+    var ticketsSpent = mithril + pearl + annihilation
+    var ticketsRemaining = conflux - ticketsSpent - ticketsOwned
+    var killsRemaining = kills - killsOwned
+    var objectivesRemaining = objectives - objectivesOwned
+    
+    if (ticketsRemaining <= 0)
+        document.forms['calculatorTicketsRing'].MissingTicketsRing.value = 0
+    else
+        document.forms['calculatorTicketsRing'].MissingTicketsRing.value = ticketsRemaining
+
+    if (killsRemaining <= 0)
+        document.forms['calculatorTicketsRing'].MissingKills.value = 0
+    else
+        document.forms['calculatorTicketsRing'].MissingKills.value = killsRemaining
+
+    if (objectivesRemaining <= 0)
+        document.forms['calculatorTicketsRing'].MissingObjectives.value = 0
+    else
+        document.forms['calculatorTicketsRing'].MissingObjectives.value = objectivesRemaining
+
+    var fullWeeks = Math.ceil(ticketsRemaining / 365)
+    
+    if (fullWeeks <= 0)
+        document.forms['calculatorTicketsRing'].MissingWeeksRing.value = 0
+    else
+        document.forms['calculatorTicketsRing'].MissingWeeksRing.value = fullWeeks
 }
