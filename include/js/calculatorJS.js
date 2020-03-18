@@ -306,7 +306,7 @@ function toggleItems(show){
 
 function calculateRing(){
 
-    const conflux = 1500
+    const conflux = 1850
     const kills = 100
     const objectives = 100
 
@@ -333,6 +333,7 @@ function calculateRing(){
     
     let mithril = document.getElementById("MithrilID")
     let pearl = document.getElementById("PearlID")
+    let annihilation = document.getElementById("AnnihilationID")
 
     if (mithril.checked == true)
         mithril = parseInt(document.getElementById("MithrilID").value)
@@ -344,7 +345,12 @@ function calculateRing(){
     else
         pearl = 0
 
-    var ticketsSpent = mithril + pearl
+    if (annihilation.checked == true)
+        annihilation = parseInt(document.getElementById("AnnihilationID").value)
+    else
+        annihilation = 0
+
+    var ticketsSpent = mithril + pearl + annihilation
     var ticketsRemaining = conflux - ticketsSpent - ticketsOwned
     var killsRemaining = kills - killsOwned
     var objectivesRemaining = objectives - objectivesOwned
@@ -370,6 +376,4 @@ function calculateRing(){
         document.forms['calculatorTicketsRing'].MissingWeeksRing.value = 0
     else
         document.forms['calculatorTicketsRing'].MissingWeeksRing.value = fullWeeks
-
-    
 }
