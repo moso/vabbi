@@ -4,7 +4,7 @@
     <!-- Page specific scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="include/js/my_jq.min.js"></script>
-    <script src="include/js/calculatorJS.min.js"></script>
+    <script src="include/js/calculatorJS.js"></script>
     <script data-ad-client="ca-pub-7320167474496901" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129667973-1"></script>
@@ -20,7 +20,7 @@
 
     <title>Pips-OwO-Matic</title>
 
-    <meta name="description" content="Calculate the time necessary to complete your Legendary Armor, Legendary Backpiece, Reward Track or Diamond Chest Pips" />
+    <meta name="description" content="Calculate the time necessary to complete your Legendary Armor, Legendary Backpiece, Legendary Ring, Reward Track or Diamond Chest Pips" />
     <meta property="og:image" content="https://www.vabbi.eu/burnvabbilogo.png" />
 
     <!-- Mobile Specifics -->
@@ -68,6 +68,15 @@
     <!-- Builds page and footer CSS -->
     <link href="include/css/buildpage.min.css" rel="stylesheet">
 
+    <!-- Hiding arrows from boxes -->
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -111,6 +120,7 @@
     <div id="build" class="page">
         <div class="container">
             <div id="pips_owo_matic" class="imgcenter"></div>
+            <h3 style="text-align: center">Calculate your hours, days or weeks of progress left to your next WvW goal</h3>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 									<!-- Top -->
 									<ins class="adsbygoogle"
@@ -124,13 +134,15 @@
                 <div class="span12">
                     <ul class="nav nav-tabs" id="myTab">
                         <li class="active" style="display:inline-block; float:none;"><a href="#tab1" data-toggle="tab">Pips
-                                calculator</a></li>
+                                </a></li>
                         <li style="display:inline-block; float:none;"><a href="#tab2" data-toggle="tab">Reward Track
-                                calculator</a></li>
+                                </a></li>
                         <li style="display:inline-block; float:none;"><a href="#tab3" data-toggle="tab">Legendary
-                                Backpiece calculator</a></li>
+                                Backpiece </a></li>
                         <li style="display:inline-block; float:none;"><a href="#tab4" data-toggle="tab">Legendary Armor
-                                calculator</a></li>
+                                </a></li>
+                        <li style="display:inline-block; float:none;"><a href="#tab5" data-toggle="tab">Legendary Ring
+                            </a></li>
                     </ul>
                     <div class="tab-content">
                         <!-- TAB 1 -->
@@ -213,6 +225,8 @@
                             <form id="rewardTrackCalculator">
                                 <div id="reward_track_calculator" style="margin-left: -2px;"></div>
                                 <h4>Calculate how many hours you need to finish your reward track</h4>
+                                <h4>Current progression of the reward track: <input type="number" id="progression" name="ParticipationCompleted" min="0" max="20000"
+                                    step="1" placeholder="0"> of 20000</h4>
                                 <fieldset class="stylefieldset">
                                     <legend>Participation</legend>
                                     <h4> &nbsp;&nbsp;&nbsp;&nbsp;Core WvW maps</h4>
@@ -308,8 +322,8 @@
                                 <h4>Your total boosters value ammounts to: <output type="text" name="TotalBoosterValue" value=""></output></h4>
                                 <h4>Participation/tick with the above boosters value: <output type="text" name="ParticipationValueWithBoosters"
                                         value=""></output></h4>
-                                <h4>Minutes required to finish the reward track: <output type="text" name="TimeMinutes" value=""></output></h4>
-                                <h4>Hours required to finish the reward track: <output type="text" name="TimeHours" id="TimeHoursMinutes" value=""></output></h4>
+                                <h4>Complete a reward track from the start: <output type="text" name="TimeMinutes" value=""></output> minutes or <output type="text" name="TimeHours" id="TimeHours" value=""></output> hours and <output type="text" name="TimeMinutes2" id="TimeMinutes2" value=""></output> minutes</h4>
+                                <h4>Complete the reward track with <output type="text" name="ProgressionOutput" value=""></output> points left: <output type="text" name="TimeMinutes3" value=""></output> minutes or <output type="text" name="TimeHours2" id="TimeHours2" value=""></output> hours and <output type="text" name="TimeMinutes4" id="TimeMinutes4" value=""></output> minutes</h4>
                                 <h4></h4>
                                 <div>
                                     <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
@@ -323,7 +337,7 @@
                                 <div id="backpiece_calculator"></div>
                                 <h4>Calculate how many weeks you have left to complete your Legendary Backpiece:
                                     Warbringer</h4>
-                                <h4>Current Amount of Tickets: <input type="number" id="userInput000" name="Tickets" min="0"
+                                <h4>Current amount of Tickets: <input type="number" id="userInput000" name="Tickets" min="0"
                                         step="1" placeholder="0"></h4>
                                 <div id="wrapper">
                                     <div id="first2">Do you have backpieces bought?</div>
@@ -395,7 +409,7 @@
                             <form id="calculatorTicketsArmor">
                                 <div id="armor_calculator"></div>
                                 <h4>Calculate how many weeks you have left to complete your Legendary Armor</h4>
-                                <h4>Current Amount of Tickets
+                                <h4>Current amount of Tickets
                                 <input type="number" id="userInput001" name="Tickets" min="0" step="1" placeholder="0"></h4>
                                 <h4>Are you making Triumphant Hero Armor (T2) or Mistforged Triumphant Hero Armor (T3)?</h4>
                                 <fieldset class="stylefieldset" id="Calculate_Ticket_Armor_Tier_Switch">
@@ -828,6 +842,76 @@
                                     tickets, which means you need at
                                     least <output type="text" name="MissingWeeks" value=""></output> more weeks of tickets to complete the armor.</h4>
                                 <h4></h4>
+                                <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
+                            </form>
+                        </div>
+                        <!-- TAB 5 -->
+                        <div class="tab-pane fade in" id="tab5">
+                            <form id="calculatorTicketsRing">
+                                <div id="ring_calculator"></div>
+                                <h4>Calculate how many weeks you have left to complete your Legendary Ring:
+                                    Conflux</h4>
+                                <h4>Current amount of Tickets: <input type="number" id="inputTickets" name="Tickets" min="0"
+                                        step="1" placeholder="0"></h4>
+                                <h4>Current amount of kills: <input type="number" id="inputKills" name="Kills" min="0" max="100"
+                                        step="1" placeholder="0"></h4>
+                                <h4>Current amount of objectives captured: <input type="number" id="inputObjectives" name="Objectives" min="0" max="100"
+                                        step="1" placeholder="0"></h4>
+                                <div id="wrapper">
+                                    <div id="first2">Do you have items bought?</div>
+                                    <label class="containerTest">
+                                        <div id="second2">
+                                            <input type="checkbox" name="itemsCheckbox" id="itemsCheckbox" onClick="updateItemsDisplay()">
+                                            <span class="checkmark"></span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <fieldset class="stylefieldset">
+                                    <div id="itemsSelection" style="display:none">
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="93248"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="Mithril" id="MithrilID" value="750">
+                                                    Mist-Enhanced Mithril
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="93147"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="Pearl" id="PearlID" value="750">
+                                                    Mist Pearl
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div id="wrapper">
+                                            <div id="first" data-armory-embed="items" data-armory-ids="81320"></div>
+                                            <label class="containerTest">
+                                                <div id="second">
+                                                    <input type="checkbox" name="Annihilation" id="AnnihilationID" value="350">
+                                                    Essence of Annihilation
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div class="button button-tiny" onClick="calculateRing()">
+                                    <span>Calculate</span>
+                                </div>
+                                <h4></h4>
+                                <h4>You will need <output type="text" name="MissingTicketsRing" value=""></output> more
+                                    tickets, which means you need at
+                                    least <output type="text" name="MissingWeeksRing" value=""></output> more weeks of tickets to complete the ring.</h4>
+                                <h4></h4>
+                                <h4>You will need <output type="text" name="MissingKills" value=""></output> more
+                                    kills.</h4>
+                                <h4>You will need <output type="text" name="MissingObjectives" value=""></output> more
+                                    objectives captured.</h4>
                                 <input class="button button-tiny" type="reset" name="ResetValues" value="Reset Values">
                             </form>
                         </div>

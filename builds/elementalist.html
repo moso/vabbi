@@ -115,8 +115,8 @@
                     <div class="span12">
                         <div class="title-page">
                             <img class="imgcenter" src="../include/img/build_headers/elementalist.png">
-                            <h3 class="description">Last update: 13/12/2019</h3>
-                            <h3 class="description">BUILDS MAY VARIATE AS TESTINGS CONTINUE</h3>
+                            <h3 class="description">Last update: 18/03/2020</h3>
+                            <!-- <h3 class="description">BUILDS MAY VARIATE AS TESTINGS CONTINUE</h3> -->
                             <div id="weavericon" class="imgcenter sizeicons"></div>
                             <div id="tempesticon" class="imgcenter sizeicons"></div>
                         </div>
@@ -127,8 +127,9 @@
                 <div class="row">
                     <div class="span12">
                         <ul class="nav nav-tabs" id="myTab">
-                            <li class="active" style="display:inline-block; float:none;"><a href="#tab1" data-toggle="tab" style="background: #8f1e12;">STAFF WEAVER</a></li>
-                            <li style="display:inline-block; float:none;"><a href="#tab2" data-toggle="tab" style="background: #8f1e12;">SUPPORT STAFF TEMPEST</a></li>
+                            <li class="active" style="display:inline-block; float:none;"><a href="#tab1" data-toggle="tab" style="background: #8f1e12;">POWER WEAVER</a></li>
+                            <li style="display:inline-block; float:none;"><a href="#tab2" data-toggle="tab" style="background: #8f1e12;">HEALING TEMPEST</a></li>
+                            <li style="display:inline-block; float:none;"><a href="#tab3" data-toggle="tab" style="background: #8f1e12;">CLEANSES DAGGER/FOCUS TEMPEST</a></li>
                         </ul>
                         <div class="tab-content">
                             <!-- ADD ACTIVE TO SHOW ON MAIN TAB, REMOVE TO HIDE FOR SECOND TABS -->
@@ -158,9 +159,9 @@
                                                     <div class="card card-color-ele">
                                                         <div class="card-header card-header-color-ele">TEMPLATE CODES</div>
                                                         <div class="card-body">
-                                                            <h3>Build Template Code</h3><input class="buildinfoTemplate_Code" value="[&DQYfLyU+OBt1AHQAkAA1F/UV9gDrAMsAlwASFwAAAAAAAAAAAAAAAAAAAAA=]" id="template-code">
+                                                            <h3>Build Template Code</h3><input class="buildinfoTemplate_Code" value="[&DQYfLyU+OBt1AHUAkACQAE4BTgH1FesAlwASFwAAAAAAAAAAAAAAAAAAAAA=]" id="template-code">
                                                             <div class="button-tooltip">
-                                                                <button class="button-style-ele" onclick="copyFunction()" onmouseout="outFunction()">
+                                                                <button class="button-style-ele" onclick="copyFunction('template-code','myTooltip')" onmouseout="outFunction('myTooltip')">
                                                                     <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
                                                                     COPY TEMPLATE CODE
                                                                 </button>
@@ -474,10 +475,10 @@
                                                         <div class="card card-color-ele">
                                                             <div class="card-header card-header-color-ele">TEMPLATE CODES</div>
                                                             <div class="card-body">
-                                                                <h3>Build Template Code</h3><input class="buildinfoTemplate_Code" value="[&DQYRGyUnMDXHEscSdhJNAaUSTgFOAesAmRKZEgAAAAAAAAAAAAAAAAAAAAA=]" id="template-code">
+                                                                <h3>Build Template Code</h3><input class="buildinfoTemplate_Code" value="[&DQYRGyUnMDXHEscSdhJ2EqUSpRJOAU4BmRKZEgAAAAAAAAAAAAAAAAAAAAA=]" id="template-code2">
                                                                 <div class="button-tooltip">
-                                                                    <button class="button-style-ele" onclick="copyFunction()" onmouseout="outFunction()">
-                                                                        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                                                                    <button class="button-style-ele" onclick="copyFunction('template-code2','myTooltip2')" onmouseout="outFunction('myTooltip2')">
+                                                                        <span class="tooltiptext" id="myTooltip2">Copy to clipboard</span>
                                                                         COPY TEMPLATE CODE
                                                                     </button>
                                                                 </div>
@@ -633,6 +634,35 @@
                                                             </div>
                                                             <div class="">
                                                                 <div class="card card-color-ele">
+                                                                    <div class="card-header card-header-color-ele">OPTIONAL WEAPONS</div>
+                                                                    <div class="row_weapons">
+                                                                        <div class="">
+                                                                            <div class="card-body">
+                                                                                <div class="flex-grid-row">
+                                                                                    <div data-armory-embed="items" data-armory-ids="73220,24607"></div>
+                                                                                    <div class="text-align-left">
+                                                                                        <div class="item-name-main txt-color-ele-main">Minstrel Scepter
+                                                                                        </div>
+                                                                                        <div class="item-name-sub txt-color-sub">Superior Sigil of Energy
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="flex-grid-row">
+                                                                                    <div data-armory-embed="items" data-armory-ids="71116,74326"></div>
+                                                                                    <div class="text-align-left">
+                                                                                        <div class="item-name-main txt-color-ele-main">Minstrel Warhorn
+                                                                                        </div>
+                                                                                        <div class="item-name-sub txt-color-sub">Superior Sigil of Transference
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="">
+                                                                <div class="card card-color-ele">
                                                                     <div class="card-header card-header-color-ele">TRINKETS</div>
                                                                     <div class="card-body">
                                                                         <div class="row_trinkets">
@@ -736,6 +766,309 @@
                                         <div id="collapseFourth2" class="accordion-body collapse">
                                             <div class="accordion-inner-notes">
                                                 <div id="relative" class="elementalist_h2p_2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                        <!-- Top -->
+                                        <ins class="adsbygoogle"
+                                            style="display:inline-block;width:728px;height:90px"
+                                            data-ad-client="ca-pub-7320167474496901"
+                                            data-ad-slot="6627700910"></ins>
+                                        <script>
+                                            (adsbygoogle = window.adsbygoogle || []).push({});
+                                        </script>
+                            </div>
+                            <!-- ADD ACTIVE TO SHOW ON MAIN TAB, REMOVE TO HIDE FOR SECOND TABS -->
+                            <div class="tab-pane fade in" id="tab3">
+                                <!-- Start Toggle -->
+                                <div class="accordion" id="toggleArea">
+                                    <div class="accordion-group">
+                                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                            <!-- Top -->
+                                            <ins class="adsbygoogle"
+                                                style="display:inline-block;width:728px;height:90px"
+                                                data-ad-client="ca-pub-7320167474496901"
+                                                data-ad-slot="6627700910"></ins>
+                                            <script>
+                                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                            </script>
+                                        <div class="accordion-heading togglize color-ele">
+                                            <a class="accordion-toggle color-ele" data-toggle="collapse" data-parent="#" href="#collapseFirst3">
+                                                Build
+                                                <span class="font-icon-plus"></span>
+                                                <span class="font-icon-minus"></span>
+                                            </a>
+                                        </div>
+                                        <div id="collapseFirst3" class="accordion-body collapse">
+                                            <div class="accordion-inner text-center">
+                                                    <div class="">
+                                                        <div class="card card-color-ele">
+                                                            <div class="card-header card-header-color-ele">TEMPLATE CODES</div>
+                                                            <div class="card-body">
+                                                                <h3>Build Template Code</h3><input class="buildinfoTemplate_Code" value="[&DQYRGx87MD/HEscSdhJ2EqUSpRLDEsMSmRKWAAAAAAAAAAAAAAAAAAAAAAA=]" id="template-code3">
+                                                                <div class="button-tooltip">
+                                                                    <button class="button-style-ele" onclick="copyFunction('template-code3','myTooltip3')" onmouseout="outFunction('myTooltip3')">
+                                                                        <span class="tooltiptext" id="myTooltip3">Copy to clipboard</span>
+                                                                        COPY TEMPLATE CODE
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grid">
+                                                        <div class="col">
+                                                            <div class="card card-color-ele">
+                                                                <div class="card-header card-header-color-ele">TRAITS & TRAITLINES</div>
+                                                                <div class="card-body">
+                                                                    <div data-armory-embed="specializations" data-armory-ids="17,31,48" data-armory-17-traits="360,358,362" data-armory-31-traits="335,340,1675" data-armory-48-traits="1886,2015,1986"></div>
+                                                                </div>
+                                                                <div class="card-header card-header-color-ele">SITUATIONAL TRAITS</div>
+                                                                <div class="trait-text">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="card card-color-ele">
+                                                                <div class="card-header card-header-color-ele">SKILLS</div>
+                                                                <div class="card-body">
+                                                                        <div data-armory-embed="skills" data-armory-ids="29535,30047,29948,30662,29968"></div>
+                                                                </div>
+                                                                <p class="card-header card-header-color-ele">SITUATIONAL SKILLS</p>
+                                                                <div class="card-body">
+                                                                    <div data-armory-embed="skills" data-armory-ids="-1">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grid">
+                                                        <div class="armor-flex-33">
+                                                            <div class="card card-color-ele">
+                                                                <div class="card-header card-header-color-ele">ARMOR & RUNES</div>
+                                                                <div class="card-body flex-grid-col" style="margin-bottom: 17px;">
+                                                                    <div class="flex-grid-row">
+                                                                        <div data-armory-embed="items" data-armory-ids="73970,24827"></div>
+                                                                        <div class="text-align-left">
+                                                                            <div class="item-name-main txt-color-ele-main">Minstrel Headgear
+                                                                            </div>
+                                                                            <div class="item-name-sub txt-color-sub">Superior Rune of the Trooper
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-grid-row">
+                                                                        <div data-armory-embed="items" data-armory-ids="73670,24827"></div>
+                                                                        <div class="text-align-left">
+                                                                            <div class="item-name-main txt-color-ele-main">Minstrel Shoulders
+                                                                            </div>
+                                                                            <div class="item-name-sub txt-color-sub">Superior Rune of the Trooper
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-grid-row">
+                                                                        <div data-armory-embed="items" data-armory-ids="74448,24827"></div>
+                                                                        <div class="text-align-left">
+                                                                            <div class="item-name-main txt-color-ele-main">Minstrel Chest
+                                                                            </div>
+                                                                            <div class="item-name-sub txt-color-sub">Superior Rune of the Trooper
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-grid-row">
+                                                                        <div data-armory-embed="items" data-armory-ids="75866,24827"></div>
+                                                                        <div class="text-align-left">
+                                                                            <div class="item-name-main txt-color-ele-main">Minstrel Gloves
+                                                                            </div>
+                                                                            <div class="item-name-sub txt-color-sub">Superior Rune of the Trooper
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-grid-row">
+                                                                        <div data-armory-embed="items" data-armory-ids="70414,24827"></div>
+                                                                        <div class="text-align-left">
+                                                                            <div class="item-name-main txt-color-ele-main">Minstrel Leggings
+                                                                            </div>
+                                                                            <div class="item-name-sub txt-color-sub">Superior Rune of the Trooper
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-grid-row">
+                                                                        <div data-armory-embed="items" data-armory-ids="75349,24827"></div>
+                                                                        <div class="text-align-left">
+                                                                            <div class="item-name-main txt-color-ele-main">Minstrel Boots
+                                                                            </div>
+                                                                            <div class="item-name-sub txt-color-sub">Superior Rune of the Trooper
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card card-color-ele">
+                                                                <div class="card-header card-header-color-ele">INFUSIONS</div>
+                                                                <div class="card-body">
+                                                                    <div data-armory-embed="items" data-armory-ids="43250">
+                                                                    </div>
+                                                                    <span class="item-name-sub no-margin txt-color-sub">+5 Healing Power</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col flex-grid-col">
+                                                            <div class="card card-color-ele">
+                                                                <div class="card-header card-header-color-ele">WEAPONS & SIGILS</div>
+                                                                <div class="row_weapons">
+                                                                    <div class="">
+                                                                        <div class="card-body">
+                                                                            <div class="flex-grid-row">
+                                                                                <div data-armory-embed="items" data-armory-ids="75388,24607"></div>
+                                                                                <div class="text-align-left">
+                                                                                    <div class="item-name-main txt-color-ele-main">Minstrel Dagger
+                                                                                    </div>
+                                                                                    <div class="item-name-sub txt-color-sub">Superior Sigil of Energy
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="flex-grid-row">
+                                                                                <div data-armory-embed="items" data-armory-ids="-1,74326"></div>
+                                                                                <div class="text-align-left">
+                                                                                    <div class="item-name-main txt-color-ele-main">Minstrel Focus
+                                                                                    </div>
+                                                                                    <div class="item-name-sub txt-color-sub">Superior Sigil of Transference
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <div class="card-body">
+                                                                            <div class="flex-grid-row">
+                                                                                <div data-armory-embed="items" data-armory-ids="75388,24607"></div>
+                                                                                <div class="text-align-left">
+                                                                                    <div class="item-name-main txt-color-ele-main">Minstrel Dagger
+                                                                                    </div>
+                                                                                    <div class="item-name-sub txt-color-sub">Superior Sigil of Energy
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="flex-grid-row">
+                                                                                <div data-armory-embed="items" data-armory-ids="72188,24582"></div>
+                                                                                <div class="text-align-left">
+                                                                                    <div class="item-name-main txt-color-ele-main">Minstrel Focus
+                                                                                    </div>
+                                                                                    <div class="item-name-sub txt-color-sub">Superior Sigil of Life
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="">
+                                                                <div class="card card-color-ele">
+                                                                    <div class="card-header card-header-color-ele">TRINKETS</div>
+                                                                    <div class="card-body">
+                                                                        <div class="row_trinkets">
+                                                                            <div class="col text-center">
+                                                                                <div data-armory-embed="items" data-armory-ids="79830" data-armory-79830-stat="1265"></div>
+                                                                                <span class="item-name-sub no-margin txt-color-sub">Minstrel Backpiece</span>
+                                                                            </div>
+                                                                            <div class="col text-center">
+                                                                                <div data-armory-embed="items" data-armory-ids="79745" data-armory-79745-stat="1265"></div>
+                                                                                <span class="item-name-sub no-margin txt-color-sub">Minstrel Accessory</span>
+                                                                            </div>
+                                                                            <div class="col text-center">
+                                                                                <div data-armory-embed="items" data-armory-ids="79444" data-armory-79444-stat="1265"></div>
+                                                                                <span class="item-name-sub no-margin txt-color-sub">Minstrel Accessory</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row_trinkets">
+                                                                            <div class="col text-center">
+                                                                                <div data-armory-embed="items" data-armory-ids="79269" data-armory-79269-stat="1265"></div>
+                                                                                <span class="item-name-sub no-margin txt-color-sub">Minstrel Amulet</span>
+                                                                            </div>
+                                                                            <div class="col text-center">
+                                                                                <div data-armory-embed="items" data-armory-ids="79124" data-armory-79124-stat="1265"></div>
+                                                                                <span class="item-name-sub no-margin txt-color-sub">Minstrel Ring</span>
+                                                                            </div>
+                                                                            <div class="col text-center">
+                                                                                <div data-armory-embed="items" data-armory-ids="79712" data-armory-79712-stat="1265"></div>
+                                                                                <span class="item-name-sub no-margin txt-color-sub">Minstrel Ring</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex-grid-row">
+                                                                <div class="card  card-color-ele col">
+                                                                    <div class="card-header card-header-color-ele">FOOD & UTILITY</div>
+                                                                    <div class="card-body row_weapons">
+                                                                        <div>
+                                                                            Self use
+                                                                            <div class="flex-grid-row">
+                                                                                <div data-armory-embed="items" data-armory-ids="68634,67528"></div>
+                                                                                <div class="text-align-left">
+                                                                                    <div class="item-name-sub txt-color-sub">Delicious Rice Ball</div>
+                                                                                    <div class="item-name-sub txt-color-sub">Bountiful Maintenance Oil</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            Ascended
+                                                                            <div class="flex-grid-row">
+                                                                                <div data-armory-embed="items" data-armory-ids="91690"></div>
+                                                                                <div class="text-align-left">
+                                                                                    <div class="item-name-sub txt-color-sub">+10% Outgoing Healing, +100 Healing Power, +70 Concentration</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading togglize color-ele">
+                                            <a class="accordion-toggle color-ele" data-toggle="collapse" data-parent="#" href="#collapseSecond3">
+                                                LATEST PATCH NOTES
+                                                <span class="font-icon-plus"></span>
+                                                <span class="font-icon-minus"></span>
+                                            </a>
+                                        </div>
+                                        <div id="collapseSecond3" class="accordion-body collapse">
+                                            <div class="accordion-inner-notes">
+                                                <div id="relative" class="elementalist_lpn_3"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading togglize color-ele">
+                                            <a class="accordion-toggle color-ele" data-toggle="collapse" data-parent="#" href="#collapseThird3">
+                                                NOTES
+                                                <span class="font-icon-plus"></span>
+                                                <span class="font-icon-minus"></span>
+                                            </a>
+                                        </div>
+                                        <div id="collapseThird3" class="accordion-body collapse">
+                                            <div class="accordion-inner-notes">
+                                                <div id="relative" class="elementalist_notes_3"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading togglize color-ele">
+                                            <a class="accordion-toggle color-ele" data-toggle="collapse" data-parent="#" href="#collapseFourth3">
+                                                HOW TO PLAY
+                                                <span class="font-icon-plus"></span>
+                                                <span class="font-icon-minus"></span>
+                                            </a>
+                                        </div>
+                                        <div id="collapseFourth3" class="accordion-body collapse">
+                                            <div class="accordion-inner-notes">
+                                                <div id="relative" class="elementalist_h2p_3"></div>
                                             </div>
                                         </div>
                                     </div>

@@ -482,6 +482,10 @@ th {
 	content: url(../img/calculator_images/armor_calculator.png);
 	margin-left: 0px;
 }
+#ring_calculator {
+	content: url(../img/calculator_images/ring_calculator.png);
+	margin-left: 0px;
+}
 
 #wrapper {
 	width: 850px;
