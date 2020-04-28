@@ -62,14 +62,7 @@ function calculateTimeForPips() {
 function calculateRewardTrack() {
 
     const fullTrack = 20000;
-    var trackPlaceholder = document.getElementById('progression').placeholder;
     var trackProgressed = parseInt(document.forms['rewardTrackCalculator'].ParticipationCompleted.value);
-    if (trackPlaceholder !== '' && trackProgressed > 0)
-        trackPlaceholder = trackProgressed;
-    else
-        trackProgressed = 0;
-    console.log('progression logged:', trackProgressed);
-    console.log(trackPlaceholder);
     const participationValuesCore = [0, 25, 60, 95, 125, 160, 195];
     let participation = parseInt(participationValuesCore[sliderWvWCore.value]);
 
@@ -108,7 +101,8 @@ function calculateRewardTrack() {
     document.forms['rewardTrackCalculator'].TimeMinutes2.value = minutes;
     console.log(hours);
     console.log(minutes);
-    if (trackProgressed != 0) {
+    if (trackProgressed != 0 || trackProgressed == 0) {
+
         var progressionLeft = fullTrack - trackProgressed;
         document.forms['rewardTrackCalculator'].ProgressionOutput.value = progressionLeft;
         var totalTimeNeeded2 = Math.ceil((progressionLeft / newParticipation) * 5);
