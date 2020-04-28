@@ -63,7 +63,6 @@ function calculateRewardTrack() {
 
     const fullTrack = 20000;
     var trackProgressed = parseInt(document.forms['rewardTrackCalculator'].ParticipationCompleted.value);
-    console.log('progression logged:', trackProgressed);
     const participationValuesCore = [0, 25, 60, 95, 125, 160, 195];
     let participation = parseInt(participationValuesCore[sliderWvWCore.value]);
 
@@ -103,6 +102,7 @@ function calculateRewardTrack() {
     console.log(hours);
     console.log(minutes);
     if (trackProgressed != 0 || trackProgressed == 0) {
+
         var progressionLeft = fullTrack - trackProgressed;
         document.forms['rewardTrackCalculator'].ProgressionOutput.value = progressionLeft;
         var totalTimeNeeded2 = Math.ceil((progressionLeft / newParticipation) * 5);
